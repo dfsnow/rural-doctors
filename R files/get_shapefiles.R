@@ -14,7 +14,7 @@ data(state.fips)
 ######## PUMAs ########
 # Using the tigris package to download TIGER/Line files for PUMAs for
 # each state, then combine them into a single shapefile/layer
-glue('ti_{y}_us_pumas', y = needed_year) <- rbind_tigris(
+glue('ti_{y}_us_puma', y = needed_year) <- rbind_tigris(
   state.fips$fips %>%
     map(pumas, year = needed_year))
 
