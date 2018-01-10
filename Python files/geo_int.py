@@ -23,7 +23,6 @@ int_puma_cbsa = gpd.sjoin(puma, cbsa, how='inner', op='intersects')
 # int_urban_cbsa = gpd.sjoin(urban, cbsa, how='inner', op='intersects')
 
 # Merge CBSA population data with spatial data files
-int_puma_cbsa['GEOID'] = int_puma_cbsa['GEOID'].astype(str)
 merged_puma_cbsa = pd.DataFrame(cbsa_pop.merge(int_puma_cbsa, on='GEOID'))
 # merged_urban_cbsa = pd.DataFrame(cbsa_pop.merge(int_urban_cbsa, on='GEOID'))
 
@@ -31,12 +30,12 @@ merged_puma_cbsa = pd.DataFrame(cbsa_pop.merge(int_puma_cbsa, on='GEOID'))
 final_puma = gpd.GeoDataFrame(
     merged_puma_cbsa[
         merged_puma_cbsa['2016'] ==
-        merged_puma_cbsa.groupby(['PUMACE10'])['2016'].transform(max)])
+        merged_puma_cbsa.groupby('GEOID10')['2016'].transform(max)])
 
 # final_urban = gpd.GeoDataFrame(
 #     merged_urban_cbsa[
 #         merged_urban_cbsa['2016'] ==
-#         merged_urban_cbsa.groupby(['PUMACE10'])['2016'].transform(max)])
+#         merged_urban_cbsa.groupby(['GEOID10'])['2016'].transform(max)])
 
 
 ######## Exporting ########
