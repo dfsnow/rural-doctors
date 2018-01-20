@@ -5,7 +5,7 @@ library(rgdal)
 library(glue)
 
 # Use this variable to alter the year of the shapefile downloads
-needed_year <- 2017
+needed_year <- 2015
 
 # Using the maps package to get all state FIPS codes into a dataframe
 data(state.fips)
@@ -14,9 +14,9 @@ data(state.fips)
 ######## PUMAs ########
 # Using the tigris package to download TIGER/Line files for PUMAs for
 # each state, then combine them into a single shapefile/layer
-glue('ti_{y}_us_puma', y = needed_year) <- rbind_tigris(
+assign(glue('ti_{y}_us_puma', y = needed_year), rbind_tigris(
   state.fips$fips %>%
-    map(pumas, year = needed_year))
+    map(pumas, year = needed_year)))
 
 
 ######## CBSA/MSA ########
@@ -40,7 +40,7 @@ spatial_df_names <- names(spatial_df)
 
 spatial_df_names %>%
 walk(function(x) {
-  data <- spatial_dataframes[[x]]
+  data <- spatial_df[[x]]
   writeOGR(
     data,
     dsn = "tempdir",

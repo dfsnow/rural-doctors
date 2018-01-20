@@ -1,0 +1,1247 @@
+,PUMA_GEOID,PUMA_NAME,UAC_ID,UAC_NAME,UAC_POP
+956,3400303,"Bergen County (Southeast)--Fort Lee, Cliffside Park & Palisades Park Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1026,3604112,"NYC-Queens Community District 12--Jamaica, Hollis & St. Albans PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1028,3603808,"NYC-Manhattan Community District 6--Murray Hill, Gramercy & Stuyvesant Town PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1029,3603710,"NYC-Bronx Community District 1 & 2--Hunts Point, Longwood & Melrose PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1030,3604008,NYC-Brooklyn Community District 5--East New York & Starrett City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1031,3604014,"NYC-Brooklyn Community District 12--Borough Park, Kensington & Ocean Parkway PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1032,3603706,"NYC-Bronx Community District 7--Bedford Park, Fordham North & Norwood PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1033,3603702,"NYC-Bronx Community District 12--Wakefield, Williamsbridge & Woodlawn PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1034,3603705,"NYC-Bronx Community District 3 & 6--Belmont, Crotona Park East & East Tremont PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1035,3603805,NYC-Manhattan Community District 8--Upper East Side PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1036,3603804,NYC-Manhattan Community District 11--East Harlem PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1037,3603803,NYC-Manhattan Community District 10--Central Harlem PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1038,3603707,"NYC-Bronx Community District 5--Morris Heights, Fordham South & Mount Hope PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1039,3603201,Nassau County (Northwest)--North Hempstead Town (North) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1040,3603301,Suffolk County (Northwest)--Huntington Town (North) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1041,3603303,Suffolk County (Northwest)--Smithtown Town PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1042,3603304,Suffolk County (North Central)--Brookhaven Town (North) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1043,3603306,Suffolk County (South Central)--Brookhaven Town (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1044,3604018,NYC-Brooklyn Community District 13--Brighton Beach & Coney Island PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1045,3604010,"NYC-Brooklyn Community District 17--East Flatbush, Farragut & Rugby PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1046,3604109,NYC-Queens Community District 2--Sunnyside & Woodside PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1027,3604006,NYC-Brooklyn Community District 8--Crown Heights North & Prospect Heights PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1025,3603211,Nassau County (West Central)--Hempstead Town (West Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1003,3604106,"NYC-Queens Community District 8--Briarwood, Fresh Meadows & Hillcrest PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1024,3603709,"NYC-Bronx Community District 9--Castle Hill, Clason Point & Parkchester PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1005,3604111,NYC-Queens Community District 9--Richmond Hill & Woodhaven PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1006,3604003,NYC-Brooklyn Community District 3--Bedford-Stuyvesant PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1007,3604104,"NYC-Queens Community District 11--Bayside, Douglaston & Little Neck PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1008,3604108,NYC-Queens Community District 6--Forest Hills & Rego Park PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1009,3604002,NYC-Brooklyn Community District 4--Bushwick PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1010,3604110,"NYC-Queens Community District 5--Ridgewood, Glendale & Middle Village PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1011,3603708,"NYC-Bronx Community District 4--Concourse, Highbridge & Mount Eden PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1012,3603704,"NYC-Bronx Community District 11--Pelham Parkway, Morris Park & Laconia PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1013,3603204,Nassau County (West Central)--North Hempstead Town (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1014,3603207,Nassau County (Central)--Hempstead Town (Northeast) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1015,3603203,Nassau County (East Central)--Oyster Bay Town (Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1016,3603308,Suffolk County (Central)--Brookhaven Town (West Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1017,3603310,Suffolk County (Central)--Islip Town (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1018,3604105,"NYC-Queens Community District 13--Queens Village, Cambria Heights & Rosedale PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1019,3604113,NYC-Queens Community District 10--Howard Beach & Ozone Park PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1020,3603103,Westchester County (Northeast) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1021,3603104,Westchester County (Southeast) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1022,3603902,NYC-Staten Island Community District 2--New Springville & South Beach PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1023,3603809,NYC-Manhattan Community District 3--Chinatown & Lower East Side PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1047,3603810,"NYC-Manhattan Community District 1 & 2--Battery Park City, Greenwich Village & Soho PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1048,3603807,"NYC-Manhattan Community District 4 & 5--Chelsea, Clinton & Midtown Business District PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1049,3604016,"NYC-Brooklyn Community District 15--Sheepshead Bay, Gerritsen Beach & Homecrest PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1050,3604017,NYC-Brooklyn Community District 11--Bensonhurst & Bath Beach PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1074,3604102,NYC-Queens Community District 3--Jackson Heights & North Corona PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1075,3604107,NYC-Queens Community District 4--Elmhurst & South Corona PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1076,3603903,"NYC-Staten Island Community District 1--Port Richmond, Stapleton & Mariner's Harbor PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1077,3604013,NYC-Brooklyn Community District 10--Bay Ridge & Dyker Heights PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1078,3604004,NYC-Brooklyn Community District 2--Brooklyn Heights & Fort Greene PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1079,3603001,Rockland County (North)--New City & Congers PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1080,3603107,Westchester County (South Central)--New Rochelle & Mount Vernon Cities PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1081,3604001,NYC-Brooklyn Community District 1--Greenpoint & Williamsburg PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1083,3603205,Nassau County (West Central)--Hempstead Town (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1073,3604101,NYC-Queens Community District 1--Astoria & Long Island City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1072,3604005,"NYC-Brooklyn Community District 6--Park Slope, Carroll Gardens & Red Hook PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1071,3604012,NYC-Brooklyn Community District 7--Sunset Park & Windsor Terrace PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1060,3604011,"NYC-Brooklyn Community District 9--Crown Heights South, Prospect Lefferts & Wingate PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1051,3603703,"NYC-Bronx Community District 10--Co-op City, Pelham Bay & Schuylerville PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1052,3604007,NYC-Brooklyn Community District 16--Brownsville & Ocean Hill PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1053,3603307,Suffolk County (Central)--Brookhaven Town (Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1054,3603309,Suffolk County (Central)--Islip Town (East) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1055,3603313,Suffolk County (West Central)--Babylon Town (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1056,3603209,Nassau County (Central)--Hempstead Town (East Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1058,3604009,NYC-Brooklyn Community District 18--Canarsie & Flatlands PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1059,3604015,NYC-Brooklyn Community District 14--Flatbush & Midwood PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1061,3603102,Westchester County (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1070,3603801,"NYC-Manhattan Community District 12--Washington Heights, Inwood & Marble Hill PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1062,3604103,"NYC-Queens Community District 7--Flushing, Murray Hill & Whitestone PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1063,3603302,Suffolk County (Northwest)--Huntington Town (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1064,3603701,"NYC-Bronx Community District 8--Riverdale, Fieldston & Kingsbridge PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1065,3603106,Westchester County (Southwest)--Yonkers City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1066,3603105,Westchester County (Central)--White Plains City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1067,3603002,"Rockland County (South)--Orangetown, Clarkstown (South) & Ramapo (Southeast) Towns PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+1068,3603806,NYC-Manhattan Community District 7--Upper West Side & West Side PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+1069,3603802,"NYC-Manhattan Community District 9--Hamilton Heights, Manhattanville & West Harlem PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+934,3400502,Passaic County (Central)--Hawthorne Borough & Clifton City (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+936,3400906,"Middlesex County (Central)--New Brunswick City, South River & Highland Park Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+937,3400702,Hudson County (Northeast)--Union City & Hoboken Cities PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+938,3400601,Hudson County (Central)--Jersey City (North) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+939,3400602,Hudson County (Central)--Jersey City (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+940,3400703,"Hudson County (South & West)--Bayonne City, Kearney & Harrison Towns PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+941,3401800,Union County (Northeast)--Elizabeth City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+942,3401904,"Union County (Southeast)--Linden, Rahway Cities & Roselle Borough (South) PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+943,3400905,Middlesex County (Northeast)--Carteret Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+944,3400907,Middlesex County (East Central)--Perth Amboy City & Sayreville Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+945,3400901,Middlesex County (Southeast) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+946,3401105,Monmouth County (Northwest)--Keansburg Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+947,3401101,Monmouth County (Southeast)--Tinton Falls Borough (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+948,3400301,Bergen County (South Central)--Hackensack & Englewood (West) Cities PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+949,3401301,Essex County (Southeast)--Newark City (North & East) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+950,3400904,Middlesex County (North Central)--Metuchen Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+951,3401104,Monmouth County (Northeast)--Red Bank & Tinton Falls (North) Boroughs PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+952,3401103,"Monmouth County (East Central)--Long Branch, Asbury Park Cities & Eatontown Borough PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+953,3400306,"Bergen County (Northwest)--Ramsey, Oakland & Franklin Lakes Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+954,3400308,"Bergen County (Central)--Ridgewood Village, Glen Rock & Westwood Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+935,3401901,Union County (North Central)--Roselle Park Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+933,3401503,Morris County (East)--Lincoln Park Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+932,3401302,Essex County (Southeast)--Newark City (Southwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+913,3401203,Ocean County (North Central) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+914,3400902,Middlesex County (Southwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+915,3401003,Somerset County (Central)--North Plainfield & Somerville Boroughs PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+916,3400302,"Bergen County (Southwest)--Rutherford, North Arlington & Hasbrouck Heights Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+917,3401402,Essex County (South Central)--East Orange City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+918,3401903,Union County (Southwest)--Plainfield City & Westfield Town (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+919,3400903,Middlesex County (Northwest)--South Plainfield & Middlesex Boroughs PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+920,3400400,Passaic County (Southeast)--Paterson City PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+921,3400304,"Bergen County (West Central)--Fair Lawn Borough, Garfield City & Lodi Borough PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+922,3401902,Union County (Northwest)--Summit City & Westfield Town (North) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+923,3401403,Essex County (Northwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+924,3400501,Passaic County (South)--Passaic & Clifton (Southeast) Cities PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+925,3401401,Essex County (Northeast) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+926,3401404,Essex County (Southwest) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+927,3401205,Ocean County (Northeast)--Point Pleasant Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+928,3401202,Ocean County (Central)--Beachwood Borough PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+929,3401002,Somerset County (South) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+930,3401001,Somerset County (North & West) PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+931,3400307,"Bergen County (North Central)--Bergenfield, Paramus, Dumont & New Milford Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+955,3400305,"Bergen County (East)--Tenafly, Park Ridge & Cresskill Boroughs PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+957,3400701,"Hudson County (North)--West New York, Secaucus & Guttenberg Towns PUMA",63217,"New York--Newark, NY--NJ--CT",18758219
+978,3603206,Nassau County (Central)--Hempstead Town (North Central)--Meadowbrook Corridor PUMA,63217,"New York--Newark, NY--NJ--CT",18758219
+736,0605918,Orange County (Central)--Costa Mesa & Fountain Valley Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+737,0607112,San Bernardino County (Southwest)--Upland & Montclair Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+738,0607111,San Bernardino County (Southwest)--Rancho Cucamonga City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+739,0605917,Orange County (Central)--Santa Ana City (East) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+740,0605916,Orange County (Central)--Santa Ana City (West) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+741,0603757,Los Angeles County (South Central)--Compton City & West Rancho Dominguez PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+742,0603750,Los Angeles County (South Central)--LA City (South Central/Westmont) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+746,0603707,Los Angeles County--LA (North Central/Arleta & Pacoima) & San Fernando Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+743,0603747,Los Angeles County (Central)--LA City (Central/West Adams & Baldwin Hills) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+744,0603705,Los Angeles County (North)--LA City (Northwest/Chatsworth & Porter Ranch) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+745,0603706,Los Angeles County (North)--LA City (North Central/Granada Hills & Sylmar) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+747,0603745,Los Angeles County (Central)--LA City (Southeast/East Vernon) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+748,0603732,Los Angeles County (Central)--LA City (East Central/Hollywood) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+749,0603739,Los Angeles County (Southeast)--Whittier City & Hacienda Heights PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+734,0603727,Los Angeles County (Central)--LA City (Central/Pacific Palisades) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+750,0603753,Los Angeles County (South)--Downey City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+751,0603734,"Los Angeles County--LA City (East Central/Silver Lake, Echo Park & Westlake) PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+735,0603725,"Los Angeles County--LA City (Northwest/Canoga Park, Winnetka & Woodland Hills) PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+725,0603752,Los Angeles County (South)--South Gate & Lynwood Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+733,0603728,Los Angeles County (Southwest)--Santa Monica City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+732,0603748,Los Angeles County--LA (Southwest/Marina del Rey & Westchester) & Culver City Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+717,0603762,Los Angeles County (South Central)--Carson City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+753,0603740,Los Angeles County (Central)--Pico Rivera & Montebello Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+718,0603729,Los Angeles County (West Central)--LA City (West Central/Westwood & West Los Angeles) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+719,0603724,Los Angeles County (Northwest)--LA City (Northwest/Encino & Tarzana) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+720,0603746,Los Angeles County--LA City (Central/Univ. of Southern California & Exposition Park) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+721,0603721,Los Angeles County (North)--LA City (Northeast/North Hollywood & Valley Village) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+722,0603737,Los Angeles County (Central)--Monterey Park & Rosemead Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+723,0603754,Los Angeles County (Southeast)--La Mirada & Santa Fe Springs Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+724,0603755,Los Angeles County (Southeast)--Norwalk City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+726,0603742,"Los Angeles County (Central)--Huntington Park City, Florence-Graham & Walnut Park PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+727,0605908,"Orange County (Northwest)--Buena Park, Cypress & Seal Beach Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+728,0603765,Los Angeles County (Southeast)--Long Beach City (East) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+729,0603769,Los Angeles County (Southeast)--Long Beach (Central) & Signal Hill Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+730,0603766,Los Angeles County (South)--Long Beach City (Southwest & Port) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+731,0603767,Los Angeles County (South)--LA City (South/San Pedro) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+752,0603733,Los Angeles County (Central)--LA City (Central/Koreatown) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+776,0603723,Los Angeles County (North)--LA City (North Central/Mission Hills & Panorama City) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+754,0603744,Los Angeles County (Central)--LA City (East Central/Central City & Boyle Heights) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+784,0603749,Los Angeles County (Central)--Inglewood City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+777,0603720,Los Angeles County (Central)--Burbank City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+778,0603736,Los Angeles County (Central)--Alhambra & South Pasadena Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+779,0603714,"Los Angeles County--Diamond Bar, La Habra Heights (East) Cities & Rowland Heights PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+780,0605907,Orange County (North Central)--Fullerton & Placentia Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+781,0605904,Orange County (Central)--Irvine City (Central) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+782,0603761,Los Angeles County (South Central)--Torrance City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+783,0603759,Los Angeles County (South Central)--Hawthorne City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+785,0605909,Orange County (North Central)--Anaheim City (West) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+755,0603741,"Los Angeles County (Central)--Bell Gardens, Bell, Maywood, Cudahy & Commerce Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+786,0603764,"Los Angeles County (South)--Lakewood, Cerritos, Artesia & Hawaiian Gardens Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+787,0603731,Los Angeles County (Central)--West Hollywood & Beverly Hills Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+788,0603722,Los Angeles County (Northwest)--LA City (North Central/Van Nuys & North Sherman Oaks) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+789,0603718,Los Angeles County (Central)--Pasadena City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+790,0603738,Los Angeles County (Central)--El Monte & South El Monte Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+791,0603715,Los Angeles County (East Central)--West Covina City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+715,0605912,"Orange County (Northwest)--Westminster, Stanton & Garden Grove (West) Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+775,0603711,"Los Angeles County (East Central)--Glendora, Claremont, San Dimas & La Verne Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+774,0603710,"Los Angeles County--Baldwin Park, Azusa, Duarte & Irwindale Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+773,0603758,"Los Angeles County (South Central)--Gardena, Lawndale Cities & West Athens PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+772,0605911,Orange County (Central)--Orange & Villa Park Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+756,0603743,Los Angeles County (Central)--East Los Angeles PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+757,0603713,Los Angeles County (East Central)--Covina & Walnut Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+758,0603712,Los Angeles County (East Central)--Pomona City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+759,0607114,San Bernardino County (Southwest)--Chino & Chino Hills Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+760,0605913,Orange County (Northwest)--Garden Grove City (East) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+761,0603735,"Los Angeles County--LA City (Mount Washington, Highland Park & Glassell Park) PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+762,0603716,Los Angeles County (East Central)--La Puente & Industry Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+763,0607113,San Bernardino County (Southwest)--Ontario City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+764,0603756,Los Angeles County (Southeast)--Bellflower & Paramount Cities PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+766,0603730,Los Angeles County (West Central)--LA City (Central/Hancock Park & Mid-Wilshire) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+767,0603708,"Los Angeles County (North)--LA City (Northeast/Sunland, Sun Valley & Tujunga) PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+768,0603719,Los Angeles County (Central)--Glendale City PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+769,0603717,"Los Angeles County (East Central)--Arcadia, San Gabriel & Temple City Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+770,0605906,"Orange County (North)--Yorba Linda, La Habra & Brea Cities PUMA",51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+771,0605910,Orange County (North Central)--Anaheim City (East) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+716,0603763,Los Angeles County (South Central)--Long Beach City (North) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+765,0603751,Los Angeles County (South Central)--LA City (South Central/Watts) PUMA,51445,"Los Angeles--Long Beach--Anaheim, CA",12460016
+291,1703411,Cook County (South Central)--Worth & Calumet Townships PUMA,16264,"Chicago, IL--IN",8679933
+331,1703207,Dupage County (Northeast)--Addison & Bloomingdale (North) Townships PUMA,16264,"Chicago, IL--IN",8679933
+319,1703531,"Chicago City (South)--Auburn Gresham, Roseland, Chatham, Avalon Park & Burnside PUMA",16264,"Chicago, IL--IN",8679933
+320,1703209,DuPage County (Southwest)--Naperville & Winfield (South) Townships PUMA,16264,"Chicago, IL--IN",8679933
+321,1703418,Cook County (Northwest)--Schaumburg Township (South & Central) PUMA,16264,"Chicago, IL--IN",8679933
+322,1703408,"Cook County (Central)--Cicero, Berwyn & Oak Park Townships PUMA",16264,"Chicago, IL--IN",8679933
+323,1703527,"Chicago City (Southwest)--Gage Park, Garfield Ridge & West Lawn PUMA",16264,"Chicago, IL--IN",8679933
+324,1703419,Cook County (Northwest)--Elk Grove & Wheeling (Southwest) Townships PUMA,16264,"Chicago, IL--IN",8679933
+325,1703520,"Chicago City (Northwest)--Portage Park, Dunning & Jefferson Park PUMA",16264,"Chicago, IL--IN",8679933
+327,1703409,Cook County (West Central)--Lyons & Stickney Townships PUMA,16264,"Chicago, IL--IN",8679933
+328,1703202,DuPage County (Central)--Milton Township PUMA,16264,"Chicago, IL--IN",8679933
+329,1703204,DuPage County (Southeast)--Downers Grove Township PUMA,16264,"Chicago, IL--IN",8679933
+330,1703203,DuPage County (South Central)--Lisle Township PUMA,16264,"Chicago, IL--IN",8679933
+332,1703422,"Cook County (West)--Leyden, Norwood Park (South) Townships & Chicago City--O'Hare PUMA",16264,"Chicago, IL--IN",8679933
+317,1703503,"Chicago City (North)--West Ridge, Lincoln Square & North Center PUMA",16264,"Chicago, IL--IN",8679933
+333,1703407,"Cook County (West Central)--Proviso, Riverside & River Forest Townships PUMA",16264,"Chicago, IL--IN",8679933
+334,1703205,DuPage County (East Central)--York Township PUMA,16264,"Chicago, IL--IN",8679933
+335,1703421,Cook County (North)--Niles & Evanston Townships PUMA,16264,"Chicago, IL--IN",8679933
+336,1703501,"Chicago City (North)--Edgewater, Uptown & Rogers Park PUMA",16264,"Chicago, IL--IN",8679933
+337,1703502,Chicago City (North)--Lake View & Lincoln Park PUMA,16264,"Chicago, IL--IN",8679933
+338,1703525,"Chicago City (Central)--Near North Side, Loop & Near South Side PUMA",16264,"Chicago, IL--IN",8679933
+339,1703529,"Chicago City (South)--South Shore, Hyde Park, Woodlawn, Grand Boulevard & Douglas PUMA",16264,"Chicago, IL--IN",8679933
+340,1703526,"Chicago City (Southwest)--Brighton Park, New City, Bridgeport & McKinley Park PUMA",16264,"Chicago, IL--IN",8679933
+341,1800103,Lake County (Central) PUMA,16264,"Chicago, IL--IN",8679933
+342,1800101,Lake County (Northwest)--Hammond & East Chicago Cities PUMA,16264,"Chicago, IL--IN",8679933
+343,1800200,Porter County PUMA,16264,"Chicago, IL--IN",8679933
+318,1703524,"Chicago City (West)--West Town, Near West Side & Lower West Side PUMA",16264,"Chicago, IL--IN",8679933
+326,1703521,"Chicago City (West)--Austin, Belmont Cragin & Montclare PUMA",16264,"Chicago, IL--IN",8679933
+316,1703308,"Lake County (Southwest)--Ela, Freemont, Wauconda & Cuba Townships PUMA",16264,"Chicago, IL--IN",8679933
+303,1703415,Cook County (North)--Wheeling Township (North & East) PUMA,16264,"Chicago, IL--IN",8679933
+292,1703107,"Will County (Northeast)--Frankfort, Homer & New Lenox (North) Townships PUMA",16264,"Chicago, IL--IN",8679933
+293,1703007,"Kane County (East)--St. Charles, Batavia (Central) & Geneva (Central) Townships PUMA",16264,"Chicago, IL--IN",8679933
+294,1703532,"Chicago City (South)--South Chicago, Pullman, West Pullman, East Side & South Deering PUMA",16264,"Chicago, IL--IN",8679933
+315,1703008,Kane County (Northeast)--Elgin (North & Central) & Dundee Townships PUMA,16264,"Chicago, IL--IN",8679933
+296,1703414,Cook County (South)--Bloom & Rich Townships PUMA,16264,"Chicago, IL--IN",8679933
+297,1703412,Cook County (South Central)--Bremen & Orland (East) Townships PUMA,16264,"Chicago, IL--IN",8679933
+298,1703005,Kane County (Southeast)--Aurora Township PUMA,16264,"Chicago, IL--IN",8679933
+299,1703417,Cook County (Northwest)--Hanover & Schaumburg (Northwest) Townships PUMA,16264,"Chicago, IL--IN",8679933
+300,1703309,"Lake County (East Central)--Warren, Libertyville (North & East) & Shields Townships PUMA",16264,"Chicago, IL--IN",8679933
+301,1703310,"Lake County--Vernon, Moraine, West Deerfield & Libertyville (Southeast) Townships PUMA",16264,"Chicago, IL--IN",8679933
+302,1703401,Cook County (Northwest)--Palatine & Barrington Townships PUMA,16264,"Chicago, IL--IN",8679933
+295,1703413,Cook County (Southeast)--Thornton Township PUMA,16264,"Chicago, IL--IN",8679933
+304,1703504,"Chicago City (Northwest)--Irving Park, Albany Park, Forest Glen & North Park PUMA",16264,"Chicago, IL--IN",8679933
+310,1703208,"DuPage County (Northwest)--Bloomingdale (South), Wayne & Winfield (North) Townships PUMA",16264,"Chicago, IL--IN",8679933
+305,1703522,"Chicago City (Northwest)--Logan Square, Avondale & Hermosa PUMA",16264,"Chicago, IL--IN",8679933
+314,1703528,"Chicago City (South)--Chicago Lawn, Englewood/West Englewood & Greater Grand Crossing PUMA",16264,"Chicago, IL--IN",8679933
+312,1703105,Will County (Northwest Central)--Plainfield & Lockport Townships PUMA,16264,"Chicago, IL--IN",8679933
+311,1703420,"Cook County (North)--Maine, Norwood Park Townships & Chicago City--Edison Park PUMA",16264,"Chicago, IL--IN",8679933
+313,1703106,Will County (Northwest)--DuPage & Wheatland Townships PUMA,16264,"Chicago, IL--IN",8679933
+309,1703102,Will County (West Central)--Joliet & Troy Townships PUMA,16264,"Chicago, IL--IN",8679933
+308,1703410,"Cook County (Southwest)--Orland (West & Central), Palos & Lemont Townships PUMA",16264,"Chicago, IL--IN",8679933
+307,1703530,"Chicago City (South)--Ashburn, Washington Heights, Morgan Park & Beverly PUMA",16264,"Chicago, IL--IN",8679933
+306,1703523,"Chicago City (West)--North & South Lawndale, Humboldt Park, East & West Garfield Park PUMA",16264,"Chicago, IL--IN",8679933
+836,1208610,Miami-Dade County (Central)--Miami Springs City & Miami International Airport PUMA,56602,"Miami, FL",5796096
+827,1201114,"Broward County (Southeast)--Miramar (East), Hallandale Beach & West Park Cities PUMA",56602,"Miami, FL",5796096
+835,1208606,"Miami-Dade County (Northeast)--Opa-Locka City, West Little River & Westview PUMA",56602,"Miami, FL",5796096
+834,1201102,Broward County (North Central)--Margate & Coconut Creek Cities PUMA,56602,"Miami, FL",5796096
+833,1201107,Broward County (Central)--Lauderhill & Lauderdale Lakes Cities PUMA,56602,"Miami, FL",5796096
+831,1209905,"Palm Beach County (East Central)--Lake Worth City, Lantana Town & Atlantis City PUMA",56602,"Miami, FL",5796096
+830,1209903,Palm Beach County (East)--West Palm Beach City (Southeast) & Palm Beach Town PUMA,56602,"Miami, FL",5796096
+829,1208612,Miami-Dade County (Northeast)--Miami Beach City & Miami Shores Village PUMA,56602,"Miami, FL",5796096
+828,1208604,Miami-Dade County (Northeast)--Aventura City & Surfside Town PUMA,56602,"Miami, FL",5796096
+822,1209908,Palm Beach County (Southeast)--Boca Raton City & Highland Beach Town PUMA,56602,"Miami, FL",5796096
+826,1201113,Broward County (Southeast)--Hollywood (South) & Pembroke Pines (East) Cities PUMA,56602,"Miami, FL",5796096
+825,1201108,Broward County (East Central)--Fort Lauderdale City (Central) PUMA,56602,"Miami, FL",5796096
+824,1201104,Broward County--Pompano Beach (South) & Fort Lauderdale (Northeast) Cities PUMA,56602,"Miami, FL",5796096
+823,1201103,"Broward County--Deerfield, Pompano Beach (North) & Lighthouse Point Cities PUMA",56602,"Miami, FL",5796096
+821,1209907,Palm Beach County (Southeast)--Greater Delray Beach City PUMA,56602,"Miami, FL",5796096
+820,1209906,Palm Beach County (East Central)--Greater Boynton Beach City (North) PUMA,56602,"Miami, FL",5796096
+819,1209902,Palm Beach County (Northeast)--Palm Beach Gardens & Riviera Beach Cities PUMA,56602,"Miami, FL",5796096
+838,1208607,Miami-Dade County (Northeast)--Hialeah City (North Central) PUMA,56602,"Miami, FL",5796096
+837,1208609,Miami-Dade County (Northeast)--Hialeah City (South Central) PUMA,56602,"Miami, FL",5796096
+832,1208616,"Miami-Dade County (East)--Coral Gables City, Pinecrest Village & Kendall (South) PUMA",56602,"Miami, FL",5796096
+839,1208602,Miami-Dade County (North Central)--Miami Gardens City (North & West) PUMA,56602,"Miami, FL",5796096
+848,1208613,Miami-Dade County (Northeast Central)--Miami City (Downtown) PUMA,56602,"Miami, FL",5796096
+840,1209904,Palm Beach County (East)--Greenacres City (North) & Palm Springs Village (North) PUMA,56602,"Miami, FL",5796096
+856,1208619,Miami-Dade County (Central)--Kendale Lakes (Southwest) & Kendall West (South) PUMA,56602,"Miami, FL",5796096
+855,1208617,"Miami-Dade County (East Central)--South Miami City, Westchester & Coral Terrace PUMA",56602,"Miami, FL",5796096
+854,1208605,Miami-Dade County--North Miami City (Southwest) & Golden Glades (West) PUMA,56602,"Miami, FL",5796096
+852,1201106,Broward County (Central)--Plantation & Sunrise Cities PUMA,56602,"Miami, FL",5796096
+851,1201111,"Broward County--Weston, Pembroke Pines (Northwest) Cities & Southwest Ranches Town PUMA",56602,"Miami, FL",5796096
+850,1201112,Broward County (South Central)--Miramar (West) & Pembroke Pines (Southwest) Cities PUMA,56602,"Miami, FL",5796096
+849,1208624,Miami-Dade County (South)--Homestead City (North) & Florida City (North) PUMA,56602,"Miami, FL",5796096
+853,1201105,"Broward County (Central)--Tamarac, Oakland Park & North Lauderdale Cities PUMA",56602,"Miami, FL",5796096
+847,1208611,Miami-Dade County (Northeast Central)--Miami City (North) PUMA,56602,"Miami, FL",5796096
+845,1208618,Miami-Dade County (North Central)--Tamiami Trail Region (South)--Tamiami PUMA,56602,"Miami, FL",5796096
+844,1201110,Broward County (Central)--Davie Town & Cooper City PUMA,56602,"Miami, FL",5796096
+843,1208620,"Miami-Dade County (East Central)--Kendall (North), Sunset & Westwood Lakes PUMA",56602,"Miami, FL",5796096
+842,1208615,Miami-Dade County (East Central)--Miami City (West) PUMA,56602,"Miami, FL",5796096
+841,1209909,Palm Beach County (West of Boca Raton City) PUMA,56602,"Miami, FL",5796096
+846,1208603,Miami-Dade County (Northeast)--Greater North Miami Beach City (West) PUMA,56602,"Miami, FL",5796096
+1304,1000101,New Castle County (East Central)--Wilmington City PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1308,3402001,Burlington County (North)--Burlington City PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1307,3402002,Burlington County (West Central) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1306,3402104,Camden County (East Central)--Haddonfield Borough PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1305,3402102,Camden County (Central)--Lindenwold & Collingswood Boroughs PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1328,4203202,Philadelphia City (Near Northeast-West) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1303,1000103,New Castle County (West Central)--Newark City & Brookside PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1326,4203105,"Montgomery County (Southeast)--Willow Grove, Horsham & Montgomeryville PUMA",69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1327,4203106,Montgomery County (South Central) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1329,4203204,Philadelphia City (North) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1310,3402201,Gloucester County (Northeast)--Woodbury City PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1309,3402202,Gloucester County (South & West)--Glassboro Borough PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1321,4203211,Philadelphia City (Southeast) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1311,3402101,Camden County (North)--Camden & Gloucester Cities PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1312,4203207,Philadelphia City (Central) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1313,4203402,Chester County (East Central)--West Chester Borough PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1314,4203208,Philadelphia City (West) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1325,4203104,Montgomery County (Central)--Norristown Borough PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1324,4203304,Delaware County (West) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1323,4203303,Delaware County (Southeast)--Chester City PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1322,4203210,Philadelphia City (Southwest) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1331,4203103,Montgomery County (Southwest)--King of Prussia & Ardmore (East) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1320,4203209,Philadelphia City (Center City) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1315,4203003,Bucks County (Southeast)--Levittown PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1316,4203004,Bucks County (Southwest) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1317,4203201,Philadelphia City (Far Northeast) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1330,4203206,Philadelphia City (Northwest) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1318,4203203,Philadelphia City (Near Northeast-East) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1332,4203302,"Delaware County (East)--Yeadon, Darby, Lansdowne Boroughs & Drexel Hill PUMA",69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1319,4203205,Philadelphia City (East) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+1333,4203301,Delaware County (North)--Broomall & Ardmore (West) PUMA,69076,"Philadelphia, PA--NJ--DE--MD",5499294
+401,4802308,Dallas County (Northeast)--Garland (Northwest) & Richardson (East) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+407,4802509,Fort Worth (Northeast) & Hurst (South) Cities--North of I-30 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+406,4802505,Tarrant County (Southeast)--Mansfield (North) & Arlington (Southwest) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+405,4802314,Dallas City (East Central)--South of I-30 & East of I-35E PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+404,4801903,Collin County (Southwest)--Plano City (Central) PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+403,4802001,Denton County (Far Southeast)--Carrollton (North) & Dallas (North) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+402,4802322,"Dallas County (Northwest)--Irving (North), Coppell & Carrollton (Southwest) Cities PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+399,4801902,Collin County (Southwest)--Plano City (West) PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+400,4801901,"Collin County (Southwest)--Dallas (North), Plano (South) & Richardson (North) Cities PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+398,4802501,"Tarrant County (Northeast)--Grapevine, Southlake & Colleyville Cities PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+397,4802510,Tarrant County (North)--North Richland Hills (North) & Keller Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+396,4802511,Fort Worth City (North)--East of I-35W & West of US-377 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+395,4802512,Fort Worth City (North Central) & Haltom City (North)--Inside Loop I-820 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+394,4802301,Dallas County (Northeast)--Rowlett & Garland (Northeast) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+393,4801904,"Collin County (South Central)--Allen, Murphy, Plano (East) & Parker Cities PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+408,4802502,Tarrant County (East)--Euless (South & West) & Arlington (North) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+409,4802321,Dallas County (Northwest)--Irving (Central) & Dallas (Northwest) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+410,4802302,Dallas County (Northeast)--Garland City (South) PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+411,4802312,"Dallas (West Central), University Park Cities & Highland Park Town PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+416,4802504,Tarrant County (Southeast)--Arlington (Southeast) & Grand Prairie (Southwest) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+415,4802313,Dallas City (Downtown)--North of I-30 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+413,4802316,Dallas City (South Central)--North of I-20 & West of I-35E PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+418,4802508,"Fort Worth City (East Central)--South of I-30, East of I-35W & Inside Loop I-820 PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+419,4802320,Dallas County (West)--Irving (South) & Grand Prairie (North) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+420,4802305,Dallas (East) & Mesquite (West) Cities--South of I-30 & West of I-635 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+421,4802317,Dallas County (South)--DeSoto & Lancaster Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+422,4802507,Tarrant County (East)--Arlington City (West)--South of I-30 & East of Loop I-820 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+423,4802503,Tarrant County (East)--Arlington (East) & Grand Prairie (West Central) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+424,4802310,"Dallas (Far North), Carrollton (Southeast) Cities & Addison Town--North of I-635 PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+425,4802309,Dallas (Far North) & Richardson (Southwest) Cities PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+426,4802307,Dallas City (Northeast)--East of US-75 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+427,4802306,Dallas (Northeast) & Mesquite (North) Cities--North of I-30 & West of I-635 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+428,4802004,"Denton County (East Central)--Frisco (West), The Colony & Little Elm Cities PUMA",22042,"Dallas--Fort Worth--Arlington, TX",5431731
+412,4802311,Dallas City (North)--South of I-635 & West of US-75 PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+417,4802513,Fort Worth City (South Central) & Edgecliff Village Town PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+414,4802315,Dallas City (West Central)--East of Loop TX-12 & West of I-35E PUMA,22042,"Dallas--Fort Worth--Arlington, TX",5431731
+596,4804625,"Harris County (North)--Houston (North), Humble Cities & Atascocita PUMA",40429,"Houston, TX",5296769
+624,4804626,"Harris County (North)--Houston City (North)--I-45, Between Beltway TX-8 & FM-1960 PUMA",40429,"Houston, TX",5296769
+617,4804609,Houston City (North)--South of Aldine & Inside Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+618,4804614,"Houston City (West)--Westpark Tollway, Between Loop I-610 & Beltway TX-8 PUMA",40429,"Houston, TX",5296769
+619,4804623,Harris County (East)--Baytown City PUMA,40429,"Houston, TX",5296769
+620,4804702,Galveston County (Northwest)--League City & Friendswood City PUMA,40429,"Houston, TX",5296769
+621,4804605,Harris County (Southeast)--Pasadena City (North & Central)--Inside Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+622,4804905,Fort Bend County (West & South) PUMA,40429,"Houston, TX",5296769
+623,4804627,Harris County (Far North)--Spring PUMA,40429,"Houston, TX",5296769
+625,4804604,Houston City (West Central)--South of I-10 & Inside Loop I-610 PUMA,40429,"Houston, TX",5296769
+615,4804634,Harris County (West)--Houston City (West)--North of US-90 & West of TX-6 PUMA,40429,"Houston, TX",5296769
+626,4804638,Houston City (Southwest)--East of TX-6 & West of Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+627,4804633,Harris County (Northwest)--South of US-290 & West of TX-6 PUMA,40429,"Houston, TX",5296769
+628,4804628,Harris County (Northwest)--Jersey Village City--Between Beltway TX-8 & FM-1960 PUMA,40429,"Houston, TX",5296769
+630,4804631,Harris County (Northwest)--North of US-290 & North of FM-1960 PUMA,40429,"Houston, TX",5296769
+631,4804611,Houston City (Northwest)--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+632,4804613,Houston (West) & Hunters Creek Village Cities--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+595,4804504,Houston-Galveston Area Council--Montgomery County (Southeast) PUMA,40429,"Houston, TX",5296769
+616,4804629,"Harris County (North)--North of FM-1960, West of I-45 & East of TX-249 PUMA",40429,"Houston, TX",5296769
+629,4804612,Houston (West) & Spring Valley Village Cities--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+614,4804615,Houston (Southwest) & Bellaire (Southeast) Cities--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+604,4804801,Houston-Galveston Area Council--Brazoria County (North)--Pearland City PUMA,40429,"Houston, TX",5296769
+613,4804610,Houston City (North)--West of Aldine & Inside Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+598,4804618,Houston City (Southeast)--West of Pasadena City & Outside Loop I-610 PUMA,40429,"Houston, TX",5296769
+599,4804619,Houston (Southeast) & South Houston Cities--Inside Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+600,4804901,Fort Bend County (East)--Missouri City PUMA,40429,"Houston, TX",5296769
+601,4804902,Fort Bend County (Northeast)--Sugar Land & Stafford Cities PUMA,40429,"Houston, TX",5296769
+602,4804624,Harris County (Northeast)--Houston City (Far Northeast) PUMA,40429,"Houston, TX",5296769
+603,4804606,"Houston (East), Galena Park, Jacinto Cities & Cloverleaf PUMA",40429,"Houston, TX",5296769
+597,4804602,Houston City (East Central)--East of I-45 & Inside Loop I-610 PUMA,40429,"Houston, TX",5296769
+605,4804617,Houston City (South)--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+609,4804603,"Houston City (South Central)--South of US-59, West of I-45 & Inside Loop I-610 PUMA",40429,"Houston, TX",5296769
+606,4804607,Houston City (Northeast)--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+612,4804637,"Houston City (West)--Westpark Tollway, West of Beltway TX-8 PUMA",40429,"Houston, TX",5296769
+610,4804616,Houston City (Southwest)--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+611,4804904,"Fort Bend County (North)--Mission Bend (Southwest), Cinco Ranch & Four Corners PUMA",40429,"Houston, TX",5296769
+608,4804608,Houston City (North) & Aldine--Between Loop I-610 & Beltway TX-8 PUMA,40429,"Houston, TX",5296769
+607,4804601,Houston City (North Central)--North of I-10 & Inside Loop I-610 PUMA,40429,"Houston, TX",5296769
+1848,5159305,"Fairfax County (North Central)--Vienna Town, Oakton & Fair Oaks (East) PUMA",92242,"Washington, DC--VA--MD",4850905
+1849,5159306,"Fairfax County (South Central)--Springfield (South), West Springfield & Franconia PUMA",92242,"Washington, DC--VA--MD",4850905
+1850,5151245,"Manassas, Manassas Park Cities & Prince William County (Central)--Buckhall & Sudley PUMA",92242,"Washington, DC--VA--MD",4850905
+1851,5159309,Fairfax County (West Central)--Centreville (North & West) & Chantilly (South & West) PUMA,92242,"Washington, DC--VA--MD",4850905
+1825,2401001,"Montgomery County (North & West)--Olney, Damascus, Clarksburg & Darnestown PUMA",92242,"Washington, DC--VA--MD",4850905
+1852,5159301,"Fairfax County (East Central)--Annandale, West Falls Church & Bailey's Crossroads PUMA",92242,"Washington, DC--VA--MD",4850905
+1847,5159307,Fairfax County (Northwest)--Reston (North) & Franklin Farm PUMA,92242,"Washington, DC--VA--MD",4850905
+1853,5159303,Fairfax County (Central) & Fairfax City--Burke PUMA,92242,"Washington, DC--VA--MD",4850905
+1854,5110702,Loudoun County (East Central)--Ashburn (Southwest/Belmont Ridge) & Dulles Airport PUMA,92242,"Washington, DC--VA--MD",4850905
+1855,5110701,Loudoun County (Northeast)--Sterling & Ashburn (Northeast/Ashburn Village) PUMA,92242,"Washington, DC--VA--MD",4850905
+1856,5101301,Arlington County (North) PUMA,92242,"Washington, DC--VA--MD",4850905
+1857,5101302,Arlington County (South) PUMA,92242,"Washington, DC--VA--MD",4850905
+1858,5151255,Alexandria City PUMA,92242,"Washington, DC--VA--MD",4850905
+1859,5159302,"Fairfax County (Southeast)--Woodlawn, Rose Hill & Mount Vernon PUMA",92242,"Washington, DC--VA--MD",4850905
+1860,5151246,"Prince William County (Southeast)--Dale City, Lake Ridge & Woodbridge PUMA",92242,"Washington, DC--VA--MD",4850905
+1861,5151244,Prince William County (North & West)--Linton Hall & Gainesville PUMA,92242,"Washington, DC--VA--MD",4850905
+1815,1100103,District of Columbia (Northeast) PUMA,92242,"Washington, DC--VA--MD",4850905
+1813,1100101,District of Columbia (West) PUMA,92242,"Washington, DC--VA--MD",4850905
+1827,2401003,"Montgomery County (Central)--Rockville, Gaithersburg Cities & North Potomac PUMA",92242,"Washington, DC--VA--MD",4850905
+1828,2401002,Montgomery County (West Central)--Germantown & Montgomery Village PUMA,92242,"Washington, DC--VA--MD",4850905
+1824,2401004,"Montgomery County (South)--Bethesda, Potomac & North Bethesda PUMA",92242,"Washington, DC--VA--MD",4850905
+1823,2401007,Montgomery County (Southeast)--Takoma Park City & Silver Spring PUMA,92242,"Washington, DC--VA--MD",4850905
+1822,2401101,Prince George's County (Northwest)--College Park City & Langley Park PUMA,92242,"Washington, DC--VA--MD",4850905
+1821,2401103,Prince George's County (Northwest)--New Carrollton & Hyattsville (Southeast) Cities PUMA,92242,"Washington, DC--VA--MD",4850905
+1820,2401104,"Prince George's County (Central)--Seat Pleasant City, Capitol Heights Town & Landover PUMA",92242,"Washington, DC--VA--MD",4850905
+1819,2401107,"Prince George's County (Southwest)--Oxon Hill, Hillcrest Heights & Temple Hills PUMA",92242,"Washington, DC--VA--MD",4850905
+1818,2401106,"Prince George's County (South)--Clinton, Fort Washington (South), Rosaryville & Croom PUMA",92242,"Washington, DC--VA--MD",4850905
+1817,1100105,District of Columbia (Central) PUMA,92242,"Washington, DC--VA--MD",4850905
+1816,1100104,District of Columbia (East) PUMA,92242,"Washington, DC--VA--MD",4850905
+1814,1100102,District of Columbia (North) PUMA,92242,"Washington, DC--VA--MD",4850905
+1829,2401105,"Prince George's County (East)--Bowie City, Kettering, Largo, Mitchellville & Lanham PUMA",92242,"Washington, DC--VA--MD",4850905
+1830,2401006,"Montgomery County (East)--Fairland, Calverton, White Oak & Burtonsville PUMA",92242,"Washington, DC--VA--MD",4850905
+1826,2401005,"Montgomery County (East Central)--Wheaton, Aspen Hill & Glenmont PUMA",92242,"Washington, DC--VA--MD",4850905
+60,1303101,Atlanta Regional Commission--Cherokee County (Central)--Woodstock & Canton Cities PUMA,03817,"Atlanta, GA",4746832
+54,1302002,Atlanta Regional Commission--DeKalb County--Decatur & Avondale Estates Cities PUMA,03817,"Atlanta, GA",4746832
+55,1301001,Atlanta Regional Commission (Central)--Fulton County (North)--Sandy Springs City PUMA,03817,"Atlanta, GA",4746832
+56,1304400,Atlanta Regional Commission (Southwest)--Douglas County PUMA,03817,"Atlanta, GA",4746832
+57,1303102,Atlanta Regional Commission--Cherokee County (Outside Woodstock & Canton Cities) PUMA,03817,"Atlanta, GA",4746832
+58,1303300,Georgia Mountains Regional Commission (Southwest)--Forsyth County PUMA,03817,"Atlanta, GA",4746832
+59,1301003,Atlanta Regional Commission (Central)--Fulton County (Central)--Atlanta City (South) PUMA,03817,"Atlanta, GA",4746832
+61,1305001,Atlanta Regional Commission (South Central)--Clayton County (South) PUMA,03817,"Atlanta, GA",4746832
+46,1304003,Atlanta Regional Commission--Gwinnett County (Central)--Lawrenceville City PUMA,03817,"Atlanta, GA",4746832
+62,1305002,Atlanta Regional Commission (South Central)--Clayton County (North)--Forest Park City PUMA,03817,"Atlanta, GA",4746832
+63,1303004,Atlanta Regional Commission (Northwest)--Cobb County (Southeast)--Smyrna City PUMA,03817,"Atlanta, GA",4746832
+64,1303003,Atlanta Regional Commission (Northwest)--Cobb County (Southwest)--Powder Springs City PUMA,03817,"Atlanta, GA",4746832
+65,1303002,Atlanta Regional Commission--Cobb County (Northwest)--Kennesaw & Acworth Cities PUMA,03817,"Atlanta, GA",4746832
+66,1304300,Atlanta & Northeast Georgia Regional Commissions--Newton & Rockdale Counties PUMA,03817,"Atlanta, GA",4746832
+67,1306001,Atlanta Regional Commission (Southeast)--Henry County (South)--McDonough City PUMA,03817,"Atlanta, GA",4746832
+53,1302001,Atlanta Regional Commission (Central)--DeKalb County (East Central)--Redan PUMA,03817,"Atlanta, GA",4746832
+52,1301002,Atlanta Regional Commission (Central)--Fulton County (Northeast)--Johns Creek City PUMA,03817,"Atlanta, GA",4746832
+51,1301006,Atlanta Regional Commission (Central)--Fulton County (Central)--Atlanta City (North) PUMA,03817,"Atlanta, GA",4746832
+50,1304005,Atlanta Regional Commission (Northeast)--Gwinnett County (South)--Snellville City PUMA,03817,"Atlanta, GA",4746832
+49,1303001,Atlanta Regional Commission (Northwest)--Cobb County (Central)--Marietta City PUMA,03817,"Atlanta, GA",4746832
+48,1301007,Atlanta Regional Commission (Central)--Fulton County (East)--Atlanta City (Southeast) PUMA,03817,"Atlanta, GA",4746832
+47,1301008,Atlanta Regional Commission (Central)--DeKalb County (South) PUMA,03817,"Atlanta, GA",4746832
+35,1302100,Three Rivers Regional Commission (North Central)--Coweta County PUMA,03817,"Atlanta, GA",4746832
+36,1301004,Atlanta Regional Commission (Central)--Fulton County (South)--Union & Fairburn Cities PUMA,03817,"Atlanta, GA",4746832
+37,1304001,Atlanta Regional Commission (Northeast)--Gwinnett County (West Central)--Duluth City PUMA,03817,"Atlanta, GA",4746832
+38,1304006,Atlanta Regional Commission (Northeast)--Gwinnett County (Southwest)--Lilburn City PUMA,03817,"Atlanta, GA",4746832
+39,1302003,Atlanta Regional Commission (Central)--DeKalb County (Northeast)--Tucker PUMA,03817,"Atlanta, GA",4746832
+40,1302004,Atlanta Regional Commission--DeKalb County (North)--Dunwoody City PUMA,03817,"Atlanta, GA",4746832
+41,1301005,Atlanta Regional Commission (Central)--Fulton County (Northwest)--Roswell City PUMA,03817,"Atlanta, GA",4746832
+42,1304004,Atlanta Regional Commission (Northeast)--Gwinnett County (East) PUMA,03817,"Atlanta, GA",4746832
+43,1306002,Atlanta Regional Commission (Southeast)--Henry County (North)--Stockbridge City PUMA,03817,"Atlanta, GA",4746832
+44,1303005,Atlanta Regional Commission (Northwest)--Cobb County (Northeast) PUMA,03817,"Atlanta, GA",4746832
+68,1304600,Atlanta Regional Commission--Fulton County (Central)--Atlanta City (Central) PUMA,03817,"Atlanta, GA",4746832
+45,1304002,Atlanta Regional Commission (Northeast)--Gwinnett County (North)--Sugar Hill City PUMA,03817,"Atlanta, GA",4746832
+170,2503305,"Boston City--Hyde Park, Jamaica Plain, Roslindale & West Roxbury PUMA",09271,"Boston, MA--NH--RI",4311208
+156,2503306,"Suffolk County (North)--Revere, Chelsea & Winthrop Town Cities PUMA",09271,"Boston, MA--NH--RI",4311208
+147,2503400,Middlesex (Southeast) & Norfolk (Northeast) Counties--Newton City & Brookline Town PUMA,09271,"Boston, MA--NH--RI",4311208
+148,2500504,"Middlesex County (South)--Framingham Town, Marlborough City & Natick Town PUMA",09271,"Boston, MA--NH--RI",4311208
+149,2500501,Middlesex County (Outside Lowell City) PUMA,09271,"Boston, MA--NH--RI",4311208
+150,2500701,"Essex County (Northwest)--Lawrence, Haverhill & Methuen Town Cities PUMA",09271,"Boston, MA--NH--RI",4311208
+151,2500702,Essex County (Central)--Amesbury Town City PUMA,09271,"Boston, MA--NH--RI",4311208
+152,2503601,Norfolk County (Southwest)--Greater Franklin Town City PUMA,09271,"Boston, MA--NH--RI",4311208
+153,2500502,Middlesex County (Far Northeast)--Lowell City PUMA,09271,"Boston, MA--NH--RI",4311208
+154,2501300,"Billerica, Andover, Tewksbury & Wilmington Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+155,2500704,"Essex County (South)--Lynn City, Swampscott & Nahant Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+157,2503302,"Boston City--Back Bay, Beacon Hill, Charlestown, East Boston, Central & South End PUMA",09271,"Boston, MA--NH--RI",4311208
+145,2500503,"Middlesex County--Waltham City, Lexington, Burlington, Bedford & Lincoln Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+158,2503603,Norfolk County (Northeast)--Quincy City & Milton Town PUMA,09271,"Boston, MA--NH--RI",4311208
+159,2504303,"Bristol County--Taunton City, Mansfield, Norton, Raynam, Dighton & Berkley Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+160,2501400,Middlesex (West Central) & Worcester (East) Counties PUMA,09271,"Boston, MA--NH--RI",4311208
+161,2502800,"Woburn, Melrose Cities, Saugus, Wakefield & Stoneham Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+162,2500507,Middlesex County (East)--Somerville & Everett Cities PUMA,09271,"Boston, MA--NH--RI",4311208
+163,2502400,"Middlesex (Far Southwest), Norfolk (Northwest) & Worcester (Far East) Counties PUMA",09271,"Boston, MA--NH--RI",4311208
+164,2501000,"Peabody City, Danvers, Reading, North Reading & Lynnfield Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+165,2500508,Middlesex County (East)--Malden & Medford Cities PUMA,09271,"Boston, MA--NH--RI",4311208
+166,2500506,Middlesex County (East)--Cambridge City PUMA,09271,"Boston, MA--NH--RI",4311208
+146,2500505,"Middlesex County--Watertown Town City, Arlington, Belmont & Winchester Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+144,2503500,Norfolk (Northeast) & Middlesex (Southeast) Counties (West of Boston City) PUMA,09271,"Boston, MA--NH--RI",4311208
+169,2503301,"Boston City--Allston, Brighton & Fenway PUMA",09271,"Boston, MA--NH--RI",4311208
+171,2503602,"Norfolk County (Central)--Randolph, Norwood, Dedham, Canton & Holbrook Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+143,2504000,"Plymouth & Norfolk Counties--Brockton City, Stoughton & Avon Towns PUMA",09271,"Boston, MA--NH--RI",4311208
+168,2504901,Plymouth & Bristol Counties (Outside Brockton City) PUMA,09271,"Boston, MA--NH--RI",4311208
+138,2503304,Boston City--Mattapan & Roxbury PUMA,09271,"Boston, MA--NH--RI",4311208
+1360,0400108,Maricopa County--Tempe (South) & Chandler (Northwest) Cities PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1361,0400121,Phoenix (Southwest) & Tolleson Cities PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1339,0400106,Maricopa County--Chandler City (Northeast) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1362,0400124,Maricopa County--Glendale City (South) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1358,0400101,Maricopa County--Mesa City (East) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1334,0400127,Maricopa County--Peoria City (South & Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1335,0400126,Maricopa County--Glendale City (North) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1336,0400128,Phoenix City (North) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1337,0400110,Maricopa County--Scottsdale City (Southwest) & Paradise Valley Town PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1344,0400114,Phoenix City (Northeast Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1343,0400115,Phoenix City (Northwest Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1342,0400105,Maricopa County--Gilbert Town (North) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1341,0400123,Phoenix City--Maryvale (West) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1359,0400100,Maricopa County--Gilbert (South) & Queen Creek Towns PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1356,0400112,"Maricopa County--Scottsdale (North), Phoenix (Far Northeast) Cities & Cave Creek PUMA",69184,"Phoenix--Mesa, AZ",3813429
+1357,0400102,Maricopa County--Mesa City (North Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1349,0400104,Maricopa County--Mesa City (South Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1338,0400109,Maricopa County--Tempe City (North) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1345,0400113,Phoenix City (Northeast) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1355,0400107,Maricopa County--Chandler City (South) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1347,0400118,Phoenix City--Downtown & Sky Harbor International Airport PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1348,0400103,Maricopa County--Mesa City (West) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1346,0400117,Phoenix City (East) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1350,0400122,Phoenix City--Maryvale (East) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1351,0400116,Phoenix City (Uptown) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1352,0400125,Phoenix City (West) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1353,0400131,Maricopa County--Surprise City (Central) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1354,0400130,Maricopa County--El Mirage City & Sun City PUMA,69184,"Phoenix--Mesa, AZ",3813429
+1340,0400119,Phoenix City (South) PUMA,69184,"Phoenix--Mesa, AZ",3813429
+483,2602903,Oakland County (East Central)--Troy & Rochester Area PUMA,23824,"Detroit, MI",3728034
+482,2603003,Macomb County (Southwest)--Sterling Heights City PUMA,23824,"Detroit, MI",3728034
+481,2602902,Oakland County (Northeast) PUMA,23824,"Detroit, MI",3728034
+480,2603208,Detroit City (Northwest) PUMA,23824,"Detroit, MI",3728034
+479,2603006,Macomb County (Southwest)--Warren & Center Line Cities PUMA,23824,"Detroit, MI",3728034
+478,2603201,Wayne County (Northwest) PUMA,23824,"Detroit, MI",3728034
+461,2603209,Detroit City (North Central) PUMA,23824,"Detroit, MI",3728034
+476,2603207,Wayne County (Southeast)--Downriver Area (North) PUMA,23824,"Detroit, MI",3728034
+485,2603204,"Wayne County (Central)--Westland, Garden City, Inkster & Wayne Cities PUMA",23824,"Detroit, MI",3728034
+486,2602905,Oakland County (Southwest) PUMA,23824,"Detroit, MI",3728034
+487,2603202,Wayne County (North Central)--Livonia City & Redford Charter Township PUMA,23824,"Detroit, MI",3728034
+488,2602908,Oakland County (Southeast) PUMA,23824,"Detroit, MI",3728034
+489,2602907,Oakland County (South Central)--Farmington & Southfield Area PUMA,23824,"Detroit, MI",3728034
+490,2602904,Oakland County (Central) PUMA,23824,"Detroit, MI",3728034
+491,2602906,Oakland County (Central)--Birmingham & Bloomfield Area PUMA,23824,"Detroit, MI",3728034
+477,2603206,Wayne County (Southeast)--Downriver Area (South) PUMA,23824,"Detroit, MI",3728034
+497,2603211,Detroit City (South Central & Southeast) PUMA,23824,"Detroit, MI",3728034
+475,2603212,Detroit City (Southwest) PUMA,23824,"Detroit, MI",3728034
+496,2603213,Wayne County (Northeast)--I-94 Corridor PUMA,23824,"Detroit, MI",3728034
+494,2603203,Wayne County (Central)--Dearborn & Dearborn Heights Cities PUMA,23824,"Detroit, MI",3728034
+493,2603002,Macomb County (Central) PUMA,23824,"Detroit, MI",3728034
+492,2603005,"Macomb County (Southeast)--St. Clair Shores, Roseville & Eastpointe Area PUMA",23824,"Detroit, MI",3728034
+472,2603210,Detroit City (Northeast) PUMA,23824,"Detroit, MI",3728034
+1559,0601302,"Contra Costa County (Far Northwest)--Richmond (North), Hercules & El Cerrito Cites PUMA",78904,"San Francisco--Oakland, CA",3421770
+1560,0600109,Alameda County (South Central)--Fremont City (East) PUMA,78904,"San Francisco--Oakland, CA",3421770
+1556,0607503,San Francisco County (Central)--South of Market & Potrero PUMA,78904,"San Francisco--Oakland, CA",3421770
+1561,0600104,Alameda County (North Central)--Oakland City (South Central) PUMA,78904,"San Francisco--Oakland, CA",3421770
+1549,0607505,San Francisco County (Central)--Sunset District (North) PUMA,78904,"San Francisco--Oakland, CA",3421770
+1558,0600102,Alameda County (Northwest)--Oakland (Northwest) & Emeryville Cities PUMA,78904,"San Francisco--Oakland, CA",3421770
+1541,0608106,"San Mateo County (Southeast)--Menlo Park, East Palo Alto Cities & Atherton Town PUMA",78904,"San Francisco--Oakland, CA",3421770
+1555,0600103,Alameda County (Northeast)--Oakland (East) & Piedmont Cities PUMA,78904,"San Francisco--Oakland, CA",3421770
+1553,0601301,Contra Costa County (Far Southwest)--Richmond (Southwest) & San Pablo Cities PUMA,78904,"San Francisco--Oakland, CA",3421770
+1557,0600105,"Alameda County (West)--San Leandro, Alameda & Oakland (Southwest) Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1551,0600107,Alameda County (Central)--Hayward City PUMA,78904,"San Francisco--Oakland, CA",3421770
+1550,0600108,"Alameda County (Southwest)--Union City, Newark & Fremont (West) Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1552,0600101,Alameda County (North)--Berkeley & Albany Cities PUMA,78904,"San Francisco--Oakland, CA",3421770
+1548,0607506,San Francisco County (South Central)--Sunset District (South) PUMA,78904,"San Francisco--Oakland, CA",3421770
+1546,0604102,"Marin County (Southeast)--San Rafael (South), Mill Valley & Sausalito Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1542,0608105,"San Mateo County (East Central)--Redwood City, San Carlos & Belmont Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1543,0608103,"San Mateo County (Central)--San Mateo (North), Burlingame & Millbrae Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1544,0608102,"San Mateo County (North Central)--South San Francisco, San Bruno & Brisbane Cities PUMA",78904,"San Francisco--Oakland, CA",3421770
+1545,0607504,San Francisco County (Central)--Inner Mission & Castro PUMA,78904,"San Francisco--Oakland, CA",3421770
+1554,0607507,San Francisco County (South Central)--Bayview & Hunters Point PUMA,78904,"San Francisco--Oakland, CA",3421770
+1547,0608101,"San Mateo County (North Central)--Daly City, Pacifica Cities & Colma Town PUMA",78904,"San Francisco--Oakland, CA",3421770
+1657,5311606,"King County (Northwest)--Shoreline, Kenmore & Bothell (South) Cities PUMA",80389,"Seattle, WA",3223799
+1647,5311504,"Pierce County (South Central)--Tacoma City (South), Parkland & Spanaway PUMA",80389,"Seattle, WA",3223799
+1646,5311608,King County (Northwest Central)--Greater Bellevue City PUMA,80389,"Seattle, WA",3223799
+1656,5311601,Seattle City (Northwest) PUMA,80389,"Seattle, WA",3223799
+1645,5311610,"King County (Central)--Renton City, Fairwood, Bryn Mawr & Skyway PUMA",80389,"Seattle, WA",3223799
+1654,5311605,Seattle City (West)--Duwamish & Beacon Hill PUMA,80389,"Seattle, WA",3223799
+1653,5311611,"King County (West Central)--Burien, SeaTac, Tukwila Cities & White Center PUMA",80389,"Seattle, WA",3223799
+1652,5311505,Pierce County (North Central)--Tacoma (Port) & Bonney Lake (Northwest) Cities PUMA,80389,"Seattle, WA",3223799
+1648,5311502,Pierce County (Northwest)--Peninsula Region & Tacoma City (West) PUMA,80389,"Seattle, WA",3223799
+1649,5311701,"Snohomish County (Southwest)--Edmonds, Lynnwood & Mountlake Terrace Cities PUMA",80389,"Seattle, WA",3223799
+1644,5311607,"King County (Northwest)--Redmond, Kirkland Cities, Inglewood & Finn Hill PUMA",80389,"Seattle, WA",3223799
+1650,5311702,Snohomish County (West Central)--Mukilteo & Everett (Southwest) Cities PUMA,80389,"Seattle, WA",3223799
+1651,5311703,Snohomish County (Central)--Everett City (Central & East) & Eastmont PUMA,80389,"Seattle, WA",3223799
+1655,5311603,Seattle City (Downtown)--Queen Anne & Magnolia PUMA,80389,"Seattle, WA",3223799
+1680,5311704,"Snohomish County (South Central)--Bothell (North), Mill Creek Cities & Silver Firs PUMA",80389,"Seattle, WA",3223799
+1681,5311614,King County (Southwest)--Auburn City & Lakeland PUMA,80389,"Seattle, WA",3223799
+1682,5311501,Pierce County (Central)--Tacoma City (Central) PUMA,80389,"Seattle, WA",3223799
+1683,5311613,King County (Southwest Central)--Kent City PUMA,80389,"Seattle, WA",3223799
+1684,5311609,"King County (Central)--Sammamish, Issaquah, Mercer Island & Newcastle Cities PUMA",80389,"Seattle, WA",3223799
+1685,5311506,Pierce County (East Central)--Puyallup City & South Hill PUMA,80389,"Seattle, WA",3223799
+1686,5311604,Seattle City (Southeast)--Capitol Hill PUMA,80389,"Seattle, WA",3223799
+1687,5311602,Seattle City (Northeast) PUMA,80389,"Seattle, WA",3223799
+1534,0607305,San Diego County (Northwest)--San Marcos & Escondido (West) Cities PUMA,78661,"San Diego, CA",3080269
+1526,0607318,San Diego County (South)--San Diego City (Southeast/Encanto & Skyline) PUMA,78661,"San Diego, CA",3080269
+1525,0607306,San Diego County (Northwest)--Escondido City (East) PUMA,78661,"San Diego, CA",3080269
+1531,0607322,San Diego County (South)--San Diego City (South/Otay Mesa & South Bay) PUMA,78661,"San Diego, CA",3080269
+1532,0607308,San Diego County (Central)--San Diego (Northeast/Rancho Bernardo) & Poway Cities PUMA,78661,"San Diego, CA",3080269
+1533,0607317,San Diego County (South Central)--San Diego City (Central/Mid-City) PUMA,78661,"San Diego, CA",3080269
+1527,0607320,San Diego County (Southwest)--Sweetwater Region--Chula Vista City (East) PUMA,78661,"San Diego, CA",3080269
+1535,0607303,San Diego County (Northwest)--Vista City PUMA,78661,"San Diego, CA",3080269
+1536,0607313,San Diego County (Central)--El Cajon & Santee Cities PUMA,78661,"San Diego, CA",3080269
+1537,0607321,San Diego County (Southwest)--Chula Vista (West) & National City Cities PUMA,78661,"San Diego, CA",3080269
+1538,0607315,San Diego County (West Central)--San Diego City (Central/Clairemont & Kearny Mesa) PUMA,78661,"San Diego, CA",3080269
+1539,0607312,San Diego County (Central)--San Diego City (Central/Mira Mesa & University Heights) PUMA,78661,"San Diego, CA",3080269
+1540,0607311,San Diego County (West Central)--San Diego City (Northwest/Del Mar Mesa) PUMA,78661,"San Diego, CA",3080269
+1528,0607316,San Diego County (South Central)--San Diego City (Central/Centre City & Balboa Park) PUMA,78661,"San Diego, CA",3080269
+1529,0607309,San Diego County (West)--San Diego (Northwest/San Dieguito) & Encinitas Cities PUMA,78661,"San Diego, CA",3080269
+1530,0607304,San Diego County (Northwest)--Carlsbad City PUMA,78661,"San Diego, CA",3080269
+878,2701406,Hennepin County--Minneapolis City (Southeast) PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+872,2701102,"Anoka County (Southwest)--Coon Rapids, Fridley & Columbia Heights Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+882,2701408,"Hennepin County--Edina, St. Louis Park & Hopkins Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+881,2701407,Hennepin County--Minneapolis City (Southwest) PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+880,2701404,"Hennepin County--Brooklyn Center, Golden Valley, New Hope & Robbinsdale Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+879,2701409,Hennepin County--Eden Prairie & Minnetonka Cities PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+877,2701405,Hennepin County--Minneapolis (North) & St. Anthony Cities PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+875,2701402,"Hennepin County--Plymouth, Maple Grove (West) & Medicine Lake Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+874,2701410,Hennepin County--Bloomington & Richfield Cities PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+873,2701304,Ramsey County (Southwest)--St. Paul City (West) PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+876,2701403,"Hennepin County--Brooklyn Park, Maple Grove (East) & Osseo Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+871,2701503,Dakota County (West)--Burnsville & Apple Valley Cities PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+869,2701302,"Ramsey County (Central & Far Southeast)--Maplewood, Roseville & North St. Paul Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+868,2701501,"Dakota County (North)--Eagan, Inver Grove Heights & South St. Paul Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+867,2701301,"Ramsey County (North)--Shoreview, White Bear Lake & New Brighton Cities PUMA",57628,"Minneapolis--St. Paul, MN--WI",2743675
+870,2701303,Ramsey County (Southeast)--St. Paul City (East) PUMA,57628,"Minneapolis--St. Paul, MN--WI",2743675
+1768,1210304,Pinellas County (Central)--Greater Largo City PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1756,1210308,Pinellas County (South Central)--St. Petersburg City (West) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1757,1210305,Pinellas County (West Central)--Greater Seminole City PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1758,1210303,Pinellas County (Central)--Clearwater City (South & Central) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1759,1210302,Pinellas County (North Central) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1760,1210104,Pasco County (South) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1766,1205706,Hillsborough County (Northeast) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1767,1205702,Hillsborough County (Southwest)--Tampa City (South) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1765,1210306,Pinellas County (Central)--Greater Pinellas Park City PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1764,1205703,Hillsborough County (Northwest) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1763,1205707,Hillsborough County (Central) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1762,1205704,Hillsborough County (North Central) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1755,1210301,Pinellas County (North) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+1761,1205701,Hillsborough County (Central)--Tampa City (Central) PUMA,86599,"Tampa--St. Petersburg, FL",2542062
+451,0800817,Jefferson County (Northeast)--Arvada City PUMA,23527,"Denver--Aurora, CO",2525242
+448,0800814,Denver City (South Central) PUMA,23527,"Denver--Aurora, CO",2525242
+446,0800811,Arapahoe County (Southwest)--Centennial (West & Central) & Greenwood Village Cities PUMA,23527,"Denver--Aurora, CO",2525242
+445,0800815,Denver City (Southeast) PUMA,23527,"Denver--Aurora, CO",2525242
+444,0800813,Denver City (Northwest) PUMA,23527,"Denver--Aurora, CO",2525242
+443,0800820,"Arapahoe (West) & Jefferson (East) Counties--Littleton, Englewood Cities & Columbine PUMA",23527,"Denver--Aurora, CO",2525242
+442,0800808,Arapahoe County (West)--Aurora (Southwest) & Centennial (East) Cities PUMA,23527,"Denver--Aurora, CO",2525242
+441,0800809,Arapahoe (West) & Adams (South Central) Counties--Aurora City (North Central) PUMA,23527,"Denver--Aurora, CO",2525242
+440,0800810,Arapahoe (Northwest) & Adams (Southwest) Counties--Aurora City (Northwest) PUMA,23527,"Denver--Aurora, CO",2525242
+453,0800805,Adams (West) & Jefferson (Far Northeast) Counties--Westminster & Northglenn Cities PUMA,23527,"Denver--Aurora, CO",2525242
+452,0800806,Adams County (West Central)--Thornton & Federal Heights Cities PUMA,23527,"Denver--Aurora, CO",2525242
+450,0800818,"Jefferson County (East Central)--Lakewood (North), Wheat Ridge & Golden Cities PUMA",23527,"Denver--Aurora, CO",2525242
+449,0800807,Adams County (West Central)--Commerce City & Brighton Cities PUMA,23527,"Denver--Aurora, CO",2525242
+447,0800816,Denver City (Southwest) PUMA,23527,"Denver--Aurora, CO",2525242
+86,2400502,"Baltimore County--Randallstown (East), Owings Mills, Milford Mill & Reisterstown PUMA",04843,"Baltimore, MD",2256086
+83,2400501,Baltimore County (Outer) PUMA,04843,"Baltimore, MD",2256086
+87,2400504,"Baltimore County--Towson (East & Central), Parkville & Carney PUMA",04843,"Baltimore, MD",2256086
+84,2400503,"Baltimore County--Pikesville (South), Lochearn, Cockeysville & Mays Chapel PUMA",04843,"Baltimore, MD",2256086
+93,2400507,"Baltimore County--Catonsville, Woodlawn & Arbutus PUMA",04843,"Baltimore, MD",2256086
+88,2400505,"Baltimore County--Perry Hall, Middle River & Rosedale PUMA",04843,"Baltimore, MD",2256086
+89,2400506,"Baltimore County--Dundalk, Essex & Edgemere PUMA",04843,"Baltimore, MD",2256086
+90,2400805,"Baltimore City--Irvington, Ten Hills & Cherry Hill PUMA",04843,"Baltimore, MD",2256086
+85,2401204,"Anne Arundel County (Southeast)--Annapolis City, Parole, Annapolis Neck & Edgewater PUMA",04843,"Baltimore, MD",2256086
+92,2400804,"Baltimore City--Inner Harbor, Canton & Bayview PUMA",04843,"Baltimore, MD",2256086
+91,2401202,"Anne Arundel County (North)--Glen Burnie, Pasadena, Ferndale & Brooklyn Park PUMA",04843,"Baltimore, MD",2256086
+94,2400801,"Baltimore City--Sandtown-Winchester, Ashburton & Mount Washington PUMA",04843,"Baltimore, MD",2256086
+95,2400802,"Baltimore City--Guilford, Roland Park & Druid Lake PUMA",04843,"Baltimore, MD",2256086
+96,2401201,"Anne Arundel County (Northwest)--Severn, Odenton, Crofton, Maryland City & Fort Meade PUMA",04843,"Baltimore, MD",2256086
+97,2400902,"Howard County (East)--Columbia (East), Ellicott City (Southeast) & Elkridge PUMA",04843,"Baltimore, MD",2256086
+98,2400803,"Baltimore City--Frankford, Belair-Edison & Loch Raven PUMA",04843,"Baltimore, MD",2256086
+1493,2901803,St. Louis County (Inner Ring North) PUMA,77770,"St. Louis, MO--IL",2162562
+1502,2902001,Jefferson County (North) PUMA,77770,"St. Louis, MO--IL",2162562
+1496,2901802,St. Louis County (Northwest) PUMA,77770,"St. Louis, MO--IL",2162562
+1501,2901808,St. Louis County (South) PUMA,77770,"St. Louis, MO--IL",2162562
+1500,2901807,St. Louis County (Inner Ring South) PUMA,77770,"St. Louis, MO--IL",2162562
+1499,2901902,St. Louis City (South) PUMA,77770,"St. Louis, MO--IL",2162562
+1498,2901901,St. Louis City (North) PUMA,77770,"St. Louis, MO--IL",2162562
+1497,2901801,St. Louis County (Northeast) PUMA,77770,"St. Louis, MO--IL",2162562
+1494,2901805,St. Louis County (Central) PUMA,77770,"St. Louis, MO--IL",2162562
+1495,2901806,St. Louis County (Central West) PUMA,77770,"St. Louis, MO--IL",2162562
+1492,2901804,St. Louis County (West) PUMA,77770,"St. Louis, MO--IL",2162562
+1453,0606513,Riverside County (West Central)--Corona (Northwest) & Norco Cities PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1448,0606508,Riverside County (Northwest)--Moreno Valley City PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1447,0607106,"San Bernardino County (Southwest)--Colton, Loma Linda & Grand Terrace Cities PUMA",75340,"Riverside--San Bernardino, CA",2009744
+1451,0607109,San Bernardino County (Southwest)--Rialto City PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1450,0606511,Riverside County (Northwest)--Riverside City (West) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1452,0606510,Riverside County (Northwest)--Riverside City (East) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1454,0606514,Riverside County (Northwest)--Jurupa Valley & Eastvale Cities PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1455,0607107,San Bernardino County (Southwest)--San Bernardino City (East) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1446,0607108,San Bernardino County (Southwest)--San Bernardino City (West) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1445,0607115,San Bernardino County (Southwest)--Fontana City (West) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+1456,0606507,"Riverside County (North Central)--San Jacinto, Beaumont, Banning & Calimesa Cities PUMA",75340,"Riverside--San Bernardino, CA",2009744
+1449,0607110,San Bernardino County (Southwest)--Fontana City (East) PUMA,75340,"Riverside--San Bernardino, CA",2009744
+703,3200409,Clark County (Central)--Paradise (Northwest) & Winchester PUMA,47995,"Las Vegas--Henderson, NV",1967817
+701,3200401,Clark County (Northwest Central)--Northwest Las Vegas Valley PUMA,47995,"Las Vegas--Henderson, NV",1967817
+700,3200413,Clark County (Central)--Paradise (South) & Enterprise PUMA,47995,"Las Vegas--Henderson, NV",1967817
+699,3200411,Clark County (Central)--Henderson City (West) PUMA,47995,"Las Vegas--Henderson, NV",1967817
+698,3200410,"Clark County (Central)--Whitney, Sunrise Manor (South) & Paradise (Northeast) PUMA",47995,"Las Vegas--Henderson, NV",1967817
+704,3200406,Las Vegas City (South Central) PUMA,47995,"Las Vegas--Henderson, NV",1967817
+702,3200405,Las Vegas City (Southeast) PUMA,47995,"Las Vegas--Henderson, NV",1967817
+697,3200403,Clark County (Central)--Greater North Las Vegas City PUMA,47995,"Las Vegas--Henderson, NV",1967817
+1374,4101302,Portland City (East) PUMA,71317,"Portland, OR--WA",1935090
+1383,5311101,Clark County (Southwest)--Vancouver City (West & Central) PUMA,71317,"Portland, OR--WA",1935090
+1380,5311102,Clark County (West Central)--Salmon Creek & Hazel Dell PUMA,71317,"Portland, OR--WA",1935090
+1378,4101305,Portland City (Central East) PUMA,71317,"Portland, OR--WA",1935090
+1377,4101303,Portland City (Southeast) PUMA,71317,"Portland, OR--WA",1935090
+1376,4101320,"Washington County (Southeast)--Tigard, Tualatin & Sherwood Cities PUMA",71317,"Portland, OR--WA",1935090
+1371,4101324,Washington County (Northeast)--Beaverton City (East & Central) & Cedar Mill PUMA,71317,"Portland, OR--WA",1935090
+1372,4101323,Washington County (Central)--Beaverton City (West) & Aloha PUMA,71317,"Portland, OR--WA",1935090
+1373,4101301,Portland City (North & Northeast) PUMA,71317,"Portland, OR--WA",1935090
+1375,4101318,"Clackamas County (Northwest)--Oregon City, Milwaukie & Happy Valley Cities PUMA",71317,"Portland, OR--WA",1935090
+1520,4805909,San Antonio (Northwest) & Leon Valley Cities PUMA,78580,"San Antonio, TX",1880707
+1524,4805904,San Antonio City (Northwest)--Inside Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1523,4805912,San Antonio City (Northeast)--Between Loop TX-1604 & Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1522,4805911,"San Antonio City (North), Hollywood Park Town & Shavano Park City PUMA",78580,"San Antonio, TX",1880707
+1521,4805910,San Antonio City (Northwest)--Between Loop TX-1604 & Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1515,4805913,"San Antonio (Northeast), Kirby & Windcrest Cities PUMA",78580,"San Antonio, TX",1880707
+1519,4805901,San Antonio City (Central) PUMA,78580,"San Antonio, TX",1880707
+1517,4805905,San Antonio City (West)--Inside Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1516,4805902,San Antonio City (Northeast)--Inside Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1514,4805916,"Bexar County (Northeast)--San Antonio (Northeast), Universal City & Converse Cities PUMA",78580,"San Antonio, TX",1880707
+1513,4805908,San Antonio City (West)--Between Loop TX-1604 & Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1512,4805906,San Antonio City (Southwest)--Inside Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1511,4805903,San Antonio City (Southeast)--Inside Loop I-410 PUMA,78580,"San Antonio, TX",1880707
+1518,4805915,Bexar County (North)--San Antonio City (Far North) & Timberwood Park PUMA,78580,"San Antonio, TX",1880707
+1486,0606102,"Placer County (Central)--Rocklin, Lincoln Cities & Loomis Town PUMA",77068,"Sacramento, CA",1785804
+1482,0606709,"Sacramento County--Sacramento City (Southwest/Pocket, Meadowview & North Laguna) PUMA",77068,"Sacramento, CA",1785804
+1483,0606707,Sacramento County (West)--Sacramento City (Central/Downtown & Midtown) PUMA,77068,"Sacramento, CA",1785804
+1484,0606701,Sacramento County (North Central)--Citrus Heights City PUMA,77068,"Sacramento, CA",1785804
+1485,0606703,"Sacramento County (North Central)--Arden-Arcade, Carmichael & Fair Oaks (West) PUMA",77068,"Sacramento, CA",1785804
+1490,0606704,"Sacramento County (North Central)--North Highlands, Foothill Farms & McClellan Park PUMA",77068,"Sacramento, CA",1785804
+1487,0606712,"Sacramento County (Northeast)--Folsom City, Orangevale & Fair Oaks (East) PUMA",77068,"Sacramento, CA",1785804
+1488,0606702,Sacramento County (Central)--Rancho Cordova City PUMA,77068,"Sacramento, CA",1785804
+1489,0606708,"Sacramento County--Sacramento City (Southeast/Fruitridge, Avondale & Depot Park) PUMA",77068,"Sacramento, CA",1785804
+1481,0606706,"Sacramento County (North)--Sacramento City (North), Antelope & Rio Linda PUMA",77068,"Sacramento, CA",1785804
+1491,0606710,Sacramento County (Central)--Elk Grove City PUMA,77068,"Sacramento, CA",1785804
+1480,0606705,Sacramento County (Northwest)--Sacramento City (Northwest/Natomas) PUMA,77068,"Sacramento, CA",1785804
+363,3900907,"Cuyahoga County (Southeast)--Bedford, Garfield Heights & Maple Heights Cities PUMA",17668,"Cleveland, OH",1769982
+355,3900909,"Cuyahoga County (Northeast)--Euclid, Cleveland Heights & South Euclid Cities PUMA",17668,"Cleveland, OH",1769982
+364,3900910,"Cuyahoga County (East)--Lyndhurst, Mayfield Heights, Shaker Heights & Solon Cities PUMA",17668,"Cleveland, OH",1769982
+354,3900903,"Cuyahoga County (South)--Broadview Heights, North Royalton & Strongsville Cities PUMA",17668,"Cleveland, OH",1769982
+356,3900901,"Cuyahoga County--Olmsted Township, Bay Village, North Olmsted & Westlake Cities PUMA",17668,"Cleveland, OH",1769982
+357,3900902,"Cuyahoga County (West)--Berea, Brook Park, Lakewood & Rocky River Cities PUMA",17668,"Cleveland, OH",1769982
+358,3900905,Cleveland City (West) PUMA,17668,"Cleveland, OH",1769982
+359,3900908,Cleveland City (East) & Bratenahl Village PUMA,17668,"Cleveland, OH",1769982
+360,3901100,"Lake County (East)--Mentor, Painesville Cities & Madison Village PUMA",17668,"Cleveland, OH",1769982
+361,3901900,Medina County PUMA,17668,"Cleveland, OH",1769982
+362,3900904,"Cuyahoga County (South Central)--Brooklyn, Parma, Parma Heights & Seven Hills Cities PUMA",17668,"Cleveland, OH",1769982
+1562,0608501,"Santa Clara County (Northwest)--Mountain View, Palo Alto & Los Altos Cities PUMA",79039,"San Jose, CA",1744660
+1564,0608502,Santa Clara County (Northwest)--Sunnyvale & San Jose (North) Cities PUMA,79039,"San Jose, CA",1744660
+1563,0608512,Santa Clara County (Central)--San Jose City (Southwest/Almaden Valley) PUMA,79039,"San Jose, CA",1744660
+1573,0608508,Santa Clara County (Central)--San Jose (West Central) & Campbell Cities PUMA,79039,"San Jose, CA",1744660
+1571,0608505,Santa Clara County (North Central)--San Jose City (East Central) & Alum Rock PUMA,79039,"San Jose, CA",1744660
+1572,0608513,Santa Clara County (Central)--San Jose City (Southeast/Evergreen) PUMA,79039,"San Jose, CA",1744660
+1566,0608511,Santa Clara County (Central)--San Jose City (South Central/Branham) & Cambrian Park PUMA,79039,"San Jose, CA",1744660
+1567,0608503,Santa Clara County (Northwest)--San Jose (Northwest) & Santa Clara Cities PUMA,79039,"San Jose, CA",1744660
+1568,0608510,Santa Clara County (Central)--San Jose City (Central) PUMA,79039,"San Jose, CA",1744660
+1569,0608509,Santa Clara County (Central)--San Jose City (Northwest) PUMA,79039,"San Jose, CA",1744660
+1570,0608504,Santa Clara County (North Central)--Milpitas & San Jose (Northeast) Cities PUMA,79039,"San Jose, CA",1744660
+1565,0608514,Santa Clara County (Central)--San Jose City (East Central/East Valley) PUMA,79039,"San Jose, CA",1744660
+1364,4201806,Allegheny County (South Central)--Baldwin & Whitehall Boroughs PUMA,69697,"Pittsburgh, PA",1740617
+1363,4201801,Allegheny County (West) PUMA,69697,"Pittsburgh, PA",1740617
+1370,4201807,Allegheny County (South)--Bethel Park Municipality & Jefferson Hills Borough PUMA,69697,"Pittsburgh, PA",1740617
+1369,4201804,"Allegheny County (East)--Monroeville Municipality, Plum & Wilkinsburg Boroughs PUMA",69697,"Pittsburgh, PA",1740617
+1368,4201701,Pittsburgh City (North) PUMA,69697,"Pittsburgh, PA",1740617
+1367,4201802,Allegheny County (North)--Franklin Park Borough & Allison Park PUMA,69697,"Pittsburgh, PA",1740617
+1366,4201803,Allegheny County (North Central) PUMA,69697,"Pittsburgh, PA",1740617
+1365,4201702,Pittsburgh City (South) PUMA,69697,"Pittsburgh, PA",1740617
+348,3905504,Cincinnati City (Central) PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+344,2102400,Northern Kentucky Area Development District (North Central)--Kenton County PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+345,3905501,Hamilton County (West)--Mack & Dent PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+346,3905600,Clermont County (West) PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+347,3905505,Cincinnati (East) & Norwood Cities PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+350,3905402,Butler County (South Central)--Hamilton & Fairfield Cities PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+349,3905503,Cincinnati City (West) PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+352,3905506,"Hamilton County (North Central)--Sharonville, Blue Ash, Springdale & Reading Cities PUMA",16885,"Cincinnati, OH--KY--IN",1644784
+353,3905401,Butler County (Southeast)--Monroe City & Beckett Ridge PUMA,16885,"Cincinnati, OH--KY--IN",1644784
+351,3905502,"Hamilton County (Central)--Forest Park City, White Oak, Bridgetown & Finneytown PUMA",16885,"Cincinnati, OH--KY--IN",1644784
+1292,1211701,Seminole County (West) PUMA,65863,"Orlando, FL",1610909
+1297,1209507,"Orange County (North Central)--Orlando (North), Winter Park & Maitland Cities PUMA",65863,"Orlando, FL",1610909
+1296,1209502,"Orange County (West Central)--Winter Garden, Ocoee Cities & Oakland Town PUMA",65863,"Orlando, FL",1610909
+1295,1209503,Orange County (Southwest)--Disney-International Drive Region PUMA,65863,"Orlando, FL",1610909
+1294,1209501,Orange County (Northwest) PUMA,65863,"Orlando, FL",1610909
+1293,1209505,Orange County (Central)--Orlando City (East Downtown) & Azalea Park PUMA,65863,"Orlando, FL",1610909
+1290,1211703,Seminole County (South Central) PUMA,65863,"Orlando, FL",1610909
+1291,1209504,"Orange County (South Central)--Orlando City (South Central), Conway & Pine Castle PUMA",65863,"Orlando, FL",1610909
+1289,1211702,Seminole County (North Central) PUMA,65863,"Orlando, FL",1610909
+1288,1209508,Orange County (North Central)--Orlando City (Univ. of Central Florida) & Union Park PUMA,65863,"Orlando, FL",1610909
+1298,1209506,Orange County (Central)--Orlando City (West Downtown) & Pine Hills (Southeast) PUMA,65863,"Orlando, FL",1610909
+672,2901005,Jackson County--Kansas City (South) PUMA,43912,"Kansas City, MO--KS",1555214
+674,2900902,"Kansas City (North Central), Gladstone City & North Kansas City PUMA",43912,"Kansas City, MO--KS",1555214
+673,2901001,Jackson County--Kansas City (Central) PUMA,43912,"Kansas City, MO--KS",1555214
+671,2901003,Jackson County (East) PUMA,43912,"Kansas City, MO--KS",1555214
+669,2000604,Johnson County (Southeast)--Blue Valley Region PUMA,43912,"Kansas City, MO--KS",1555214
+668,2000602,"Johnson County (Northeast)--Overland Park (North), Prairie Village & Merriam Cities PUMA",43912,"Kansas City, MO--KS",1555214
+667,2000500,Wyandotte County--Kansas City PUMA,43912,"Kansas City, MO--KS",1555214
+666,2000603,"Johnson County (Southwest)--Olathe, Gardner, Spring Hill & Edgerton Cities PUMA",43912,"Kansas City, MO--KS",1555214
+670,2901002,Jackson County (North Central) PUMA,43912,"Kansas City, MO--KS",1555214
+640,1802303,Marion County--Lawrence Township--Indianapolis (Northeast) & Lawrence Cities PUMA,41212,"Indianapolis, IN",1545861
+638,1802301,Marion County--Pike & Washington (Northwest) Townships--Indianapolis City (Northwest) PUMA,41212,"Indianapolis, IN",1545861
+639,1801802,Hamilton County (Central)--Carmel City & Fishers Town (West) PUMA,41212,"Indianapolis, IN",1545861
+637,1802304,Marion County--Wayne & Decatur (Northwest) Townships--Indianapolis City (West) PUMA,41212,"Indianapolis, IN",1545861
+641,1802306,Marion County--Warren & Franklin Townships--Indianapolis City (East & Southeast) PUMA,41212,"Indianapolis, IN",1545861
+642,1802302,Marion County--Washington Township (South & East)--Indianapolis City (North) PUMA,41212,"Indianapolis, IN",1545861
+643,1802305,Marion County--Center Township--Indianapolis City (Central) PUMA,41212,"Indianapolis, IN",1545861
+70,4805309,"Travis County (West, South & Outside Austin City) PUMA",04384,"Austin, TX",1506011
+71,4805308,"Austin City (Southwest), Lost Creek & Barton Creek PUMA",04384,"Austin, TX",1506011
+72,4805305,Austin City (Northwest) PUMA,04384,"Austin, TX",1506011
+73,4805203,"Williamson County (South)--Austin City (Far North), Brushy Creek & Jollyville PUMA",04384,"Austin, TX",1506011
+74,4805202,Capital Area COG--Williamson County (Southeast)--Round Rock City PUMA,04384,"Austin, TX",1506011
+75,4805303,Austin City (Northeast) PUMA,04384,"Austin, TX",1506011
+76,4805302,Austin City (North) PUMA,04384,"Austin, TX",1506011
+77,4805307,Austin City (South) PUMA,04384,"Austin, TX",1506011
+78,4805306,Austin City (Central) PUMA,04384,"Austin, TX",1506011
+1794,5151155,Portsmouth & Norfolk (Southwest) Cities PUMA,90892,"Virginia Beach, VA",1462684
+1790,5151186,Hampton City PUMA,90892,"Virginia Beach, VA",1462684
+1793,5151165,Virginia Beach City (Central) PUMA,90892,"Virginia Beach, VA",1462684
+1792,5155001,Chesapeake City (Northeast) PUMA,90892,"Virginia Beach, VA",1462684
+1809,5151175,Newport News City PUMA,90892,"Virginia Beach, VA",1462684
+1805,5151154,Norfolk City (Northeast) PUMA,90892,"Virginia Beach, VA",1462684
+1803,5151164,Virginia Beach City (North) PUMA,90892,"Virginia Beach, VA",1462684
+381,3904105,Columbus City (Central) PUMA,19234,"Columbus, OH",1430416
+380,3904104,"Columbus (Northwest), Upper Arlington & Grandview Heights Cities PUMA",19234,"Columbus, OH",1430416
+379,3904106,Columbus City (Northeast) PUMA,19234,"Columbus, OH",1430416
+378,3904102,"Columbus (North), Westerville & Worthington Cities PUMA",19234,"Columbus, OH",1430416
+377,3904110,Columbus City (West) PUMA,19234,"Columbus, OH",1430416
+376,3904107,"Columbus (East), Whitehall & Bexley Cities PUMA",19234,"Columbus, OH",1430416
+372,3904109,"Franklin County (South)--Columbus (South), Grove Cities & Groveport Village PUMA",19234,"Columbus, OH",1430416
+375,3904103,"Columbus (Far Northwest), Dublin & Hilliard (North) Cities PUMA",19234,"Columbus, OH",1430416
+374,3904108,Columbus (Southeast) & Reynoldsburg Cities PUMA,19234,"Columbus, OH",1430416
+373,3904101,"Columbus (Far Northeast), Gahanna & New Albany Cities PUMA",19234,"Columbus, OH",1430416
+861,5540701,Milwaukee County (West) PUMA,57466,"Milwaukee, WI",1388181
+859,5570201,Waukesha County (East) PUMA,57466,"Milwaukee, WI",1388181
+866,5541004,Milwaukee City (South Central) PUMA,57466,"Milwaukee, WI",1388181
+858,5541003,Milwaukee City (Central) PUMA,57466,"Milwaukee, WI",1388181
+865,5541001,Milwaukee City (North) PUMA,57466,"Milwaukee, WI",1388181
+862,5570301,Waukesha County (Central) PUMA,57466,"Milwaukee, WI",1388181
+863,5540101,Milwaukee County (Northeast) PUMA,57466,"Milwaukee, WI",1388181
+860,5541002,Milwaukee City (North Central) PUMA,57466,"Milwaukee, WI",1388181
+864,5541005,Milwaukee City (South) PUMA,57466,"Milwaukee, WI",1388181
+269,3703104,Charlotte City (South) PUMA,15670,"Charlotte, NC--SC",1347253
+274,3703108,Mecklenburg County (South)--Matthews Town (South) PUMA,15670,"Charlotte, NC--SC",1347253
+261,3703107,Mecklenburg County (East)--Mint Hill & Matthews (North) Towns PUMA,15670,"Charlotte, NC--SC",1347253
+262,3703101,Charlotte City (Central) PUMA,15670,"Charlotte, NC--SC",1347253
+263,3705400,Union County (West)--Indian Trail & Stallings Towns PUMA,15670,"Charlotte, NC--SC",1347253
+265,3703105,Charlotte City (Southwest) PUMA,15670,"Charlotte, NC--SC",1347253
+266,3703106,"Mecklenburg County (North)--Huntersville, Cornelius & Davidson Towns PUMA",15670,"Charlotte, NC--SC",1347253
+267,3702900,Iredell (South)--Mooresville Town & Statesville City PUMA,15670,"Charlotte, NC--SC",1347253
+268,3703103,Charlotte City (Northeast) PUMA,15670,"Charlotte, NC--SC",1347253
+270,3703102,Charlotte City (Northwest) PUMA,15670,"Charlotte, NC--SC",1347253
+1402,4400102,Northeast Rhode Island--Providence County--Pawtucket & Central Falls Cities PUMA,72505,"Providence, RI--MA",1193475
+1400,2504302,Bristol County (Central)--Fall River City & Somerset Town PUMA,72505,"Providence, RI--MA",1193475
+1403,4400104,Providence County (Southeast)--Cranston & East Providence Cities PUMA,72505,"Providence, RI--MA",1193475
+1404,4400300,Southeast Rhode Island--Newport & Bristol Counties--Newport City PUMA,72505,"Providence, RI--MA",1193475
+1405,4400103,Providence City PUMA,72505,"Providence, RI--MA",1193475
+1401,4400201,Central Rhode Island--Kent County--Warwick City PUMA,72505,"Providence, RI--MA",1193475
+656,1203103,Duval County (North Central)--Jacksonville City (Arlington) PUMA,42346,"Jacksonville, FL",1105326
+659,1203107,Duval County (Southwest Central)--Jacksonville City (Southwest) PUMA,42346,"Jacksonville, FL",1105326
+658,1203106,Duval County (South Central)--Jacksonville City (Southeast River) PUMA,42346,"Jacksonville, FL",1105326
+657,1203105,Duval County (Southeast)--Jacksonville City (Southeast) PUMA,42346,"Jacksonville, FL",1105326
+653,1203101,Duval County (Outer)--Jacksonville City (North & West) PUMA,42346,"Jacksonville, FL",1105326
+654,1203104,Duval County (East)--Jacksonville City (Beaches) PUMA,42346,"Jacksonville, FL",1105326
+655,1203102,Duval County (Northwest Central)--Jacksonville City (Northwest) PUMA,42346,"Jacksonville, FL",1105326
+818,4703206,Shelby County (Southeast)--Collierville Town & Germantown City PUMA,56116,"Memphis, TN--MS--AR",1075471
+817,4703202,Memphis City (Central Midtown) PUMA,56116,"Memphis, TN--MS--AR",1075471
+816,4703203,Memphis (North) & Bartlett (Southwest) Cities PUMA,56116,"Memphis, TN--MS--AR",1075471
+811,2800100,North Delta Region--DeSoto County--Southaven City PUMA,56116,"Memphis, TN--MS--AR",1075471
+812,4703208,Memphis City (Southwest) PUMA,56116,"Memphis, TN--MS--AR",1075471
+813,4703201,Memphis City (Central Riverside) PUMA,56116,"Memphis, TN--MS--AR",1075471
+814,4703205,"Memphis (East), Lakeland Cities & Arlington Town (South) PUMA",56116,"Memphis, TN--MS--AR",1075471
+815,4703207,Memphis City (Southeast) PUMA,56116,"Memphis, TN--MS--AR",1075471
+1507,4935003,"Salt Lake County--West Valley City (Central), Salt Lake City (South Central) & Kearns PUMA",78499,"Salt Lake City--West Valley City, UT",1067812
+1505,4935005,"Salt Lake County (East Central)--Murray (East), Holladay Cities & Millcreek PUMA",78499,"Salt Lake City--West Valley City, UT",1067812
+1506,4935009,Salt Lake County (South & East Central)--Draper (Northwest) & Sandy (South) Cities PUMA,78499,"Salt Lake City--West Valley City, UT",1067812
+1508,4935007,"Salt Lake County--West Jordan (East), South Jordan (East) & Riverton Cities PUMA",78499,"Salt Lake City--West Valley City, UT",1067812
+1509,4935004,"Salt Lake County--West Valley City (East), Taylorsville & Murray (West) Cities PUMA",78499,"Salt Lake City--West Valley City, UT",1067812
+898,4702505,Nashville-Davidson (Southwest) PUMA,61273,"Nashville-Davidson, TN",1026093
+897,4702504,Nashville-Davidson (Southeast) PUMA,61273,"Nashville-Davidson, TN",1026093
+899,4702503,Nashville-Davidson (Central) PUMA,61273,"Nashville-Davidson, TN",1026093
+796,2101703,KIPDA Area Development District (West)--Louisville/Jefferson County (Northeast) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+797,2101705,KIPDA Area Development District (West)--Louisville/Jefferson County (South Central) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+798,2101704,KIPDA Area Development District (West)--Louisville/Jefferson County (Southeast) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+793,2101706,KIPDA Area Development District (West)--Louisville/Jefferson County (Southwest) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+794,2101701,KIPDA Area Development District (West)--Louisville/Jefferson County (Northwest) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+795,2101702,KIPDA Area Development District (West)--Louisville/Jefferson County (North Central) PUMA,51755,"Louisville/Jefferson County, KY--IN",995180
+1442,5104102,Chesterfield County (Central)--Chester & Rockwood PUMA,74746,"Richmond, VA",984730
+1427,5104101,Chesterfield County (East)--James River Region PUMA,74746,"Richmond, VA",984730
+1426,5151224,"Henrico County (South & East)--Highland Springs, East Highland Park & Glen Allen PUMA",74746,"Richmond, VA",984730
+1439,5104103,Chesterfield County (West)--Brandermill & Woodlake PUMA,74746,"Richmond, VA",984730
+1431,5151215,"Hanover, Powhatan, Goochland, New Kent, King William & Charles City Counties PUMA",74746,"Richmond, VA",984730
+1430,5151225,"Henrico County (West)--Tuckahoe, Short Pump & Wyndham PUMA",74746,"Richmond, VA",984730
+1429,5151235,Richmond City PUMA,74746,"Richmond, VA",984730
+1417,3701205,Wake County (Southeast)--Garner (South) & Fuquay-Varina Towns PUMA,73261,"Raleigh, NC",957521
+1409,3701202,Raleigh City (North) PUMA,73261,"Raleigh, NC",957521
+1410,3701207,Wake County (West Central)--Cary Town PUMA,73261,"Raleigh, NC",957521
+1411,3701201,Raleigh City (South & Central) PUMA,73261,"Raleigh, NC",957521
+1413,3701206,Wake County (Northwest)--Raleigh City (Northwest) & Morrisville Town PUMA,73261,"Raleigh, NC",957521
+216,0900101,"Fairfield, New Canaan, Wilton, Weston & Easton Towns PUMA",10162,"Bridgeport--Stamford, CT--NY",943465
+215,0900102,Stamford & Greenwich Towns PUMA,10162,"Bridgeport--Stamford, CT--NY",943465
+214,0900104,Bridgeport Town PUMA,10162,"Bridgeport--Stamford, CT--NY",943465
+213,0900105,"Stratford, Shelton, Trumbull, Newtown & Monroe Towns PUMA",10162,"Bridgeport--Stamford, CT--NY",943465
+912,2202301,Regional Planning Commission 4--Jefferson Parish (Central) PUMA,62677,"New Orleans, LA",943187
+911,2202302,Regional Planning Commission 5--Jefferson Parish (West Bank) PUMA,62677,"New Orleans, LA",943187
+909,2202402,Regional Planning Commission 8--New Orleans City (South) PUMA,62677,"New Orleans, LA",943187
+910,2202401,Regional Planning Commission 7--New Orleans City (Central) PUMA,62677,"New Orleans, LA",943187
+227,3601101,Niagara County (Southwest)--Greater Niagara Falls & North Tonawanda Area PUMA,11350,"Buffalo, NY",936132
+229,3601205,Erie County (West Central)--Buffalo City (East) PUMA,11350,"Buffalo, NY",936132
+242,3601202,Erie County (North Central) PUMA,11350,"Buffalo, NY",936132
+240,3601204,Erie County (Central) PUMA,11350,"Buffalo, NY",936132
+238,3601201,Erie County (Northwest) PUMA,11350,"Buffalo, NY",936132
+237,3601206,Erie County (West Central)--Buffalo City (West) PUMA,11350,"Buffalo, NY",936132
+585,0900304,"Bristol, Southington & Burlington Towns PUMA",37243,"Hartford, CT",926527
+589,0901300,Tolland County PUMA,37243,"Hartford, CT",926527
+588,0900306,"Glastonbury, Newington, Wethersfield, Rocky Hill & Marlborough Towns PUMA",37243,"Hartford, CT",926527
+586,0900302,Hartford Town PUMA,37243,"Hartford, CT",926527
+590,0900303,"West Hartford, Farmington, Simsbury, Bloomfield, Avon & Canton Towns PUMA",37243,"Hartford, CT",926527
+587,0900301,Manchester & East Hartford Towns PUMA,37243,"Hartford, CT",926527
+1278,4001001,Oklahoma County (Southwest)--Oklahoma City (West Central) PUMA,65080,"Oklahoma City, OK",905547
+1279,4001006,Oklahoma County (Central)--Oklahoma City (Central) PUMA,65080,"Oklahoma City, OK",905547
+1777,0400206,Tucson City (Northeast) PUMA,88732,"Tucson, AZ",858271
+1778,0400209,Tucson City (Southeast) PUMA,88732,"Tucson, AZ",858271
+1779,0400207,Tucson City (Northwest) PUMA,88732,"Tucson, AZ",858271
+1780,0400208,Tucson City (South) PUMA,88732,"Tucson, AZ",858271
+510,4803305,El Paso City (North) PUMA,27253,"El Paso, TX--NM",819943
+511,4803303,El Paso City (Southeast) PUMA,27253,"El Paso, TX--NM",819943
+512,4803304,El Paso City (Central) PUMA,27253,"El Paso, TX--NM",819943
+513,4803302,El Paso City (East) PUMA,27253,"El Paso, TX--NM",819943
+801,4806805,Hidalgo County (Central)--McAllen City PUMA,52390,"McAllen, TX",763587
+802,4806801,Hidalgo County (Southeast)--Weslaco & Mercedes Cities PUMA,52390,"McAllen, TX",763587
+803,4806806,Hidalgo County (Southwest)--Mission City PUMA,52390,"McAllen, TX",763587
+116,0101302,Birmingham City (East) PUMA,07786,"Birmingham, AL",757446
+114,0101303,"Jefferson County (Southeast)--Hoover (North), Vestavia Hills & Homewood Cities PUMA",07786,"Birmingham, AL",757446
+115,0101301,Birmingham City (West) PUMA,07786,"Birmingham, AL",757446
+10,3500804,Albuquerque City (Central) & Bernalillo County (North Valley) PUMA,01171,"Albuquerque, NM",757221
+11,3500801,Albuquerque City (Far Northeast Heights) PUMA,01171,"Albuquerque, NM",757221
+12,3500802,Albuquerque City (Near Northeast Heights) PUMA,01171,"Albuquerque, NM",757221
+1285,3100903,Douglas County--Omaha City (Northeast) PUMA,65269,"Omaha, NE--IA",754434
+1287,3100902,Douglas County--Omaha City (Southwest) PUMA,65269,"Omaha, NE--IA",754434
+1286,3100904,Douglas County--Omaha City (Southeast) PUMA,65269,"Omaha, NE--IA",754434
+435,3904603,Montgomery County (East Central)--Dayton & Riverside Cities PUMA,22528,"Dayton, OH",727703
+432,3904604,Montgomery County (Southeast)--Kettering & Centerville Cities PUMA,22528,"Dayton, OH",727703
+433,3904400,Miami County PUMA,22528,"Dayton, OH",727703
+434,3904602,"Montgomery County (Northeast)--Huber Heights, Trotwood, Vandalia & Englewood Cities PUMA",22528,"Dayton, OH",727703
+1467,3600901,Monroe County (East) PUMA,75664,"Rochester, NY",725107
+1474,3600902,Monroe County (Central)--Rochester City (East) PUMA,75664,"Rochester, NY",725107
+1473,3600903,Monroe County (Central)--Rochester City (West) PUMA,75664,"Rochester, NY",725107
+1472,3600904,Monroe County (Central)--Greece & Gates Towns PUMA,75664,"Rochester, NY",725107
+540,0601903,Fresno County (Central)--Fresno City (East Central) PUMA,31843,"Fresno, CA",676905
+538,0601902,Fresno County (North Central)--Fresno City (North) PUMA,31843,"Fresno, CA",676905
+541,0601905,Fresno County (Central)--Fresno City (Southeast) PUMA,31843,"Fresno, CA",676905
+539,0601906,Fresno County (Central)--Clovis City PUMA,31843,"Fresno, CA",676905
+1782,4001202,Tulsa County (Southeast)--Tulsa (Southeast) & Broken Arrow (West) Cities PUMA,88948,"Tulsa, OK",675429
+1781,4001201,Tulsa County (Central)--Tulsa City (Central) PUMA,88948,"Tulsa, OK",675429
+1577,1208102,Manatee County (West Central) PUMA,79606,"Sarasota--Bradenton, FL",671342
+1578,1211502,Sarasota County (Central & Gulf Coast) PUMA,79606,"Sarasota--Bradenton, FL",671342
+1579,1211501,Sarasota County (North) PUMA,79606,"Sarasota--Bradenton, FL",671342
+15,4202803,Allentown City PUMA,01495,"Allentown, PA--NJ",669320
+14,4202801,Carbon & Lehigh (North) Counties PUMA,01495,"Allentown, PA--NJ",669320
+13,4202802,Lehigh County (South--Outside Allentown & Bethlehem Cities)--Emmaus Borough PUMA,01495,"Allentown, PA--NJ",669320
+382,0601304,"Contra Costa County--Walnut Creek (West), Lafayette, Orinda Cities & Moraga Town PUMA",19504,"Concord, CA",643658
+1728,2501902,Hampden County (East of Springfield City)--Chicopee City PUMA,83926,"Springfield, MA--CT",625944
+1734,2501900,Hampden County (Central)--Springfield City PUMA,83926,"Springfield, MA--CT",625944
+1733,2501901,Hampden County (West of Springfield City)--Westfield & Holyoke Cities PUMA,83926,"Springfield, MA--CT",625944
+1731,2501600,Hampden (West & East) & Hampshire (South) Counties--Northampton City PUMA,83926,"Springfield, MA--CT",625944
+105,2201600,Capital Region Planning Commission 5--Ascension Parish PUMA,05680,"Baton Rouge, LA",603017
+104,2201501,Capital Region Planning Commission 3--Baton Rouge City PUMA,05680,"Baton Rouge, LA",603017
+103,2201500,Capital Region Planning Commission 2--East Baton Rouge Parish (South) PUMA,05680,"Baton Rouge, LA",603017
+883,0605901,"Orange County (Southwest)--San Clemente, Laguna Niguel & San Juan Capistrano Cities PUMA",57709,"Mission Viejo--Lake Forest--San Clemente, CA",600540
+884,0605902,Orange County (South Central)--Mission Viejo & Rancho Santa Margarita (West) Cities PUMA,57709,"Mission Viejo--Lake Forest--San Clemente, CA",600540
+9,3602001,Albany County (East Central)--Albany City PUMA,00970,"Albany--Schenectady, NY",599501
+369,0804105,El Paso County (Central)--Colorado Springs City (South) & Security-Widefield PUMA,18856,"Colorado Springs, CO",589377
+368,0804104,El Paso County (Central)--Colorado Springs City (East) & Cimarron Hills PUMA,18856,"Colorado Springs, CO",589377
+367,0804102,El Paso County (West Central)--Colorado Springs City (West) PUMA,18856,"Colorado Springs, CO",589377
+366,0804103,El Paso County (Central)--Colorado Springs City (Central) PUMA,18856,"Colorado Springs, CO",589377
+257,4501204,"Charleston, Berkeley & Dorchester Counties--North Charleston City PUMA",15508,"Charleston--North Charleston, SC",588964
+559,2601002,Kent County (Central)--Grand Rapids City Area PUMA,34300,"Grand Rapids, MI",587586
+561,2601001,Kent County (Southwest) PUMA,34300,"Grand Rapids, MI",587586
+556,2600802,Ottawa County (East) PUMA,34300,"Grand Rapids, MI",587586
+558,2601003,Kent County (Southeast) PUMA,34300,"Grand Rapids, MI",587586
+683,4701604,Knox County (West)--Farragut Town PUMA,45640,"Knoxville, TN",574773
+682,4701603,Knoxville City PUMA,45640,"Knoxville, TN",574773
+371,4500602,"Lexington County (North & East)--West Columbia, Cayce Cities, Irmo Town & Seven Oaks PUMA",18964,"Columbia, SC",570609
+1277,4911002,"Davis County (South)--Bountiful, Farmington & North Salt Lake Cities PUMA",64945,"Ogden--Layton, UT",569861
+251,1207105,Lee County (Southeast)--Bonita Springs City & Estero (East) PUMA,13510,"Cape Coral, FL",569232
+253,1207103,Lee County (Northeast)--Lehigh Acres & North Fort Myers PUMA,13510,"Cape Coral, FL",569232
+252,1207102,Lee County (Northwest)--Cape Coral City PUMA,13510,"Cape Coral, FL",569232
+250,1207104,Lee County (Central)--Greater Fort Myers City PUMA,13510,"Cape Coral, FL",569232
+0,3901700,Portage County PUMA,00766,"Akron, OH",565839
+3,3901803,Summit County (Central)--Akron City (East) PUMA,00766,"Akron, OH",565839
+2,3901805,"Summit County (South)--Barberton, Green & New Franklin Cities PUMA",00766,"Akron, OH",565839
+4,3901804,Summit County (Central)--Akron (West) & Cuyahoga Falls (West) Cities PUMA,00766,"Akron, OH",565839
+1,3901802,"Summit County (East Central)--Cuyahoga Falls (Southeast), Stow & Tallmadge Cities PUMA",00766,"Akron, OH",565839
+908,0900905,New Haven Town PUMA,62407,"New Haven, CT",562541
+906,0900904,"West Haven, Milford & Orange Towns PUMA",62407,"New Haven, CT",562541
+907,0900902,"Meriden, Wallingford & North Haven Towns PUMA",62407,"New Haven, CT",562541
+82,0602903,Kern County (Central)--Bakersfield City (Northeast) PUMA,04681,"Bakersfield, CA",547374
+81,0602902,Kern County (Central)--Bakersfield City (West) PUMA,04681,"Bakersfield, CA",547374
+1407,4949003,Utah County (Central)--Provo City PUMA,72559,"Provo--Orem, UT",513766
+1406,4949002,"Utah County (Central)--Orem, Pleasant Grove, American Fork & Lindon Cities PUMA",72559,"Provo--Orem, UT",513766
+1772,3900400,Toledo City (West) PUMA,87868,"Toledo, OH--MI",504640
+1773,3900500,Toledo City (East) PUMA,87868,"Toledo, OH--MI",504640
+1896,2500300,Worcester County (Central)--Worcester City PUMA,97291,"Worcester, MA--CT",496326
+1897,2500303,Worcester County (East Central) PUMA,97291,"Worcester, MA--CT",496326
+1882,2001303,Sedgwick County (Central)--Wichita City (Central) PUMA,95077,"Wichita, KS",479553
+893,0606504,Riverside County (Southwest)--Murrieta & Wildomar Cities PUMA,60799,"Murrieta--Temecula--Menifee, CA",475653
+454,1901700,Des Moines City PUMA,23743,"Des Moines, IA",473418
+583,4202401,Dauphin County (Central)--Harrisburg City & Colonial Park PUMA,37081,"Harrisburg, PA",452634
+584,4202302,Cumberland County (East) PUMA,37081,"Harrisburg, PA",452634
+714,0501000,Pulaski County (Central)--Little Rock City PUMA,50392,"Little Rock, AR",445020
+713,0500900,"Pulaski County (Outer)--North Little Rock, Sherwood & Jacksonville Cities PUMA",50392,"Little Rock, AR",445020
+1395,3602901,Orange County (Northeast)--Greater Newburgh City PUMA,71803,"Poughkeepsie--Newburgh, NY--NJ",426108
+1390,3602802,Dutchess County (Southwest) PUMA,71803,"Poughkeepsie--Newburgh, NY--NJ",426108
+577,4500103,Greenville County (North Central & Outside Greenville City)--Wade Hampton & Berea PUMA,35461,"Greenville, SC",415112
+578,4500104,Greenville County (Central)--Greenville & Mauldin Cities PUMA,35461,"Greenville, SC",415112
+1752,3600702,Onondaga County (North) PUMA,86302,"Syracuse, NY",412049
+1750,3600703,Onondaga County (Central)--Syracuse City (Outer) PUMA,86302,"Syracuse, NY",412049
+1751,3600701,Onondaga County (Central)--Syracuse City PUMA,86302,"Syracuse, NY",412049
+692,4203501,"Lancaster County--Lancaster City, East Lampeter, Lancaster & West Lampeter Townships PUMA",47530,"Lancaster, PA",410924
+691,4203504,Lancaster County (Southwest)--Columbia Borough PUMA,47530,"Lancaster, PA",410924
+1423,3200101,Washoe County (South Central)--Reno City PUMA,74179,"Reno, NV--CA",405077
+1889,3701801,Winston-Salem City (North) PUMA,96670,"Winston-Salem, NC",402640
+1888,3701803,Forsyth County (Outside Winston-Salem City)--Kernersville Town & Clemmons Village PUMA,96670,"Winston-Salem, NC",402640
+1887,3701802,Winston-Salem City (South) PUMA,96670,"Winston-Salem, NC",402640
+69,1304000,Central Savannah River Area Regional Commission (East Central)--Richmond County PUMA,04222,"Augusta-Richmond County, GA--SC",400618
+1705,5310501,Spokane County (North Central)--Spokane City (North) PUMA,83764,"Spokane, WA",397565
+1706,5310504,Spokane County (Outer)--Cheney City PUMA,83764,"Spokane, WA",397565
+1708,5310502,Spokane County (South Central)--Spokane City (South) PUMA,83764,"Spokane, WA",397565
+1707,5310503,Spokane County (East Central)--Greater Spokane Valley City PUMA,83764,"Spokane, WA",397565
+290,4702002,Hamilton County (South)--Chattanooga (North) & Red Bank Cities PUMA,15832,"Chattanooga, TN--GA",393946
+289,4702001,Chattanooga City (South & Central) PUMA,15832,"Chattanooga, TN--GA",393946
+438,4802005,Denton County (Central)--Denton (Central) & Corinth Cities PUMA,23500,"Denton--Lewisville, TX",391402
+439,4802002,Denton County (Southeast)--Lewisville City PUMA,23500,"Denton--Lewisville, TX",391402
+1389,1211102,St. Lucie County (South) PUMA,71479,"Port St. Lucie, FL",391153
+1738,0607704,"San Joaquin County (North)--Lodi, Ripon & Escalon Cities PUMA",85087,"Stockton, CA",380492
+1739,0607701,San Joaquin County (Central)--Stockton City (North) PUMA,85087,"Stockton, CA",380492
+1740,0607702,San Joaquin County (Central)--Stockton City (South) PUMA,85087,"Stockton, CA",380492
+1581,4200701,"Lackawanna County--Scranton City, Dunmore, Old Forge, Taylor & Moosic Boroughs PUMA",80227,"Scranton, PA",380436
+1908,3901600,Trumbull County (South Central)--Warren & Niles Cities PUMA,97831,"Youngstown, OH--PA",379262
+1910,3901500,"Mahoning County (Northeast)--Youngstown City, Boardman & Austintown PUMA",97831,"Youngstown, OH--PA",379262
+1909,3901400,Trumbull (Outside Warren City) & Mahoning (Outside Youngstown City) Counties PUMA,97831,"Youngstown, OH--PA",379262
+1300,0611104,Ventura County (Southwest)--San Buenaventura (Ventura) City PUMA,66673,"Oxnard, CA",375598
+1299,0611103,Ventura County (Southwest)--Oxnard & Port Hueneme Cities PUMA,66673,"Oxnard, CA",375598
+121,1600701,Ada County (Central)--Meridian (Northeast) & Boise (Far West) Cities PUMA,08785,"Boise City, ID",371474
+122,1600702,Ada County (Northeast)--Boise (North & West) & Garden City Cities PUMA,08785,"Boise City, ID",371474
+889,0609902,Stanislaus County (Central)--Modesto City (West) PUMA,58006,"Modesto, CA",368764
+888,0609904,Stanislaus County (Central)--Modesto City (East) PUMA,58006,"Modesto, CA",368764
+504,3701301,Durham County (South)--Durham City (South) PUMA,25228,"Durham, NC",368748
+652,2801100,Central Region--Jackson City (East & Central) PUMA,42211,"Jackson, MS",355228
+651,2801000,Central Region--Jackson (West & South) & Clinton (South & East) Cities PUMA,42211,"Jackson, MS",355228
+526,2601703,Genesee County (Central)--Flint City Area PUMA,29872,"Flint, MI",348456
+525,2601702,"Genesee County (Central, Outside Flint City) PUMA",29872,"Flint, MI",348456
+681,1209701,Osceola County (West) PUMA,45451,"Kissimmee, FL",338784
+1788,0607103,San Bernardino County (West Central)--Hesperia City & Apple Valley Town PUMA,90541,"Victorville--Hesperia, CA",337323
+391,4806602,Coastal Bend COG--Nueces County (Central)--Corpus Christi City (North Central) PUMA,20287,"Corpus Christi, TX",332202
+392,4806603,Coastal Bend COG--Nueces County (Central)--Corpus Christi City (South Central) PUMA,20287,"Corpus Christi, TX",332202
+887,0102702,Mobile City (West) PUMA,57925,"Mobile, AL",331224
+886,0102701,Mobile City (East) PUMA,57925,"Mobile, AL",331224
+885,0102703,"Mobile County (Outer)--Prichard City, Tillmans Corner & Saraland City PUMA",57925,"Mobile, AL",331224
+123,1202101,Collier County (Northwest) PUMA,08974,"Bonita Springs, FL",327539
+568,3701702,Greensboro City (South) PUMA,35164,"Greensboro, NC",323923
+569,3701701,Greensboro City (North) PUMA,35164,"Greensboro, NC",323923
+570,3701703,Guilford County (North)--Summerfield Town PUMA,35164,"Greensboro, NC",323923
+534,1801001,Allen County (Central)--Fort Wayne City (South) PUMA,31087,"Fort Wayne, IN",320057
+533,1801002,Allen County (Central)--Fort Wayne City (North) PUMA,31087,"Fort Wayne, IN",320057
+535,1801003,Allen County (Outside Fort Wayne City) PUMA,31087,"Fort Wayne, IN",320057
+520,3705003,Cumberland County (West)--Fayetteville City (West) PUMA,29440,"Fayetteville, NC",316902
+519,3705001,Cumberland County (Central)--Fayetteville City (Central & East) PUMA,29440,"Fayetteville, NC",316902
+694,2601802,Ingham County (Northwest) PUMA,47719,"Lansing, MI",316528
+1576,0609703,Sonoma County (Central)--Santa Rosa City PUMA,79498,"Santa Rosa, CA",314704
+20,2602703,"Washtenaw County (East Central, Outside Ann Arbor City) PUMA",02602,"Ann Arbor, MI",312498
+21,2602702,Washtenaw County (East Central)--Ann Arbor City Area PUMA,02602,"Ann Arbor, MI",312498
+710,2101901,Bluegrass Area Development District (Central)--Lexington-Fayette County (Central) PUMA,49582,"Lexington-Fayette, KY",302185
+709,2101902,Bluegrass Area Development District (Central)--Lexington-Fayette County (Outer) PUMA,49582,"Lexington-Fayette, KY",302185
+1776,3402301,Mercer County (West Central)--Trenton City PUMA,88462,"Trenton, NJ",297972
+1775,3402303,Mercer County (South) PUMA,88462,"Trenton, NJ",297972
+634,0100200,Limestone & Madison (Outer) Counties--Huntsville City (Far West & Southwest) PUMA,40780,"Huntsville, AL",296718
+635,0100301,Huntsville (North) & Madison (East) Cities PUMA,40780,"Huntsville, AL",296718
+636,0100302,Huntsville City (Central & South) PUMA,40780,"Huntsville, AL",296718
+23,0601308,Contra Costa County (Northeast)--Antioch City PUMA,02683,"Antioch, CA",293594
+24,0601307,Contra Costa County (North Central)--Pittsburg & Concord (North & East) Cities PUMA,02683,"Antioch, CA",293594
+30,3702201,Buncombe County (Southeast)--Asheville City PUMA,03358,"Asheville, NC",287595
+33,3702202,Buncombe County (Northwest) PUMA,03358,"Asheville, NC",287595
+431,1700105,Rock Island County PUMA,22366,"Davenport, IA--IL",284023
+1736,2902603,Greene County--Springfield City (South) PUMA,83953,"Springfield, MO",282097
+1735,2902602,Greene County--Springfield City (North) PUMA,83953,"Springfield, MO",282097
+248,3903200,Stark County (Central)--Canton & North Canton Cities PUMA,13375,"Canton, OH",279432
+249,3903100,Stark County (West)--Massillon City PUMA,13375,"Canton, OH",279432
+1696,1800402,St. Joseph County (Outside South Bend City)--Mishawaka City PUMA,83116,"South Bend, IN--MI",279101
+1697,1800401,St. Joseph County (North)--South Bend City PUMA,83116,"South Bend, IN--MI",279101
+1580,1300401,Coastal Regional Commission (East)--Chatham County (West Central)--Savannah City PUMA,79768,"Savannah, GA",275859
+1574,0603702,Los Angeles County (Northwest)--Santa Clarita City PUMA,79309,"Santa Clarita, CA",267925
+390,4804503,Houston-Galveston Area Council--Montgomery County (South)--The Woodlands (North) PUMA,19755,"Conroe--The Woodlands, TX",267659
+389,4804501,Houston-Galveston Area Council--Montgomery County (Northeast)--Conroe City (East) PUMA,19755,"Conroe--The Woodlands, TX",267659
+689,2201200,Acadiana Regional Development District 3--Lafayette Parish (North) PUMA,46045,"Lafayette, LA",263932
+688,2201201,Acadiana Regional Development District 4--Lafayette Parish (South) PUMA,46045,"Lafayette, LA",263932
+891,0102000,Montgomery City & Pike Road Town (North) PUMA,58600,"Montgomery, AL",259630
+517,4100703,Lane County (West Central)--Eugene City (West & South) PUMA,28117,"Eugene, OR",252833
+516,4100704,Lane County (East Central)--Eugene (Northeast) & Springfield Cities PUMA,28117,"Eugene, OR",252833
+695,4806301,South Texas Development Council (North)--Webb County--Laredo City (Central) PUMA,47854,"Laredo, TX",248383
+1754,1207301,Leon County (Central)--Tallahassee City (Central) PUMA,86464,"Tallahassee, FL",247565
+1753,1207300,Leon County (Outer) PUMA,86464,"Tallahassee, FL",247565
+799,4800502,South Plains Association of Governments--Lubbock County--Lubbock City (Outer) PUMA,51877,"Lubbock, TX",246760
+800,4800501,South Plains Association of Governments--Lubbock County--Lubbock City (Central) PUMA,51877,"Lubbock, TX",246760
+99,2504700,Barnstable County (West)--Inner Cape Cod Towns & Barnstable Town City PUMA,05167,"Barnstable Town, MA",245569
+1503,4101104,Marion County (West Central)--Salem City (South) & Four Corners PUMA,78229,"Salem, OR",242855
+1504,4101103,"Marion County (West Central)--Salem (North), Keizer Cities & Hayesville PUMA",78229,"Salem, OR",242855
+1906,4203601,York County (Central)--York City & Shiloh PUMA,97750,"York, PA",235322
+894,4501102,"Horry County (Southeast)--Myrtle Beach, North Myrtle Beach Cities & Socastee (East) PUMA",60895,"Myrtle Beach--Socastee, SC--NC",233500
+518,1803300,Vanderburgh County--Evansville City PUMA,28333,"Evansville, IN--KY",231115
+680,4803501,Central Texas COG--Bell County (West)--Killeen & Harker Heights Cities PUMA,44992,"Killeen, TX",229331
+896,3300900,Hillsborough County (Southeastern)--Greater Nashua City PUMA,61165,"Nashua, NH--MA",228398
+218,4806703,Cameron County (South)--Brownsville City (Central) PUMA,10972,"Brownsville, TX",225886
+677,5310702,Benton County (East Central)--Kennewick & Richland (South) Cities PUMA,44479,"Kennewick--Pasco, WA",224564
+388,3703200,"Cabarrus County (West)--Concord, Kannapolis Cities & Harrisburg Town PUMA",19558,"Concord, NC",221490
+385,3703400,Rowan County PUMA,19558,"Concord, NC",221490
+1771,0611102,Ventura County (Southeast)--Thousand Oaks City PUMA,87490,"Thousand Oaks, CA",220357
+579,2802000,South Region--Harrison County--Gulfport & Biloxi Cities PUMA,35920,"Gulfport, MS",218703
+661,2602102,Kalamazoo County (Central)--Kalamazoo & Portage Cities Area PUMA,43723,"Kalamazoo, MI",215197
+664,2602101,Kalamazoo County (Outer) PUMA,43723,"Kalamazoo, MI",215197
+1457,5151044,"Roanoke Valley-Alleghany Regional Commission (Roanoke, Salem Cities & Vinton Town) PUMA",75421,"Roanoke, VA",213672
+564,5500300,Outer Green Bay City PUMA,34813,"Green Bay, WI",210645
+563,5500200,Green Bay City PUMA,34813,"Green Bay, WI",210645
+80,0400133,Maricopa County--Avondale (Central) & Litchfield Park (Central) Cities PUMA,04549,"Avondale--Goodyear, AZ",209718
+79,0400132,"Maricopa County--Goodyear, Glendale (West) & Litchfield Park (Northwest) Cities PUMA",04549,"Avondale--Goodyear, AZ",209718
+593,3702800,Catawba County--Hickory City PUMA,38647,"Hickory, NC",209197
+1275,0901101,New London County (South) PUMA,64135,"Norwich--New London, CT--RI",205847
+1274,0901100,New London County (North) PUMA,64135,"Norwich--New London, CT--RI",205847
+633,5400800,"Cabell, Wayne & Mason Counties--Huntington City PUMA",40753,"Huntington, WV--KY--OH",203593
+804,4801906,Collin County (Northwest)--Frisco City (East) & Prosper Town PUMA,52687,"McKinney, TX",198775
+805,4801905,Collin County (Central)--McKinney City PUMA,52687,"McKinney, TX",198775
+514,4200101,"Erie City, Lawrence Park Township & Wesleyville Borough PUMA",27766,"Erie, PA",196386
+515,4200102,Erie County (Outer) PUMA,27766,"Erie, PA",196386
+543,1200101,Alachua County (Central)--Gainesville City (Central) PUMA,32167,"Gainesville, FL",195522
+544,1200102,Alachua County (Outer) PUMA,32167,"Gainesville, FL",195522
+1876,0900900,New Haven County (Northwest) PUMA,92485,"Waterbury, CT",194693
+1877,0900901,Waterbury Town PUMA,92485,"Waterbury, CT",194693
+580,2400200,Washington County--Hagerstown City PUMA,36190,"Hagerstown, MD--WV--PA",189958
+1700,4500302,Spartanburg County (Outside Spartanburg City)--Greer City (East) PUMA,83548,"Spartanburg, SC",186896
+1701,4500301,Spartanburg County (Central)--Spartanburg City PUMA,83548,"Spartanburg, SC",186896
+1280,5311401,"Thurston County (Central)--Olympia, Lacey & Tumwater Cities PUMA",65242,"Olympia--Lacey, WA",182932
+365,4803602,Brazos Valley COG--Brazos County--College Station & Bryan Cities PUMA,18748,"College Station--Bryan, TX",180934
+1811,4803802,"Heart of Texas COG--McLennan County--Waco (Outer), Hewitt & Robinson Cities PUMA",91027,"Waco, TX",177607
+1812,4803801,Heart of Texas COG--McLennan County--Waco City (Central) PUMA,91027,"Waco, TX",177607
+547,3703002,Gaston County (Southeast)--Gastonia & Belmont Cities PUMA,32653,"Gastonia, NC--SC",172861
+430,0900100,"Danbury, Ridgefield, Bethel, Brookfield, New Fairfield, Redding & Sherman Towns PUMA",22096,"Danbury, CT--NY",172816
+1787,0609501,Solano County (Southwest)--Vallejo & Benicia Cities PUMA,90028,"Vallejo, CA",168708
+1694,4600600,Sioux Falls City PUMA,82252,"Sioux Falls, SD",165640
+1276,1208302,Marion County (Central)--Ocala City PUMA,64567,"Ocala, FL",163402
+1722,1701300,Sangamon County--Springfield City PUMA,83899,"Springfield, IL",162923
+810,4100901,Jackson County (Central)--Medford & Central Point Cities PUMA,55981,"Medford, OR",160420
+895,1600600,Canyon (East) & Ada (West) Counties--Nampa (Central & East) & Meridian (West) Cities PUMA,60976,"Nampa, ID",160197
+808,3300800,Manchester City PUMA,53740,"Manchester, NH",159147
+807,3300700,Outer Manchester City PUMA,53740,"Manchester, NH",159147
+113,3602201,Broome County (West Central)--Greater Binghamton City & Greater Johnson City Village PUMA,07732,"Binghamton, NY--PA",156272
+687,1801100,"Montgomery, Clinton, White, Carroll & Benton Counties PUMA",46018,"Lafayette, IN",154209
+686,1801200,Tippecanoe County--Lafayette & West Lafayette Cities PUMA,46018,"Lafayette, IN",154209
+1774,2000801,Shawnee County (Central)--Topeka City PUMA,88084,"Topeka, KS",150156
+901,2504301,Bristol (Outside New Bedford City) & Plymouth (South) Counties PUMA,61786,"New Bedford, MA",149625
+107,4804301,Jefferson County (North Central)--Beaumont City PUMA,06058,"Beaumont, TX",148937
+106,4804200,Orange & Hardin Counties PUMA,06058,"Beaumont, TX",148937
+256,1702100,Champaign County--Champaign & Urbana Cities PUMA,15211,"Champaign, IL",148925
+537,2400302,Frederick County (Central)--Greater Frederick City PUMA,31519,"Frederick, MD",147105
+536,2400301,Frederick County (Outside Greater Frederick City) PUMA,31519,"Frederick, MD",147105
+508,1800500,Elkhart County--Elkhart & Goshen Cities PUMA,26794,"Elkhart, IN--MI",145184
+1783,0101600,Tuscaloosa & Northport (Southeast) Cities PUMA,89110,"Tuscaloosa, AL",144891
+582,4806702,Cameron County (West)--Harlingen & San Benito Cities PUMA,36892,"Harlingen, TX",139067
+545,1303400,Georgia Mountains Regional Commission (South Central)--Hall County PUMA,32194,"Gainesville, GA",137792
+806,1301400,Middle Georgia Regional Commission (Central)--Bibb County--Macon City PUMA,52822,"Macon, GA",137218
+1785,4801501,East Texas COG (Central)--Smith County (Outside Tyler City) PUMA,89326,"Tyler, TX",136162
+1784,4801502,East Texas COG (Central)--Smith County (West)--Tyler City PUMA,89326,"Tyler, TX",136162
+1575,0608301,Santa Barbara County (Northwest)--Santa Maria City & Orcutt PUMA,79417,"Santa Maria, CA",134304
+696,3501001,Doña Ana County (Outer) PUMA,47935,"Las Cruces, NM",133127
+34,1303600,Northeast Georgia Regional Commission (Central)--Clarke County--Athens City PUMA,03763,"Athens-Clarke County, GA",132368
+1905,5310901,Yakima County (Central)--Greater Yakima City PUMA,97507,"Yakima, WA",131888
+370,2900600,Boone County PUMA,18937,"Columbia, MO",130482
+553,0801001,Mesa County (Central)--Greater Grand Junction & Fruita Cities PUMA,34273,"Grand Junction, CO",129057
+1693,0611101,Ventura County (Southeast)--Simi Valley City PUMA,82144,"Simi Valley, CA",127377
+245,3701600,Alamance County--Burlington City PUMA,11728,"Burlington, NC",125218
+562,0800300,"Weld County (South Central)--Greeley, Windsor & Evans Cities PUMA",34786,"Greeley, CO",124863
+660,4701300,Washington County--Johnson City PUMA,43210,"Johnson City, TN",122852
+1698,2602800,Livingston County PUMA,83332,"South Lyon--Howell, MI",122333
+211,0800803,Boulder County (Central)--Boulder City PUMA,09298,"Boulder, CO",121594
+576,3704200,Pitt County--Greenville City PUMA,35380,"Greenville, NC",120711
+502,2700500,"St. Louis County (Southeast)--Duluth, Hermantown & Proctor Cities PUMA",24850,"Duluth, MN--WI",119925
+109,3000700,Billings City PUMA,07705,"Billings, MT",119597
+890,2200400,North Delta Regional Planning & Development District 1--Ouachita Parish PUMA,58330,"Monroe, LA",119435
+708,2500301,"Worcester County (Northeast)--Leominster, Fitchburg & Gardner Cities PUMA",49096,"Leominster--Fitchburg, MA",118344
+501,1000200,Kent County--Dover City PUMA,24580,"Dover, DE",116835
+685,1208303,Marion County (South Central) PUMA,45937,"Lady Lake--The Villages, FL",116092
+684,1206902,Sumter (North) & Lake (North) Counties PUMA,45937,"Lady Lake--The Villages, FL",116092
+1878,1900500,Black Hawk County--Waterloo & Cedar Falls Cities PUMA,92593,"Waterloo, IA",114451
+644,1901100,Johnson County--Iowa City PUMA,41590,"Iowa City, IA",113980
+120,1802800,Monroe County--Bloomington City PUMA,08380,"Bloomington, IN",112479
+1476,4500502,York County (East)--Rock Hill City & Fort Mill Town PUMA,75745,"Rock Hill, SC",109473
+1510,4802900,Concho Valley COG--Tom Green County--San Angelo City PUMA,78553,"San Angelo, TX",97374
+1769,4803502,"Central Texas COG--Bell County (North, East & South)--Temple & Belton Cities PUMA",87058,"Temple, TX",95940
+5,1300900,Southwest Georgia Regional Commission (North Central)--Dougherty & Lee Counties PUMA,00901,"Albany, GA",94815
+1695,2202201,Regional Planning Commission 2--St. Tammany Parish (Southeast) PUMA,82468,"Slidell, LA",94459
+1770,1801700,Vigo County--Terre Haute City PUMA,87139,"Terre Haute, IN",93769
+529,4500900,Florence & Darlington Counties--Florence City PUMA,30061,"Florence, SC",92999
+436,1701500,Macon County--Decatur City PUMA,22717,"Decatur, IL",92512
+118,5151040,New River Valley Planning District Commission PUMA,08002,"Blacksburg, VA",91702
+892,1802000,Delaware County--Muncie City PUMA,60625,"Muncie, IN",90497
+650,2602600,Jackson County PUMA,42157,"Jackson, MI",88657
+705,2901004,Jackson County (South Central) PUMA,48826,"Lee's Summit, MO",87233
+429,1302700,Northwest Georgia Regional Commission (North Central)--Whitfield County PUMA,22069,"Dalton, GA",86411
+1737,3904300,Clark County PUMA,83980,"Springfield, OH",84107
+212,2100500,Barren River Area Development District (Central)--Warren County PUMA,09379,"Bowling Green, KY",83389
+16,1701205,"Madison County (West)--Granite City, Alton, Wood River Cities & Godfrey Village PUMA",01765,"Alton, IL--MO",83339
+665,1702300,Kankakee County PUMA,43885,"Kankakee, IL",80510
+594,1201701,Citrus County PUMA,39758,"Homosassa Springs--Beverly Hills--Citrus Springs, FL",79078
+1786,1300600,Southern Georgia Regional Commission (South Central)--Lowndes County--Valdosta City PUMA,89974,"Valdosta, GA",77894
+18,4500200,Anderson County--Anderson City PUMA,02413,"Anderson, SC",77276
+809,3902200,Richland County PUMA,54091,"Mansfield, OH",75107
+1880,2400400,Carroll County PUMA,94294,"Westminster--Eldersburg, MD",73681
+712,3902500,Allen County PUMA,49852,"Lima, OH",72059
+1885,5151084,Northern Shenandoah Valley Regional Commission (North) PUMA,96103,"Winchester, VA",71417
+217,4701100,Sullivan County (Southeast)--Bristol City PUMA,10351,"Bristol--Bristol, TN--VA",68474
+437,1702601,DeKalb County PUMA,22960,"DeKalb, IL",68149
+581,4203701,Adams & Franklin (Southeast) Counties PUMA,36784,"Hanover, PA",67585
+1912,1210101,Pasco County (East Central) PUMA,98182,"Zephyrhills, FL",67229
+1478,3700900,Nash & Edgecombe Counties--Rocky Mount City PUMA,75988,"Rocky Mount, NC",66272
+1302,0609702,"Sonoma County (South)--Petaluma, Rohnert Park & Cotati Cities PUMA",68887,"Petaluma, CA",65686
+17,1901300,Story & Boone Counties--Ames City PUMA,02062,"Ames, IA",64594
+792,3500700,"Valencia, Bernalillo (East Mountains) Counties & Isleta Pueblo PUMA",51499,"Los Lunas, NM",63984
+542,0100900,Etowah County PUMA,32113,"Gadsden, AL",63607
+108,5401200,"Raleigh, Mercer & Fayette Counties PUMA",06139,"Beckley, WV",63603
+711,2401500,St. Mary's & Calvert Counties PUMA,49594,"Lexington Park--California--Chesapeake Ranch Estates, MD",61584
+550,3704000,Wayne County PUMA,33814,"Goldsboro, NC",61289
+507,4200600,Monroe County PUMA,25849,"East Stroudsburg, PA--NJ",54760
+645,3602300,Tompkins County PUMA,41914,"Ithaca, NY",54559
+255,1302900,Northwest Georgia Regional Commission (East Central)--Bartow County PUMA,14185,"Cartersville, GA",53394
+905,3704300,Craven County PUMA,61840,"New Bern, NC",51384
+1789,3402600,Cape May & Atlantic (South Central) Counties--Ocean City & Somers Point City PUMA,90658,"Villas, NJ",50587
+254,1302300,Three Rivers Regional Commission (Northwest)--Carroll County PUMA,14023,"Carrollton, GA",45102
+690,3903900,Fairfield County PUMA,47503,"Lancaster, OH",43007
+1911,3903700,Muskingum & Perry Counties PUMA,98074,"Zanesville, OH",42302
+246,4201600,Butler County PUMA,11998,"Butler, PA",39846
+25,3703600,Randolph County PUMA,03331,"Asheboro, NC",38649
+1879,4802400,Parker County PUMA,93484,"Weatherford, TX",37664
+857,1000104,"New Castle County (South)--Middletown Town, Bear & Glasgow PUMA",56845,"Middletown, DE",31587
+247,3000300,Southwest Montana--Butte-Silver Bow & Helena City PUMA,12052,"Butte-Silver Bow, MT",30701
+530,3702600,"Rutherford, Cleveland (West) & Polk Counties--Shelby City PUMA",30331,"Forest City, NC",27141
+1692,4805700,Alamo Area COG (Northeast)--Guadalupe County PUMA,80497,"Seguin, TX",25254
+1301,1210700,Putnam & St. Johns (South) Counties PUMA,67051,"Palatka, FL",23509
+506,2401300,"Queen Anne's, Talbot, Caroline, Dorchester & Kent Counties PUMA",25741,"Easton, MD",17285
+509,5550000,Walworth County PUMA,26821,"Elkhorn, WI",12297
+1907,4500501,York County (West & Outside Rock Hill City) PUMA,97777,"York, SC",7873
+102,4500601,Lexington (South & West) & Saluda Counties--Lexington Town & Red Bank PUMA,05518,"Batesburg-Leesville, SC",5301
+549,2400901,Howard County (West)--Columbia (West) & Ellicott City (Northwest) PUMA,33635,"Glenwood, MD",3099
+1881,4701400,"Hamblen, Cocke & Grainger Counties PUMA",94879,"White Pine, TN",2808
+258,4400400,South Rhode Island--Washington County PUMA,15589,"Charlestown, RI",2777
