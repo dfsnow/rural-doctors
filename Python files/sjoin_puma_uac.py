@@ -7,7 +7,7 @@ import cenpy as cp
 ######## Setup/Importing ########
 # Importing UAC population estimates from the census website
 cen_api = cp.base.Connection(config.census_database)
-uac_pop = cen_api.query(config.census_col_needed, geo_unit='urban area:*')
+uac_pop = cen_api.query(config.census_var_needed, geo_unit='urban area:*')
 uac_pop.rename(columns={'B01001_001E': 'POP', uac_pop.columns[-1]: 'UACE10'}, inplace=True)
 
 # Read PUMA and UAC shapefiles from the shapefile dir for the specified year
@@ -37,4 +37,4 @@ final_uac.columns = config.uac_col_names
 ######## Exporting ########
 # Export data to CSV in the working dir
 final_uac.to_csv(
-    os.path.join(config.data_dir, str(config.spatial_year) + '_puma_uac_int.csv'))
+    os.path.join(config.temp_dir, str(config.spatial_year) + '_puma_uac_int.csv'))
