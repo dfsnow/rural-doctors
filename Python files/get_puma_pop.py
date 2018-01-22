@@ -1,14 +1,13 @@
 import config as config
 import os
 import pandas as pd
-import geopandas as gpd
 import cenpy as cp
 
 # File in the temp dir with aggregated PUMA counts of medical occupations
 file_check = os.path.join(config.temp_dir, config.census_filename + '_puma_med_pop.csv')
 merge_format = '{:06d}".format'
 
-# If statement which checks for existence of aggregate file and creates one if does not exist
+# If statement which checks for existence of aggregate file and creates one if it does not exist
 if os.path.isfile(file_check):
     puma_med_pop = pd.read_csv(file_check)
 else:
@@ -38,13 +37,14 @@ else:
 cen_api = cp.base.Connection(config.census_database)
 puma_gen_pop = cen_api.query(
     config.census_var_needed, geo_unit='public use microdata area:*')
-puma_gen_pop.rename(columns={'B01001_001E': 'POP', 'state': 'STATE', puma_gen_pop.columns[-1]: 'PUMA'}, inplace=True)
+puma_gen_pop.rename(
+    columns={'B01001_001E': 'POP', 'state': 'STATE', puma_gen_pop.columns[-1]: 'PUMA'}, inplace=True)
 
 # Again concatenating STATEFIP and PUMA into a PUMA GEOID
 puma_gen_pop['PUMA_GEOID'] = puma_gen_pop['STATE'] + puma_gen_pop['PUMA']
 puma_gen_pop['PUMA_GEOID'] = puma_gen_pop['PUMA_GEOID'].astype(int)
 
-# Merging general pop and medical pop by PUMA GEOID, then getting the fraction of medical pop to gen pop
+# Merging general pop and medical pop by PUMA GEOID, then getting the fraction of medical pop workers to gen pop
 puma_pop = puma_gen_pop.merge(puma_med_pop, on=['PUMA_GEOID'], how='left')
 
 puma_pop['PHYS_FRAC']    = puma_pop['PHYS'] / puma_pop['POP']
@@ -53,7 +53,7 @@ puma_pop['NURSE_FRAC']   = puma_pop['NURSE'] / puma_pop['POP']
 puma_pop['PA_FRAC']      = puma_pop['PA'] / puma_pop['POP']
 puma_pop['PHARM_FRAC']   = puma_pop['PHARM'] / puma_pop['POP']
 
-# Importing and merging in intersecting CBSAs and UACs
+# Importing and merging in intersecting CBSAs and UACs with the puma population df
 puma_cbsa_int = pd.read_csv(os.path.join(config.temp_dir, str(config.spatial_year) + '_puma_cbsa_int.csv'))
 puma_uac_int = pd.read_csv(os.path.join(config.temp_dir, str(config.spatial_year) + '_puma_uac_int.csv'))
 
