@@ -29,7 +29,7 @@ assign(glue('ti_{y}_us_cbsa', y = needed_year), core_based_statistical_areas(
 
 ######## Urban Areas ########
 # Using the tigris package to download all US urban areas
-assign(glue('ti_{y}_us_uac10', y = needed_year), urban_areas(
+assign(glue('ti_{y}_us_uac', y = needed_year), urban_areas(
   year = needed_year))
 
 
