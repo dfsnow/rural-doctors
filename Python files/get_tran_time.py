@@ -1,0 +1,38 @@
+import config as config
+import os
+import geopandas as gpd
+import matplotlib.pyplot as plt
+
+# Importing PUMA shapefiles
+puma = gpd.read_file(os.path.join(config.spatial_dir, 'ti_' + str(config.spatial_year) + '_us_puma.shp'))
+puma['GEOID10'] = puma['GEOID10'].astype(int)
+
+# Importing ACS/IPUMS file
+acs = pd.read_csv(os.path.join(
+    config.temp_dir, config.census_filename + '.csv'),
+    low_memory=False)
+
+# Calculating the mean commute time by PUMA
+puma_tran_time = acs.groupby(['STATEFIP', 'PUMA']).mean()['TRANTIME'].reset_index()
+
+# Concatenating PUMA ID and STATE FIPS to make a PUMA GEOID
+puma_tran_time[['STATEFIP', 'PUMA']] = puma_tran_time[['STATEFIP', 'PUMA']].astype(str)
+puma_tran_time['STATEFIP'] = puma_tran_time['STATEFIP'].str.zfill(2)
+puma_tran_time['PUMA'] = puma_tran_time['PUMA'].str.zfill(5)
+puma_tran_time['PUMA_GEOID'] = puma_tran_time['STATEFIP'] + puma_tran_time['PUMA']
+puma_tran_time['PUMA_GEOID'] = puma_tran_time['PUMA_GEOID'].astype(int)
+
+# Spatial merge transportation time with the spatial data using PUMA_GEOID
+puma_merged = puma.merge(puma_tran_time, left_on=['GEOID10'], right_on=['PUMA_GEOID'], how='left')
+
+# Save shapefile so we never have to process this data again
+puma_merged.to_file(os.path.join(config.spatial_dir, str(config.spatial_year) + '_puma_tran_time.shp'))
+
+puma_merged = gpd.read_file(os.path.join(config.spatial_dir, str(config.spatial_year) + '_puma_tran_time.shp'))
+
+# Create PUMA choropleth from resulting data
+puma_plot = puma_merged.plot(column='TRANTIME', colormap='OrRd')
+fig = puma_plot.get_figure()
+plt.axis('off')
+fig.set_dpi(1000)
+fig.savefig('commute_time.png')

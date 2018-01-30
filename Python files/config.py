@@ -9,7 +9,7 @@ census_database = 'ACSSF5Y2015'  # census database name to pull from using cenpy
 census_var_needed = ['B01001_001E']  # names of census variables to pull from database
 
 # Lists and dictionaries for slicing and filtering downloaded IPUMS flat file/CSV
-census_filename = '2015_acs_5yr'
+census_filename = '2011-2016_acs'
 census_occ_codes = {
     3060: 'PHYS',
     3110: 'PA',

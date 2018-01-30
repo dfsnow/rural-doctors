@@ -5,7 +5,6 @@ import cenpy as cp
 
 # File in the temp dir with aggregated PUMA counts of medical occupations
 file_check = os.path.join(config.temp_dir, config.census_filename + '_puma_med_pop.csv')
-merge_format = '{:06d}".format'
 
 # If statement which checks for existence of aggregate file and creates one if it does not exist
 if os.path.isfile(file_check):
@@ -14,6 +13,7 @@ else:
     acs = pd.read_csv(os.path.join(
         config.temp_dir, config.census_filename + '.csv'),
         low_memory=False)
+
     # Dropping non-med people and summarizing OCC by PERWT for each state and puma, then rename columns
     puma_med_pop = acs[acs['OCC2010'].isin(config.census_occ_codes.keys())]
     puma_med_pop = puma_med_pop.groupby(['STATEFIP', 'PUMA', 'OCC2010']).sum()['PERWT'].reset_index()
