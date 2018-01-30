@@ -5,7 +5,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 
 # Importing PUMA shapefiles
-puma = gpd.read_file(os.path.join(config.spatial_dir, 'ipums_puma_2010.shp'))
+puma = gpd.read_file(os.path.join(config.spatial_dir, 'ipums_puma_2010_fixed.shp'))
 puma['GEOID'] = puma['GEOID'].astype(int)
 
 # Importing ACS/IPUMS file
