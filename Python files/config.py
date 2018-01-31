@@ -22,3 +22,18 @@ census_occ_dict = {
     3010: 'DENTIST',
     3130: 'NURSE'
 }
+
+reg_bins_a = {
+    1: 'Rural',
+    5e5: '500k',
+    1e6: '1M',
+    5e6: '5M',
+    1e8: 'BIG'
+}
+
+reg_bins_b = {
+    1e4: 'Rural',
+    5e4: 'Micro',
+    2.5e6: 'Metro',
+    1e8: 'Big'
+}

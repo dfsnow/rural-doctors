@@ -1,5 +1,4 @@
 import config as config
-import seaborn as sns
 import statsmodels.formula.api as smf
 import geopandas as gpd
 import pandas as pd
@@ -58,7 +57,7 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
     return geo_merged
 
 
-def get_puma_pop(acs_filename=None, acs_dir=None):
+def get_puma_pop(acs_filename=None, acs_dir=None, agg_years=False):
 
     """Function to get the medical population for each PUMA from an IPUMS CSV file. Outputs a dataframe of
     medical populations (as specified in the config file) for each PUMA. See arguments below:
@@ -68,7 +67,7 @@ def get_puma_pop(acs_filename=None, acs_dir=None):
     acs_dir = Directory containing the IPUMS CSV file
     """
 
-    acs = pd.read_csv(os.path.join(acs_dir, acs_filename), nrows=20000, low_memory=False)
+    acs = pd.read_csv(os.path.join(acs_dir, acs_filename), low_memory=False)
 
     acs[['STATEFIP', 'PUMA']] = acs[['STATEFIP', 'PUMA']].astype(str)
     acs['STATEFIP'] = acs['STATEFIP'].str.zfill(2)
@@ -98,8 +97,45 @@ def get_puma_pop(acs_filename=None, acs_dir=None):
     return puma_pop
 
 
-def reg_puma
-    
+def reg_puma_pop(data, dep_var, pop_var, cut_pop, cut_bins, cut_labels, ctrl_vars=None, to_latex=False):
+
+    """Function which creates a regression table with of population fractions for various bins. See arguments below:
+
+    data = Name of the dataframe to use
+
+    dep_var = Dependent variable/regressand, typically a fraction of the population by occupation, column name
+
+    pop_var = General population variable used for weights, column name
+
+    cut_pop = Population variable to cut for use with bins, column name
+
+    cut_bins = Bins to cut the intersecting pop with, must be a list n + 1 of labels, see config for templates
+
+    cut_labels = Labels for bins
+
+    ctrl_vars = List of control variables from the data to include
+
+    to_latex = If true, outputs summary table to latex, else normal
+
+    """
+
+    puma_pop = data.fillna(0)
+    puma_pop['UR'] = pd.cut(puma_pop[cut_pop], bins=cut_bins, labels=cut_labels, include_lowest=True)
+
+    if ctrl_vars is not None:
+        controls = ') + C('.join(ctrl_vars)
+        formula = dep_var + ' ~ UR + C(' + controls + ')'
+    else:
+        formula = dep_var + ' ~ UR'
+    ols = smf.wls(formula=formula, data=puma_pop, weights=puma_pop[pop_var])
+    model = ols.fit()
+
+    if to_latex:
+        print(model.summary().as_latex())
+    else:
+        print(model.summary())
+
+
 
 
 
