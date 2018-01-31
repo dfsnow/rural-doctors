@@ -33,9 +33,15 @@ assign(glue('ti_{y}_us_uac', y = needed_year), urban_areas(
   year = needed_year))
 
 
+######## States ########
+# Using the tigris package to download all US states area
+assign(glue('ti_{y}_us_state', y = needed_year), states(
+  year = needed_year))
+
+
 ######## Saving ########
 # Saving all the resulting shapefiles to disk for use in Python or QGIS
-spatial_df <- mget(ls(pattern = "_us_"))
+spatial_df <- mget(ls(pattern = '_us_'))
 spatial_df_names <- names(spatial_df)
 
 spatial_df_names %>%
