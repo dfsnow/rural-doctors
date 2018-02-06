@@ -1,4 +1,4 @@
-# Config file for altering the behavior of puma_functions
+# Config file for altering the behavior of puma_functions and puma_regressions
 
 sjoin_geo_dict = {
     'cbsa': 'metropolitan statistical area/micropolitan statistical area:*',
@@ -25,9 +25,9 @@ census_occ_dict = {
 }
 
 reg_cbsa_bins_a = [0, 1, 5e5, 1e6, 5e6, 1e8]
-reg_cbsa_cuts_a = ['Rural', '500k', '1M', '5M', '5M']
+reg_cbsa_labels_a = ['Rural', '500k', '1M', '5M', '5M+']
 
 reg_cbsa_bins_b = [0, 1e4, 5e4, 2.5e6, 1e8]
-reg_cbsa_cuts_b = ['Rural', 'Micro', 'Metro', 'Big']
+reg_cbsa_labels_b = ['Rural', 'Micro', 'Metro', 'Big']
 
 

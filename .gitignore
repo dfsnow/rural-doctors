@@ -1,0 +1,9 @@
+venv
+*.Rproj
+QGIS Files
+.idea
+.Rhistory
+shapefiles
+.Rproj.user
+2011-2016_acs.csv
+*.cfg

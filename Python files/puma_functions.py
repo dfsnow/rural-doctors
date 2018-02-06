@@ -1,5 +1,4 @@
 import config as config
-import statsmodels.formula.api as smf
 import geopandas as gpd
 import pandas as pd
 import cenpy as cp
@@ -114,47 +113,3 @@ def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
     puma_pop = puma_pop.fillna(0)
 
     return puma_pop
-
-
-def reg_puma_pop(data, dep_var, pop_var, cut_pop, cut_bins, cut_labels, ctrl_vars, to_latex=False):
-
-    """Function which creates a regression table with of population fractions for various bins. See arguments below:
-
-    data = Name of the dataframe to use
-
-    dep_var = Dependent variable/regressand, typically a fraction of the population by occupation, column name
-
-    pop_var = General population variable used for weights, column name
-
-    cut_pop = Population variable to cut for use with bins, column name
-
-    cut_bins = Bins to cut the intersecting pop with, must be a list n + 1 of labels, see config for templates
-
-    cut_labels = Labels for bins
-
-    ctrl_vars = List of control variables from the data to include
-
-    to_latex = If true, outputs summary table to latex, else normal
-
-    """
-
-    puma_pop = data.fillna(0)
-    puma_pop['UR'] = pd.cut(puma_pop[cut_pop], bins=cut_bins, labels=cut_labels, include_lowest=True)
-
-    if ctrl_vars is not None:
-        controls = ') + C('.join(ctrl_vars)
-        formula = dep_var + ' ~ UR + C(' + controls + ')'
-    else:
-        formula = dep_var + ' ~ UR'
-    ols = smf.wls(formula=formula, data=puma_pop, weights=puma_pop[pop_var])
-    model = ols.fit()
-
-    if to_latex:
-        print(model.summary().as_latex())
-    else:
-        print(model.summary())
-
-
-
-
-

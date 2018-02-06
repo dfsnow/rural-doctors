@@ -14,7 +14,7 @@ from math import cos, sin, tan, sqrt, pi, radians, degrees, asin, atan2
 def build_url(origin='',
               destination='',
               access_type='personal',
-              config_path='config/'):
+              config_path='./'):
     """
     Determine the url to pass for the desired search.
     This is complicated when using Google Maps for Business.
