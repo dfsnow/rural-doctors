@@ -39,6 +39,18 @@ assign(glue('ti_{y}_us_state', y = needed_year), states(
   year = needed_year))
 
 
+######## Counties ########
+# Using the tigris package to download all US counties area
+assign(glue('ti_{y}_us_county', y = needed_year), counties(
+  year = needed_year))
+
+
+######## CSA ########
+# Using the tigris package to download all US counties area
+assign(glue('ti_{y}_us_csa', y = needed_year), combined_statistical_areas(
+  year = needed_year))
+
+
 ######## Saving ########
 # Saving all the resulting shapefiles to disk for use in Python or QGIS
 spatial_df <- mget(ls(pattern = '_us_'))

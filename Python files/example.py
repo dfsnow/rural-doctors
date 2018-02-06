@@ -6,9 +6,10 @@ import os
 # puma_pop = pf.get_puma_pop('2011-2016_acs.csv', acs_dir='tempdir')
 # puma_pop.to_csv('2011-2016_puma_pop.csv')
 
-# Reading the CSV created by the lines above, dropping all years except 2015
+# Reading the CSV created by the lines above, dropping 2016
 puma_pop = pd.read_csv(os.path.join('tempdir', '2011-2016_puma_pop.csv'))
-puma_pop = puma_pop[puma_pop['YEAR'] == 2015]
+puma_pop = puma_pop[puma_pop['YEAR'] != 2016]
+
 
 # Joining PUMA and CBSA spatial files in the specified folder, by intersect
 cbsa_pop = pf.sjoin_puma(
@@ -22,14 +23,17 @@ cbsa_pop = pf.sjoin_puma(
 )
 
 df = pd.merge(puma_pop, cbsa_pop, how='left', on='PUMA_GEOID')
-df['STATE'] = int(str(df['PUMA_GEOID'])[:2])
+
+df.to_csv('test.csv')
+
+print(df)
 
 pf.reg_puma_pop(
     df,
-    dep_var='NURSE_FRAC',
+    dep_var='PHYS_FRAC',
     pop_var='POP',
     cut_pop='CBSA_POP',
-    cut_bins=[0] + list(config.reg_bins_a.keys()),
-    cut_labels=list(config.reg_bins_a.values()),
-    ctrl_vars=['STATE']
+    cut_bins=config.reg_cbsa_bins_a,
+    cut_labels=config.reg_cbsa_cuts_a,
+    to_latex=False
 )
