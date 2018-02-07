@@ -2,11 +2,12 @@ import isocronut as isocronut
 import pandas as pd
 import geopandas as gpd
 from shapely import geometry
+import statistics as st
 import fiona
 import os
 
 
-def get_centroids(shp_filename, shp_dir):
+def get_centroid(shp_filename, shp_dir):
     gdf = gpd.read_file(os.path.join(shp_dir, shp_filename))
     y = gdf['geometry'].centroid.y
     x = gdf['geometry'].centroid.x
@@ -14,18 +15,27 @@ def get_centroids(shp_filename, shp_dir):
     return coords
 
 
+def check_isochrone(points):
+    mean = [st.mean(x) for x in zip(*points)]
+    sd = [st.stdev(x) for x in zip(*points)]
+    corrected = [x for x in points if x[0] > mean[0] + 3*sd[0] | x[1] > mean[1] + 3*sd[1]]
+    return corrected
+
+
 def iterate_isochrone(coords, duration):
     iso_points = [isocronut.get_isochrone(x, duration) for x in coords]
+    iso_points = check_isochrone(iso_points)
     iso_polys = [geometry.Polygon([[p[0], p[1]] for p in x]) for x in iso_points]
     return iso_polys
 
 
 def shp_to_isochones(shp_filename, shp_dir, duration=30):
     df = pd.DataFrame()
-    df['coords'] = get_centroids(shp_filename, shp_dir)
-    df = df[130:133] # just for testing
+    df['coords'] = get_centroid(shp_filename, shp_dir)
+    df = df[130:133]  # just for testing
     df['isochrones'] = iterate_isochrone(df['coords'], duration)
     return df
+
 
 
 test = shp_to_isochones('ti_2015_us_puma.shp', 'shapefiles', duration=30)
