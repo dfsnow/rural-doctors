@@ -36,8 +36,7 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
         geo_pop[['STATEFIP', 'COUNTY']] = geo_pop[['STATEFIP', 'COUNTY']].astype(str)
         geo_pop['STATEFIP'] = geo_pop['STATEFIP'].str.zfill(2)
         geo_pop['COUNTY'] = geo_pop['COUNTY'].str.zfill(3)
-        geo_pop['GEOID'] = geo_pop['STATEFIP'] + geo_pop['PUMA']
-        geo_pop['GEOID'] = geo_pop['GEOID'].astype(int)
+        geo_pop['GEOID'] = geo_pop['STATEFIP'] + geo_pop['COUNTY']
     else:
         geo_pop = api_conn.query(['B01001_001E'], geo_unit=config.sjoin_geo_dict[type])
         geo_pop.rename(columns={'B01001_001E': 'POP', geo_pop.columns[-1]: 'GEOID'}, inplace=True)
@@ -55,7 +54,6 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
         raise Exception('Join must be equal to either intersect or centroid.')
 
     geo_merged = pd.DataFrame(geo_pop.merge(geo_sjoined, on='GEOID'))
-
     geo_merged = geo_merged.sort_values('POP', ascending=False)
     geo_merged = geo_merged[(~geo_merged['GEOID10'].duplicated())]
 
@@ -110,6 +108,7 @@ def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
     for x in config.census_occ_dict.values():
         puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP']
 
+    puma_pop['STATE'] = [s[:2] if len(s) == 7 else s[:1] for s in puma_pop['PUMA_GEOID'].astype(str)]
     puma_pop = puma_pop.fillna(0)
 
     return puma_pop
