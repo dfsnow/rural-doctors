@@ -3,11 +3,17 @@ import pandas as pd
 import geopandas as gpd
 from shapely import geometry
 import statistics as st
-import fiona
 import os
 
 
-def get_centroid(shp_filename, shp_dir):
+def get_centroids(shp_filename, shp_dir):
+    """
+    Gets the centroids of the polygons in a specified dataframe
+
+    :param shp_filename: Shapefile to extract centroids from
+    :param shp_dir: Shapefile directory to look for shapefiles in
+    :return: Returns zipped list of lat, lng coordinates
+    """
     gdf = gpd.read_file(os.path.join(shp_dir, shp_filename))
     y = gdf['geometry'].centroid.y
     x = gdf['geometry'].centroid.x
@@ -15,52 +21,59 @@ def get_centroid(shp_filename, shp_dir):
     return coords
 
 
-def check_isochrone(points):
+def check_isochrones(points, std_devs=3):
+    """
+    Removes points which are erroneously added to isochrones.
+    Points which are x std devs away from the mean are removed.
+
+    :param points: Isochrone points in nested lists which are to be corrected
+    :param std_devs: Threshold number of standard deviations away from the mean after which to toss points
+    :return: Returns fixed points with outliers removed
+    """
     mean = [st.mean(x) for x in zip(*points)]
     sd = [st.stdev(x) for x in zip(*points)]
-    corrected = [x for x in points if x[0] > mean[0] + 3*sd[0] | x[1] > mean[1] + 3*sd[1]]
+    corrected = [x for x in points if x[0] > mean[0] + std_devs*sd[0] | x[1] > mean[1] + std_devs*sd[1]]
     return corrected
 
 
-def iterate_isochrone(coords, duration):
-    iso_points = [isocronut.get_isochrone(x, duration) for x in coords]
-    iso_points = check_isochrone(iso_points)
+def iterate_isochrones(coords, durations):
+    """
+    Iterates over a list of coordinates and returns isochrones for each duration
+
+    :param coords: Coordinates to iterate over
+    :param durations: Single or list of durations to calculate isochrones with
+    :return: Returns isochrones as polygons
+    """
+    iso_points = [isocronut.get_isochrone(x, durations) for x in coords]
+    iso_points = check_isochrones(iso_points)
     iso_polys = [geometry.Polygon([[p[0], p[1]] for p in x]) for x in iso_points]
     return iso_polys
 
 
-def shp_to_isochones(shp_filename, shp_dir, duration=30):
+def shp_to_isochone(shp_filename, shp_dir, durations=30):
+    """
+    Returns a dataframe of origin coordinates and their corresponding isochrone polygons for different durations
+
+    :param shp_filename: Name of the shapefile to use for use with centroids
+    :param shp_dir: Name of the shapefile directory
+    :param durations: List of durations to create isochrones from
+    :return: Dataframe of origin coords and their respective isochrones
+    """
     df = pd.DataFrame()
-    df['coords'] = get_centroid(shp_filename, shp_dir)
+    df['coords'] = get_centroids(shp_filename, shp_dir)
     df = df[130:133]  # just for testing
-    df['isochrones'] = iterate_isochrone(df['coords'], duration)
+    if len(durations) == 0:
+        df['isochrones'] = iterate_isochrones(df['coords'], durations)
+    else:
+        for length in durations:
+            iso = iterate_isochrones(df['coords'], length)
+            df.append(iso)
     return df
 
 
-
-test = shp_to_isochones('ti_2015_us_puma.shp', 'shapefiles', duration=30)
+test = shp_to_isochone('ti_2015_us_puma.shp', 'shapefiles', duration=30)
 print(test)
 
-
-# origin = '111 W Washington, Chicago'
-# duration = 30
-#
-# isochrone = isocronut.get_isochrone(origin, duration, number_of_angles=8)
-# poly = geometry.Polygon([[p[0], p[1]] for p in isochrone])
-#
-# schema = {
-#     'geometry': 'Polygon',
-#     'properties': {'id': 'int'},
-# }
-#
-# with fiona.open('test.shp', 'w', 'ESRI Shapefile', schema) as c:
-#     c.write({
-#         'geometry': geometry.mapping(poly),
-#         'properties': {'id': 123},
-#     })
-#
-#
-# print(isochrone)
 
 """
 To-do:
