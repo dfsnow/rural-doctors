@@ -24,12 +24,13 @@ census_occ_dict = {
     3130: 'NURSE'
 }
 
-reg_cbsa_bins_a = [0, 1, 5e5, 1e6, 5e6, 1e8]
-reg_cbsa_labels_a = ['Rural', '500k', '1M', '5M', '5M+']
+reg_bins_a = [0, 1, 5e5, 1e6, 5e6, 1e8]
+reg_labels_a = ['Rural', '500k', '1M', '5M', '5M+']
 
-reg_cbsa_bins_b = [0, 1e4, 5e4, 2.5e6, 1e8]
-reg_cbsa_labels_b = ['Rural', 'Micro', 'Metro', 'Big']
+reg_bins_b = [0, 1e4, 5e4, 2.5e6, 1e8]
+reg_labels_b = ['Rural', 'Micro', 'Metro', 'Big']
 
-
+reg_bins_c = [0, 1, 7.5e5, 2.5e6, 6e6, 1e8]
+reg_labels_c = ['Rural', '750k', '2.5M', '6M', 'BIG']
 
 

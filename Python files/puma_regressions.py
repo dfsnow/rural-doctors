@@ -10,6 +10,7 @@ import os
 # Reading the CSV created by the lines above, dropping 2011 and 2016, summing 2012-2015
 puma_pop = pd.read_csv(os.path.join('tempdir', '2011-2016_puma_pop.csv'))
 puma_pop = puma_pop[puma_pop['YEAR'].isin(range(2012, 2015))]
+puma_pop = puma_pop.groupby('PUMA_GEOID').sum().reset_index()
 
 # Joining PUMA and CBSA spatial files in the specified folder, by intersect
 cbsa_pop = pf.sjoin_puma(
@@ -27,12 +28,15 @@ df = pd.merge(puma_pop, cbsa_pop, how='left', on='PUMA_GEOID')
 df = df.fillna(0)
 
 # Creating cuts and regressions for CBSA pop
-df['UR'] = pd.cut(df['CBSA_POP'],
-    bins=config.reg_cbsa_bins_a,
-    labels=config.reg_cbsa_labels_a,
+df['UR'] = pd.cut(
+    df['CBSA_POP'],
+    bins=config.reg_bins_c,
+    labels=config.reg_labels_c,
     include_lowest=True)
 
-reg = smf.wls(formula='PHYS_FRAC ~ UR', data=df, weights=df['POP']).fit().summary().as_latex()
+df['PHYS_PER_100K'] = df['PHYS_FRAC'] * 1e5
+
+reg = smf.wls(formula='PHYS_PER_100K ~ UR', data=df, weights=df['POP']).fit().summary().as_latex()
 
 # Writing everything to a TeX doc
 begintex = """
