@@ -14,7 +14,7 @@ from math import cos, sin, tan, sqrt, pi, radians, degrees, asin, atan2
 def build_url(origin='',
               destination='',
               access_type='personal',
-              config_path='./'):
+              config_path='config/'):
     """
     Determine the url to pass for the desired search.
     This is complicated when using Google Maps for Business.
@@ -206,7 +206,7 @@ def geocode_address(address='',
 
     # Parse the json to pull out the geocode
     if not d['status'] == 'OK':
-        raise Exception('Error. Google Maps API return status: {}'.format(d['status']))
+        print('Error. Google Maps API return status: {}'.format(d['status']))
     geocode = [d['results'][0]['geometry']['location']['lat'],
                d['results'][0]['geometry']['location']['lng']]
     return geocode

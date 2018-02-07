@@ -1,5 +1,6 @@
 # Config file for altering the behavior of puma_functions and puma_regressions
 
+# Dictionary for use with cenpy and the sjoin_puma function, specifies geographic unit
 sjoin_geo_dict = {
     'cbsa': 'metropolitan statistical area/micropolitan statistical area:*',
     'uac': 'urban area:*',
@@ -8,6 +9,7 @@ sjoin_geo_dict = {
     'county': 'county:*'
 }
 
+# Dictionary which determine which columns remain as output from sjoin_puma
 sjoin_col_dict = {
     'GEOID10': 'PUMA_GEOID',
     'NAMELSAD10': 'PUMA_NAME',
@@ -16,6 +18,7 @@ sjoin_col_dict = {
     'POP': 'XXX_POP'
 }
 
+# Dictionary determining which occupation codes get_puma_pop should filter for
 census_occ_dict = {
     3060: 'PHYS',
     3110: 'PA',
@@ -24,6 +27,7 @@ census_occ_dict = {
     3130: 'NURSE'
 }
 
+# Various regression bins for use with puma_regressions
 reg_bins_a = [0, 1, 5e5, 1e6, 5e6, 1e8]
 reg_labels_a = ['Rural', '500k', '1M', '5M', '5M+']
 
