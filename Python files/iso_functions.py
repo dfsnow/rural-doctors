@@ -23,16 +23,19 @@ def get_centroids(shp_filename, shp_dir):
 
 def check_isochrones(points, std_devs=3):
     """
-    Removes points which are erroneously added to isochrones.
-    Points which are x std devs away from the mean are removed.
+    Removes points which are erroneously added to isochrones (by std deviation)
 
     :param points: Isochrone points in nested lists which are to be corrected
     :param std_devs: Threshold number of standard deviations away from the mean after which to toss points
     :return: Returns fixed points with outliers removed
     """
-    mean = [st.mean(x) for x in zip(*points)]
-    sd = [st.stdev(x) for x in zip(*points)]
-    corrected = [x for x in points if x[0] > mean[0] + std_devs*sd[0] | x[1] > mean[1] + std_devs*sd[1]]
+    corrected = []
+    for iso_num in range(0, len(points)):
+        mean = [st.mean(x) for x in [list(i) for i in zip(*points[iso_num])]]
+        sd = [st.stdev(x) for x in [list(i) for i in zip(*points[iso_num])]]
+        fixed_isos = [x for x in points[iso_num] if abs(mean[0] - x[0]) < std_devs*sd[0]
+                      and abs(mean[1] - x[1]) < std_devs*sd[1]]
+        corrected.append(fixed_isos)
     return corrected
 
 
@@ -50,35 +53,36 @@ def iterate_isochrones(coords, durations):
     return iso_polys
 
 
-def shp_to_isochone(shp_filename, shp_dir, durations=30):
+def shp_to_isochrones(shp_filename, shp_dir, duration):
     """
     Returns a dataframe of origin coordinates and their corresponding isochrone polygons for different durations
 
     :param shp_filename: Name of the shapefile to use for use with centroids
     :param shp_dir: Name of the shapefile directory
-    :param durations: List of durations to create isochrones from
+    :param duration: List of durations to create isochrones from
     :return: Dataframe of origin coords and their respective isochrones
     """
     df = pd.DataFrame()
     df['coords'] = get_centroids(shp_filename, shp_dir)
-    df = df[130:133]  # just for testing
-    if len(durations) == 0:
-        df['isochrones'] = iterate_isochrones(df['coords'], durations)
+    df = df[130:132]  # just for testing
+    if type(duration) is int or (type(duration) is list and len(duration) == 1):
+        df['isochrones'] = iterate_isochrones(df['coords'], duration)
     else:
-        for length in durations:
-            iso = iterate_isochrones(df['coords'], length)
-            df.append(iso)
+        for length in duration:
+            iso = pd.Series(iterate_isochrones(df['coords'], length))
+            df[length] = iso.values
     return df
 
 
-test = shp_to_isochone('ti_2015_us_puma.shp', 'shapefiles', duration=30)
+test = shp_to_isochrones('ti_2015_us_puma.shp', 'shapefiles', duration=30)
 print(test)
 
 
 """
 To-do:
-- Create function to perform error checking on get_isochrone results (drop points very far from mean?)
-- Create function wrapper to get_isochrone to ESRI shapefile with 2163 CRS
-- Create map/lambda function to iterate over points
+- Create function to change polygons into useable shapefiles with correct CRS
+- Create function to limit the API queries and save outputs to CSV
+- Correct isocronut function to return NaN in case of error
 
+- Fix docstrings of puma_functions
 """

@@ -38,3 +38,5 @@ reg_bins_c = [0, 1, 7.5e5, 2.5e6, 6e6, 1e8]
 reg_labels_c = ['Rural', '750k', '2.5M', '6M', 'BIG']
 
 
+
+

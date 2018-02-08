@@ -81,6 +81,20 @@ def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
     occ_var = Variable containing occupation codes, OCC2010 by default
     """
 
+    api_conn = cp.base.Connection('ACSSF1Y2015')
+
+    geo_pop = api_conn.query(['B01001_001E'], geo_unit='public use microdata area:*')
+    geo_pop.rename(columns={'B01001_001E': 'POP2',
+                            'state': 'STATEFIP',
+                            'public use microdata area': 'PUMA'
+                            }, inplace=True)
+
+    geo_pop[['STATEFIP', 'PUMA']] = geo_pop[['STATEFIP', 'PUMA']].astype(str)
+    geo_pop['STATEFIP'] = geo_pop['STATEFIP'].str.zfill(2)
+    geo_pop['PUMA'] = geo_pop['PUMA'].str.zfill(5)
+    geo_pop['PUMA_GEOID'] = geo_pop['STATEFIP'] + geo_pop['PUMA']
+    geo_pop['PUMA_GEOID'] = geo_pop['PUMA_GEOID'].astype(int)
+
     acs = pd.read_csv(os.path.join(acs_dir, acs_filename), low_memory=False)
 
     acs[['STATEFIP', 'PUMA']] = acs[['STATEFIP', 'PUMA']].astype(str)
@@ -88,6 +102,8 @@ def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
     acs['PUMA'] = acs['PUMA'].str.zfill(5)
     acs['PUMA_GEOID'] = acs['STATEFIP'] + acs['PUMA']
     acs['PUMA_GEOID'] = acs['PUMA_GEOID'].astype(int)
+
+    acs = acs[acs['AGE'] >= 25]
 
     puma_gen_pop = acs.groupby(['YEAR', 'PUMA_GEOID']).sum()['PERWT'].reset_index()
     puma_gen_pop = puma_gen_pop.rename(columns={'PERWT': 'POP'})
@@ -102,11 +118,12 @@ def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
         how='left',
         left_on=['YEAR', 'PUMA_GEOID'],
         right_on=['YEAR', 'PUMA_GEOID'])
+    puma_pop = pd.merge(puma_pop, geo_pop, how='left', on='PUMA_GEOID')
     puma_pop.columns.name = None
     puma_pop.rename(columns=config.census_occ_dict, inplace=True)
 
     for x in config.census_occ_dict.values():
-        puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP']
+        puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP2']
 
     puma_pop['STATE'] = [s[:2] if len(s) == 7 else s[:1] for s in puma_pop['PUMA_GEOID'].astype(str)]
     puma_pop = puma_pop.fillna(0)
