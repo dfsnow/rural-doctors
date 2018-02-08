@@ -31,10 +31,11 @@ def check_isochrones(points, std_devs=3):
     """
     corrected = []
     for iso_num in range(0, len(points)):
-        mean = [st.mean(x) for x in [list(i) for i in zip(*points[iso_num])]]
-        sd = [st.stdev(x) for x in [list(i) for i in zip(*points[iso_num])]]
-        fixed_isos = [x for x in points[iso_num] if abs(mean[0] - x[0]) < std_devs*sd[0]
-                      and abs(mean[1] - x[1]) < std_devs*sd[1]]
+        mean = [st.mean(x) for x in zip(*points[iso_num])]
+        sd = [st.stdev(x) for x in zip(*points[iso_num])]
+        fixed_isos = [x for x in points[iso_num] if
+                      (abs(mean[0] - x[0]) / sd[0] < std_devs
+                       and abs(mean[1] - x[1]) / sd[1] < std_devs)]
         corrected.append(fixed_isos)
     return corrected
 
@@ -74,7 +75,7 @@ def shp_to_isochrones(shp_filename, shp_dir, duration):
     return df
 
 
-test = shp_to_isochrones('ti_2015_us_puma.shp', 'shapefiles', duration=30)
+test = shp_to_isochrones('ti_2015_us_puma.shp', 'shapefiles', duration=[15, 30])
 print(test)
 
 
