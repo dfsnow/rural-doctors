@@ -6,6 +6,15 @@ import os
 import re
 
 
+def concat_cols(df, col1, col2, fill1=2, fill2=5, return_col='PUMA_GEOID'):
+    df[[col1, col2]] = df[[col1, col2]].astype(str)
+    df[col1] = df[col1].str.zfill(fill1)
+    df[col2] = df[col2].str.zfill(fill2)
+    df[return_col] = df[col1] + df[col2]
+    df[return_col] = df[return_col].astype(int)
+    return df
+
+
 def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
                int_shapefile=None, shapefile_dir='.', drop_geometry=True):
 
@@ -33,10 +42,7 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
     if type == 'county':
         geo_pop = api_conn.query(['B01001_001E'], geo_unit=config.sjoin_geo_dict[type])
         geo_pop.rename(columns={'B01001_001E': 'POP', 'state': 'STATEFIP', 'county': 'COUNTY'}, inplace=True)
-        geo_pop[['STATEFIP', 'COUNTY']] = geo_pop[['STATEFIP', 'COUNTY']].astype(str)
-        geo_pop['STATEFIP'] = geo_pop['STATEFIP'].str.zfill(2)
-        geo_pop['COUNTY'] = geo_pop['COUNTY'].str.zfill(3)
-        geo_pop['GEOID'] = geo_pop['STATEFIP'] + geo_pop['COUNTY']
+        geo_pop = concat_cols(geo_pop, 'STATEFIP', 'COUNTY', 2, 3, 'GEOID')
     else:
         geo_pop = api_conn.query(['B01001_001E'], geo_unit=config.sjoin_geo_dict[type])
         geo_pop.rename(columns={'B01001_001E': 'POP', geo_pop.columns[-1]: 'GEOID'}, inplace=True)
@@ -68,64 +74,49 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
     return geo_merged
 
 
-def get_puma_pop(acs_filename=None, acs_dir=None, occ_var='OCC2010'):
+def get_puma_pop(year=2015, acs_filename=None, acs_dir=None, occ_var='OCC2010'):
 
-    """Function to get the medical population for each PUMA from an IPUMS CSV file. Outputs a dataframe of
-    medical populations (as specified in the config file) for each PUMA. See arguments below:
+    # Grabbing the general population of each PUMA from the census API
+    api_conn = cp.base.Connection('ACSSF1Y' + str(year))
 
-    acs_filename = Name of the IPUMS CSV file from which to extract medical population, file must contain
-    PERWT, STATEFIP, PUMA, YEAR and some occupation variable
-
-    acs_dir = Directory containing the IPUMS CSV file
-
-    occ_var = Variable containing occupation codes, OCC2010 by default
-    """
-
-    api_conn = cp.base.Connection('ACSSF1Y2015')
-
-    geo_pop = api_conn.query(['B01001_001E'], geo_unit='public use microdata area:*')
-    geo_pop.rename(columns={'B01001_001E': 'POP2',
+    puma_gen_pop = api_conn.query(['B01001_001E'], geo_unit='public use microdata area:*')
+    puma_gen_pop.rename(columns={'B01001_001E': 'POP',
                             'state': 'STATEFIP',
                             'public use microdata area': 'PUMA'
                             }, inplace=True)
 
-    geo_pop[['STATEFIP', 'PUMA']] = geo_pop[['STATEFIP', 'PUMA']].astype(str)
-    geo_pop['STATEFIP'] = geo_pop['STATEFIP'].str.zfill(2)
-    geo_pop['PUMA'] = geo_pop['PUMA'].str.zfill(5)
-    geo_pop['PUMA_GEOID'] = geo_pop['STATEFIP'] + geo_pop['PUMA']
-    geo_pop['PUMA_GEOID'] = geo_pop['PUMA_GEOID'].astype(int)
+    puma_gen_pop = concat_cols(puma_gen_pop, 'STATEFIP', 'PUMA')
 
+    # Loading IPUMS data and creating a PUMA_GEOID variable
     acs = pd.read_csv(os.path.join(acs_dir, acs_filename), low_memory=False)
+    acs = concat_cols(acs, 'STATEFIP', 'PUMA')
 
-    acs[['STATEFIP', 'PUMA']] = acs[['STATEFIP', 'PUMA']].astype(str)
-    acs['STATEFIP'] = acs['STATEFIP'].str.zfill(2)
-    acs['PUMA'] = acs['PUMA'].str.zfill(5)
-    acs['PUMA_GEOID'] = acs['STATEFIP'] + acs['PUMA']
-    acs['PUMA_GEOID'] = acs['PUMA_GEOID'].astype(int)
-
+    # Filtering IPUMS data for real doctors only
+    acs = acs[(acs['YEAR'] > 2011) & (acs['YEAR'] < 2016)]
     acs = acs[acs['AGE'] >= 25]
+    acs = acs[acs['UHRSWORK'] > 30]
 
-    puma_gen_pop = acs.groupby(['YEAR', 'PUMA_GEOID']).sum()['PERWT'].reset_index()
-    puma_gen_pop = puma_gen_pop.rename(columns={'PERWT': 'POP'})
-
+    # Getting the count of doctors in each PUMA
     puma_med_pop = acs[acs[occ_var].isin(config.census_occ_dict.keys())]
     puma_med_pop = puma_med_pop.groupby(
-        ['YEAR', 'PUMA_GEOID', occ_var]).sum()['PERWT'].unstack(occ_var).reset_index()
+        ['PUMA_GEOID', occ_var]).sum()['PERWT'].unstack(occ_var).reset_index()
 
+    # Merging the total population data with the medical population data
     puma_pop = pd.merge(
         puma_med_pop,
         puma_gen_pop,
         how='left',
-        left_on=['YEAR', 'PUMA_GEOID'],
-        right_on=['YEAR', 'PUMA_GEOID'])
-    puma_pop = pd.merge(puma_pop, geo_pop, how='left', on='PUMA_GEOID')
+        on=['PUMA_GEOID'])
     puma_pop.columns.name = None
     puma_pop.rename(columns=config.census_occ_dict, inplace=True)
 
+    # Calculating the fraction of the population which is medical
+    print(len(set(acs['YEAR'])))
     for x in config.census_occ_dict.values():
-        puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP2']
+        puma_pop[x] = puma_pop[x] / 4
+        puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP']
 
-    puma_pop['STATE'] = [s[:2] if len(s) == 7 else s[:1] for s in puma_pop['PUMA_GEOID'].astype(str)]
+    # Cleaning up
     puma_pop = puma_pop.fillna(0)
 
     return puma_pop

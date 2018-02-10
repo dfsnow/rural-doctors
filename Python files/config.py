@@ -3,6 +3,7 @@
 # Dictionary for use with cenpy and the sjoin_puma function, specifies geographic unit
 sjoin_geo_dict = {
     'cbsa': 'metropolitan statistical area/micropolitan statistical area:*',
+    'puma': 'public use microdata area:*',
     'uac': 'urban area:*',
     'csa': 'combined statistical area:*',
     'state': 'state:*',
@@ -37,6 +38,8 @@ reg_labels_b = ['Rural', 'Micro', 'Metro', 'Big']
 reg_bins_c = [0, 1, 7.5e5, 2.5e6, 6e6, 1e8]
 reg_labels_c = ['Rural', '750k', '2.5M', '6M', 'BIG']
 
+reg_bins_d = [0, 2.5e5, 1e6, 2.5e6, 6e6, 1e8]
+reg_labels_d = ['Rural', '1M', '2.5M', '6M', 'BIG']
 
 
 
