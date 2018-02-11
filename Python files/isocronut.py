@@ -8,6 +8,7 @@ import simplejson
 import urllib.request as urllib2
 import time
 import datetime
+import requests
 from math import cos, sin, tan, sqrt, pi, radians, degrees, asin, atan2
 
 
@@ -199,16 +200,21 @@ def geocode_address(address='',
         full_url = original_url + '&signature=' + encoded_signature
 
     # Request geocode from address
+    print(full_url)
     req = urllib2.Request(full_url)
     opener = urllib2.build_opener()
-    f = opener.open(req)
+    f = opener.open(req, )
     d = simplejson.load(f)
 
     # Parse the json to pull out the geocode
     if not d['status'] == 'OK':
         print('Error. Google Maps API return status: {}'.format(d['status']))
-    geocode = [d['results'][0]['geometry']['location']['lat'],
-               d['results'][0]['geometry']['location']['lng']]
+        geocode = None
+    else:
+        geocode = [d['results'][0]['geometry']['location']['lat'],
+                   d['results'][0]['geometry']['location']['lng']]
+    if not None:
+        print(geocode)
     return geocode
 
 
@@ -369,102 +375,7 @@ def get_isochrone(origin='',
         iso[i] = geocode_address(data[0][i], access_type, config_path)
         time.sleep(0.1)
 
+    iso = [x for x in iso if x is not None]
     iso = sort_points(origin, iso, access_type, config_path)
     return iso
 
-
-def generate_isochrone_map(origin='',
-                           duration='',
-                           number_of_angles=12,
-                           tolerance=0.1,
-                           access_type='personal',
-                           config_path='config/'):
-    """
-    Call the get_isochrone function and generate a simple html file using its output.
-    """
-    if origin == '':
-        raise Exception('origin cannot be blank')
-    if duration == '':
-        raise Exception('duration cannot be blank')
-    if not isinstance(number_of_angles, int):
-        raise Exception('number_of_angles must be an int')
-
-    if isinstance(origin, str):
-        origin_geocode = geocode_address(origin, access_type, config_path)
-    elif isinstance(origin, list) and len(origin) == 2:
-        origin_geocode = origin
-    else:
-        raise Exception('origin should be a list [lat, lng] or a string address.')
-
-    iso = get_isochrone(origin, duration, number_of_angles, tolerance, access_type, config_path)
-
-    htmltext = """
-    <!DOCTYPE html>
-    <html>
-    <head>
-    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
-    <meta charset="utf-8">
-    <title>Isochrone</title>
-    <style>
-      html, body, #map-canvas {{
-        height: 100%;
-        margin: 0px;
-        padding: 0px
-      }}
-    </style>
-
-    <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&signed_in=true"></script>
-
-    <script>
-    function initialize() {{
-      var mapOptions = {{
-        zoom: 14,
-        center: new google.maps.LatLng({0},{1}),
-        mapTypeId: google.maps.MapTypeId.TERRAIN
-      }};
-
-      var map = new google.maps.Map(document.getElementById('map-canvas'), mapOptions);
-
-      var marker = new google.maps.Marker({{
-          position: new google.maps.LatLng({0},{1}),
-          map: map
-      }});
-
-      var isochrone;
-
-      var isochroneCoords = [
-    """.format(origin_geocode[0], origin_geocode[1])
-
-    for i in iso:
-        htmltext += 'new google.maps.LatLng({},{}), \n'.format(i[0], i[1])
-
-    htmltext += """
-      ];
-
-      isochrone = new google.maps.Polygon({
-        paths: isochroneCoords,
-        strokeColor: '#000',
-        strokeOpacity: 0.5,
-        strokeWeight: 1,
-        fillColor: '#000',
-        fillOpacity: 0.25
-      });
-
-      isochrone.setMap(map);
-
-    }
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-    </script>
-
-    </head>
-    <body>
-    <div id="map-canvas"></div>
-    </body>
-    </html>
-    """
-
-    with open('isochrone.html', 'w') as f:
-        f.write(htmltext)
-
-    return iso

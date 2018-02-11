@@ -37,7 +37,7 @@ def sjoin_puma(year=2015, type='cbsa', join='intersect', puma_shapefile=None,
     drop_geometry = If true, will drop all geometry and leave only the variables specified in the config file
     """
 
-    api_conn = cp.base.Connection('ACSSF1Y' + str(year))
+    api_conn = cp.base.Connection('ACSSF5Y' + str(year))
 
     if type == 'county':
         geo_pop = api_conn.query(['B01001_001E'], geo_unit=config.sjoin_geo_dict[type])
@@ -93,8 +93,8 @@ def get_puma_pop(year=2015, acs_filename=None, acs_dir=None, occ_var='OCC2010'):
 
     # Filtering IPUMS data for real doctors only
     acs = acs[(acs['YEAR'] > 2011) & (acs['YEAR'] < 2016)]
-    acs = acs[acs['AGE'] >= 25]
-    acs = acs[acs['UHRSWORK'] > 30]
+    acs = acs[acs['AGE'] >= 30]
+    acs = acs[acs['UHRSWORK'] >= 30]
 
     # Getting the count of doctors in each PUMA
     puma_med_pop = acs[acs[occ_var].isin(config.census_occ_dict.keys())]
@@ -111,12 +111,23 @@ def get_puma_pop(year=2015, acs_filename=None, acs_dir=None, occ_var='OCC2010'):
     puma_pop.rename(columns=config.census_occ_dict, inplace=True)
 
     # Calculating the fraction of the population which is medical
-    print(len(set(acs['YEAR'])))
     for x in config.census_occ_dict.values():
-        puma_pop[x] = puma_pop[x] / 4
+        puma_pop[x] = puma_pop[x] / len(set(acs['YEAR']))
         puma_pop[x + '_FRAC'] = puma_pop[x] / puma_pop['POP']
 
     # Cleaning up
     puma_pop = puma_pop.fillna(0)
 
     return puma_pop
+"""
+
+- Include as filter condition EDUCD as professional degree (114 - 116)
+- Hours worked >= 30
+- Age >= 25
+
+- Reduce ACS into phys, nurse, etc
+
+- Functionalize regression changes
+
+- Check ACS vars
+"""

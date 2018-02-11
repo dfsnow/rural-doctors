@@ -1,9 +1,10 @@
+from shapely import geometry, wkt
 import isocronut as isocronut
 import pandas as pd
 import geopandas as gpd
-from shapely import geometry
 import statistics as st
 import os
+import fiona
 
 
 def get_centroids(shp_filename, shp_dir):
@@ -12,12 +13,13 @@ def get_centroids(shp_filename, shp_dir):
 
     :param shp_filename: Shapefile to extract centroids from
     :param shp_dir: Shapefile directory to look for shapefiles in
-    :return: Returns zipped list of lat, lng coordinates
+    :return: Returns list of lat, lng coordinates
     """
     gdf = gpd.read_file(os.path.join(shp_dir, shp_filename))
-    y = gdf['geometry'].centroid.y
     x = gdf['geometry'].centroid.x
+    y = gdf['geometry'].centroid.y
     coords = [list(i) for i in zip(y, x)]
+    print(coords)
     return coords
 
 
@@ -73,16 +75,47 @@ def shp_to_isochrones(shp_filename, shp_dir, duration):
             df[length] = iso.values
     return df
 
-
 test = shp_to_isochrones('ti_2015_us_puma.shp', 'shapefiles', duration=[15, 30])
 test.to_csv('test.csv')
-
+#
+# def isochrones_to_shp(df, shp_filename, shp_dir, crs):
+#     df
+#
+#
+#
+# test = pd.read_csv('test.csv')
+# test['geometry'] = test['x'].map(wkt.loads)
+# crs = {'init': 'epsg:2163'}
+# test = gpd.GeoDataFrame(test, crs=crs, geometry=test.geometry)
+#
+# schema = {
+#     'geometry': 'Polygon',
+#     'properties': {'id': 'int',
+#                    'coords': 'str',
+#                    'duration': 'int'}
+# }
+#
+#
+# # Write a new Shapefile
+# with fiona.open('test.geojson', 'w', 'GeoJSON', schema) as c:
+#     for index, geo in test.iterrows():
+#         print(geo)
+#         c.write({
+#             'geometry': geometry.mapping(geo['geometry']),
+#             'properties': {'id': index,
+#                            'coords': geo['coords'],
+#                            'duration': geo['duration']}
+#         })
+#
 
 """
 To-do:
 - Create function to change polygons into useable shapefiles with correct CRS
 - Create function to limit the API queries and save outputs to CSV
 - Correct isocronut function to return NaN in case of error
+
+- Add shape return function
+
 
 - Fix docstrings of puma_functions
 """
