@@ -1,4 +1,6 @@
 # Config file for altering the behavior of puma_functions and puma_regressions
+api_key2 = 'AIzaSyBrF3K4-hyWFzTHhuoLFvFKdLHxAGM-uUU'
+api_key = 'AIzaSyCwq01goipCnW90-LMSSvCrkXcFzU_dBYk'
 
 # Dictionary for use with cenpy and the sjoin_puma function, specifies geographic unit
 sjoin_geo_dict = {

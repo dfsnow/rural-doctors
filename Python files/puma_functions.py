@@ -130,4 +130,5 @@ def get_puma_pop(year=2015, acs_filename=None, acs_dir=None, occ_var='OCC2010'):
 - Functionalize regression changes
 
 - Check ACS vars
+- Fix docstrings of puma_functions
 """

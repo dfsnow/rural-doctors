@@ -3,19 +3,17 @@ import isocronut as isocronut
 import pandas as pd
 import geopandas as gpd
 import statistics as st
-import os
 import fiona
 
 
-def get_centroids(shp_filename, shp_dir):
+def get_centroids(filename):
     """
     Gets the centroids of the polygons in a specified dataframe
 
     :param shp_filename: Shapefile to extract centroids from
-    :param shp_dir: Shapefile directory to look for shapefiles in
     :return: Returns list of lat, lng coordinates
     """
-    gdf = gpd.read_file(os.path.join(shp_dir, shp_filename))
+    gdf = gpd.read_file(filename)
     x = gdf['geometry'].centroid.x
     y = gdf['geometry'].centroid.y
     coords = [list(i) for i in zip(y, x)]
@@ -55,67 +53,57 @@ def iterate_isochrones(coords, durations):
     return iso_polys
 
 
-def shp_to_isochrones(shp_filename, shp_dir, duration):
+def shp_to_isochrones(filename, duration):
     """
     Returns a dataframe of origin coordinates and their corresponding isochrone polygons for different durations
 
     :param shp_filename: Name of the shapefile to use for use with centroids
-    :param shp_dir: Name of the shapefile directory
     :param duration: List of durations to create isochrones from
     :return: Dataframe of origin coords and their respective isochrones
     """
     df = pd.DataFrame()
-    df['coords'] = get_centroids(shp_filename, shp_dir)
-    df = df[100:120]  # just for testing
+    df['coords'] = get_centroids(filename)
+    df = df[100:101]  # just for testing
     if type(duration) is int or (type(duration) is list and len(duration) == 1):
         df['isochrones'] = iterate_isochrones(df['coords'], duration)
+        print(df)
     else:
         for length in duration:
             iso = pd.Series(iterate_isochrones(df['coords'], length))
+            print(iso)
             df[length] = iso.values
+    cols = [col for col in df.columns if isinstance(col, int)]
+    df = pd.melt(df, id_vars='coords', value_vars=cols, var_name='duration', value_name='geometry')
     return df
 
-test = shp_to_isochrones('ti_2015_us_puma.shp', 'shapefiles', duration=[15, 30])
-test.to_csv('test.csv')
-#
-# def isochrones_to_shp(df, shp_filename, shp_dir, crs):
-#     df
-#
-#
-#
-# test = pd.read_csv('test.csv')
-# test['geometry'] = test['x'].map(wkt.loads)
-# crs = {'init': 'epsg:2163'}
-# test = gpd.GeoDataFrame(test, crs=crs, geometry=test.geometry)
-#
-# schema = {
-#     'geometry': 'Polygon',
-#     'properties': {'id': 'int',
-#                    'coords': 'str',
-#                    'duration': 'int'}
-# }
-#
-#
-# # Write a new Shapefile
-# with fiona.open('test.geojson', 'w', 'GeoJSON', schema) as c:
-#     for index, geo in test.iterrows():
-#         print(geo)
-#         c.write({
-#             'geometry': geometry.mapping(geo['geometry']),
-#             'properties': {'id': index,
-#                            'coords': geo['coords'],
-#                            'duration': geo['duration']}
-#         })
-#
 
-"""
-To-do:
-- Create function to change polygons into useable shapefiles with correct CRS
-- Create function to limit the API queries and save outputs to CSV
-- Correct isocronut function to return NaN in case of error
+def isochrones_to_shp(data, filename, crs, format='ESRI Shapefile'):
+    """
+    Converts a dataframe of isochrones to a shapefile or GeoJSON
 
-- Add shape return function
+    :param data: Input dataframe
+    :param filename: Filename to save as
+    :param crs: CRS to use when creating the output
+    :param format: Format to use for output, geojson or esri
+    :return: Returns shapefile or GeoJSON with attached duration and origin point data
+    """
+    data['geometry'] = data['geometry'].map(wkt.loads)
+    crs = {'init': 'epsg:' + str(crs)}
+    df = gpd.GeoDataFrame(data, crs=crs, geometry=data['geometry'])
 
+    iso_schema = {
+        'geometry': 'Polygon',
+        'properties': {'id': 'int',
+                       'coords': 'str',
+                       'duration': 'int'}
+    }
 
-- Fix docstrings of puma_functions
-"""
+    with fiona.open(filename, 'w', format, iso_schema) as c:
+        for index, geo in df.iterrows():
+            c.write({
+                'geometry': geometry.mapping(geo['geometry']),
+                'properties': {'id': index,
+                               'coords': geo['coords'],
+                               'duration': geo['duration']}
+            })
+
