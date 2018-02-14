@@ -1,14 +1,11 @@
 from __future__ import division
-import requests
-import config as config
 from math import cos, sin, pi, radians, degrees, asin, atan2
+import requests
+import keys
 
 
-def build_url(origin='',
-              destination='',):
-    """
-    Determine the url to pass for the desired search.
-    """
+def build_url(origin='', destination='',):
+    """ Determine the url to pass for the desired search """
     # origin is either an address string (like '1 N State St Chicago IL') or a [lat, lng] 2-list
     if origin == '':
         raise Exception('origin cannot be blank.')
@@ -36,7 +33,7 @@ def build_url(origin='',
     else:
         raise Exception('destination must be a a list of lists [lat, lng] or a list of strings.')
 
-    key = config.api_key
+    key = keys.api_key
 
     prefix = 'https://maps.googleapis.com/maps/api/distancematrix/json?mode=driving&units=imperial&avoid=tolls|ferries'
     full_url = prefix + '&origins={0}&destinations={1}&key={2}'.format(origin_str, destination_str, key)
@@ -70,9 +67,7 @@ def parse_json(url=''):
 
 
 def geocode_address(address=''):
-    """
-    For use in calculating distances between 2 locations, the [lat, lng] is needed instead of the address
-    """
+    """ For use in calculating distances between 2 locations, the [lat, lng] is needed instead of the address """
     # Convert origin and destination to URL-compatible strings
     if address == '':
         raise Exception('address cannot be blank.')
@@ -81,7 +76,7 @@ def geocode_address(address=''):
     else:
         raise Exception('address should be a string.')
 
-    key = config.api_key
+    key = keys.api_key
 
     # Convert the URL string to a URL, which we can parse
     # using the urlparse() function into path and query
@@ -104,12 +99,8 @@ def geocode_address(address=''):
     return geocode
 
 
-def select_destination(origin='',
-                       angle='',
-                       radius=''):
-    """
-    Given a distance and polar angle, calculate the geocode of a destination point from the origin.
-    """
+def select_destination(origin='', angle='', radius=''):
+    """ Given a distance and polar angle, calculate the geocode of a destination point from the origin """
     if origin == '':
         raise Exception('origin cannot be blank.')
     if angle == '':
@@ -126,7 +117,7 @@ def select_destination(origin='',
 
     # Find the location on a sphere a distance 'radius' along a bearing 'angle' from origin
     # This uses haversines rather than simple Pythagorean distance in Euclidean space
-    #   because spheres are more complicated than planes.
+    # because spheres are more complicated than planes.
     r = 3963.1676  # Radius of the Earth in miles
     bearing = radians(angle)  # Bearing in radians converted from angle in degrees
     lat1 = radians(origin_geocode[0])
@@ -138,11 +129,8 @@ def select_destination(origin='',
     return [lat2, lng2]
 
 
-def get_bearing(origin='',
-                destination=''):
-    """
-    Calculate the bearing from origin to destination
-    """
+def get_bearing(origin='', destination=''):
+    """ Calculate the bearing from origin to destination """
     if origin == '':
         raise Exception('origin cannot be blank')
     if destination == '':
@@ -156,11 +144,8 @@ def get_bearing(origin='',
     return bearing
 
 
-def sort_points(origin='',
-                iso=''):
-    """
-    Put the isochrone points in a proper order
-    """
+def sort_points(origin='', iso=''):
+    """ Put the isochrone points in a proper order """
     if origin == '':
         raise Exception('origin cannot be blank.')
     if iso == '':
@@ -183,20 +168,15 @@ def sort_points(origin='',
     return sorted_iso
 
 
-def get_isochrone(origin='',
-                  duration='',
-                  number_of_angles=12,
-                  tolerance=0.1):
+def get_isochrone(origin='', duration='', number_of_angles=12, tolerance=0.1):
     """
-    Putting it all together.
-    Given a starting location and amount of time for the isochrone to represent (e.g. a 15 minute isochrone from origin)
-      use the Google Maps distance matrix API to check travel times along a number of bearings around the origin for
-      an equal number of radii. Perform a binary search on radius along each bearing until the duration returned from
-      the API is within a tolerance of the isochrone duration.
-    origin = string address or [lat, lng] 2-list
-    duration = minutes that the isochrone contour value should map
-    number_of_angles = how many bearings to calculate this contour for (think of this like resolution)
-    tolerance = how many minutes within the exact answer for the contour is good enough
+    Get isochrone as a list of lat, long points
+
+    :param origin: string address or [lat, lng] 2-list
+    :param duration: minutes that the isochrone contour value should map
+    :param number_of_angles: how many bearings to calculate this contour for (think of this like resolution)
+    :param tolerance: how many minutes within the exact answer for the contour is good enough
+    :return Nested list of lat, long points for an isochrone given an origin point
     """
     if origin == '':
         raise Exception('origin cannot be blank')

@@ -1,8 +1,5 @@
-# Config file for altering the behavior of puma_functions and puma_regressions
-api_key2 = 'AIzaSyBrF3K4-hyWFzTHhuoLFvFKdLHxAGM-uUU'
-api_key = 'AIzaSyCwq01goipCnW90-LMSSvCrkXcFzU_dBYk'
-
-# Dictionary for use with cenpy and the sjoin_puma function, specifies geographic unit
+######## puma_functions ########
+# Dictionary for use with cenpy and the sjoin_puma function
 sjoin_geo_dict = {
     'cbsa': 'metropolitan statistical area/micropolitan statistical area:*',
     'puma': 'public use microdata area:*',
@@ -21,8 +18,12 @@ sjoin_col_dict = {
     'POP': 'XXX_POP'
 }
 
-# Dictionary determining which occupation codes get_puma_pop should filter for
-census_occ_dict = {
+######## acs_functions ########
+# Determines which occupation variable to use in functions
+acs_occ_var = 'OCC2010'
+
+# Dictionary determining which occupation codes to use in functions
+acs_occ_dict = {
     3060: 'PHYS',
     3110: 'PA',
     3050: 'PHARM',
@@ -30,6 +31,7 @@ census_occ_dict = {
     3130: 'NURSE'
 }
 
+######## puma_regressions ########
 # Various regression bins for use with puma_regressions
 reg_bins_a = [0, 1, 5e5, 1e6, 5e6, 1e8]
 reg_labels_a = ['Rural', '500k', '1M', '5M', '5M+']
@@ -42,6 +44,3 @@ reg_labels_c = ['Rural', '750k', '2.5M', '6M', 'BIG']
 
 reg_bins_d = [0, 2.5e5, 1e6, 2.5e6, 6e6, 1e8]
 reg_labels_d = ['Rural', '1M', '2.5M', '6M', 'BIG']
-
-
-
