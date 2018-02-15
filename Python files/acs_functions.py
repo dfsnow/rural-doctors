@@ -9,13 +9,14 @@ import re
 
 def acs_filter(df):
     """ Filter IPUMS dataset with the listed filters"""
-    df = df[
-        (df['YEAR'] > 2011) &  # Census year after 2011
-        (df['AGE'] >= 25) &  # Older than 25, no fake docs
-        (df['UHRSWORK'] >= 30) &  # Only doctors who are actually working
-        # (df['EDUCD'] == 116) &  # Only doctors with a masters or higher
-        (df['STATEFIP'] != 72)]  # Get outta here Puerto Rico
-    return df
+    data = df
+    data = data[
+        (data['YEAR'] > 2011) &  # Census year after 2011
+        (data['AGE'] >= 25) &  # Older than 25, no fake docs
+        (data['UHRSWORK'] >= 30) &  # Only doctors who are actually working
+        # (data['EDUCD'] == 116) &  # Only doctors with a masters or higher
+        (data['STATEFIP'] != 72)]  # Get outta here Puerto Rico
+    return data
 
 
 def acs_reduce(df):
@@ -49,7 +50,10 @@ def acs_unsplit(path='data/'):
 
 def acs_counts(df):
     """ Reduce ACS file into total counts and fraction of OCC2010 codes """
-    data = utils.concat_int_cols(df, 'STATEFIP', 'PUMA')
+    if 'PUMA_GEOID' not in df.columns:
+        data = utils.concat_int_cols(df, 'STATEFIP', 'PUMA')
+    else:
+        data = df
     n_occ = data[config.acs_occ_var].nunique()
 
     if n_occ > 1:
@@ -62,9 +66,11 @@ def acs_counts(df):
         occ_name = config.acs_occ_dict[data[config.acs_occ_var].unique()[0]]
         counts = data.groupby(['PUMA_GEOID']).sum()['PERWT'].reset_index()
         counts = counts.rename(columns={'PERWT': occ_name})
+        print(counts)
 
     pop = pf.get_puma_pop()
-    data = counts.merge(pop, how='left', on='PUMA_GEOID')
+    data = pd.merge(counts, pop, how='left', on='PUMA_GEOID')
+    data = data.fillna(0)
 
     if n_occ > 1:
         for occ in config.acs_occ_dict.values():
@@ -75,8 +81,6 @@ def acs_counts(df):
         data[occ_name] = data[occ_name] / df['YEAR'].nunique()
         data[occ_name + '_FRAC'] = data[occ_name] / data['POP']
         data[occ_name + '_PER_100K'] = data[occ_name + '_FRAC'] * 1e5
-
-    data = data.fillna(0)
     return data
 
 

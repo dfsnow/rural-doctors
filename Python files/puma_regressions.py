@@ -4,7 +4,7 @@ import puma_functions as pf
 import pandas as pd
 import os
 
-phys = pd.read_csv(os.path.join('data', '2011-2016_acs_PHYS_counts.csv'))
+phys = pd.read_csv('test.csv')
 cbsa_pop = pf.sjoin_puma(
     year=2015,
     type='cbsa',
@@ -15,6 +15,8 @@ cbsa_pop = pf.sjoin_puma(
 )
 
 df = pd.merge(phys, cbsa_pop, how='left', on='PUMA_GEOID')
+df = df.fillna(0)
+
 df['UR'] = pd.cut(
     df['CBSA_POP'],
     bins=config.reg_bins_d,
